@@ -66,53 +66,48 @@ class Commands:
 
 
 def client_handle(socket: sock.socket):
+    """
+    handling the client input and connection
+    :param socket: the client socket
+    :return None:
+    """
+    # waiting for client connection & getting client info #
+    socket.listen(QUEUE_LEN)
+    client_socket, client_ip = socket.accept()
+
+    # Sending the command list #
+    client_socket.send(f"{Commands.commands=}".encode())
+
     try:
-        # Connecting to the socket #
-        socket.bind((IP, PORT))
+        while True:
+            # Command handling #
+            match client_socket.recv(MAX_PACKET).decode().upper():
+                # TIME - sends back the current time #
+                case 'TIME':
+                    client_socket.send(Commands.comm_time().encode())
 
-        # waiting for client connection & getting client info #
-        socket.listen(QUEUE_LEN)
-        client_socket, client_ip = socket.accept()
+                # NAME - sends back the name of the command prompt #
+                case 'NAME':
+                    client_socket.send(Commands.comm_name().encode())
 
-        # Sending the command list #
-        client_socket.send(f"{Commands.commands=}".encode())
+                # RAND - sends back a random number between 1 & 10 #
+                case 'RAND':
+                    client_socket.send(str(Commands.comm_rand()).encode())
 
-        try:
-            while True:
-                # Command handling #
-                match client_socket.recv(MAX_PACKET).decode().upper():
-                    # TIME - sends back the current time #
-                    case 'TIME':
-                        client_socket.send(Commands.comm_time().encode())
+                # EXIT - disconnects the client from the server #
+                case 'EXIT':
+                    Commands.comm_exit(client_socket)
+                    client_handle(socket)
 
-                    # NAME - sends back the name of the command prompt #
-                    case 'NAME':
-                        client_socket.send(Commands.comm_name().encode())
+                # Default - unknown command #
+                case _:
+                    client_socket.send(ERR_UNKNOWN_COMMAND)
 
-                    # RAND - sends back a random number between 1 & 10 #
-                    case 'RAND':
-                        client_socket.send(str(Commands.comm_rand()).encode())
-
-                    # EXIT - disconnects the client from the server #
-                    case 'EXIT':
-                        Commands.comm_exit(client_socket)
-                        client_handle(socket)
-
-                    # Default - unknown command #
-                    case _:
-                        client_socket.send(ERR_UNKNOWN_COMMAND)
-
-        except Exception as err:
-            logging.exception(err)
-
-        finally:
-            client_socket.close()
-
-    except sock.error as err:
+    except Exception as err:
         logging.exception(err)
 
     finally:
-        socket.close()
+        client_socket.close()
 
 
 # Main Server Code #
@@ -121,7 +116,18 @@ def main() -> None:
     socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
 
     # handling client #
-    client_handle(socket)
+    try:
+        # Connecting to the socket #
+        socket.bind((IP, PORT))
+
+        # Client Handle #
+        client_handle(socket)
+
+    except sock.error as err:
+        logging.exception(err)
+
+    finally:
+        socket.close()
 
 
 if __name__ == '__main__':

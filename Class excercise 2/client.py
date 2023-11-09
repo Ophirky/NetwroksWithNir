@@ -6,15 +6,21 @@
 
 # Imports #
 import socket as sock
+import logging
+import os
 
 # Constants #
 IP = "127.0.0.1"
 PORT = 5500
 MAX_PACKET = 1024
 
+LOG_FORMAT = "%(levelname)s | %(asctime)s | %(processName)s | %(msg)s"
+LOG_LEVEL = logging.DEBUG
+LOG_DIR = "logs"
+LOG_FILE = f"{LOG_DIR}/log.log"
 
 # Client code #
-def main():
+def main() -> None:
     socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
 
     try:
@@ -38,12 +44,18 @@ def main():
             if server_ans == 'Disconnecting...':
                 break
 
-    except sock.error:
-        pass
+    except sock.error as err:
+        logging.exception(err)
 
     finally:
         socket.close()
 
 
 if __name__ == '__main__':
+    # Logging handling #
+    if not os.path.isdir(LOG_DIR):
+        os.makedirs(LOG_DIR)
+    logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
+
+    # Running main code #
     main()
