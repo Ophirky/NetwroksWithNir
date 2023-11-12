@@ -1,8 +1,0 @@
-ERROR | 2023-11-12 14:35:15,825 | MainProcess | [WinError 10053] An established connection was aborted by the software in your host machine
-Traceback (most recent call last):
-  File "C:\Users\ophir\OneDrive\Desktop\School\\u05d3\u05d1\u05e8\u05d9\u05dd \u05dc\u05d1\u05d9\u05ea \u05e1\u05e4\u05e8\NetwroksWithNir\Class excercise 2\server.py", line 133, in client_handle
-    Commands.command_validate_and_run((client_ip, client_socket), socket)
-  File "C:\Users\ophir\OneDrive\Desktop\School\\u05d3\u05d1\u05e8\u05d9\u05dd \u05dc\u05d1\u05d9\u05ea \u05e1\u05e4\u05e8\NetwroksWithNir\Class excercise 2\server.py", line 91, in command_validate_and_run
-    user_input = client_socket[1].recv(MAX_PACKET).decode().upper()
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine

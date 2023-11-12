@@ -90,7 +90,6 @@ class Commands:
         """
         while True:
             user_input = client_socket[1].recv(MAX_PACKET).decode().upper()
-            print(user_input)
             match user_input:
                 # TIME - sends back the current time #
                 case 'TIME':
