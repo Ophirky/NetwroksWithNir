@@ -45,7 +45,7 @@ def protocol_deformat(formatted_msg: str) -> List:
     :param formatted_msg: the protocol formatted msg
     :return List[int, string]: {len, msg}
     """
-    return formatted_msg.split("|")
+    return formatted_msg.split("|")  # [msg_len, msg]
 
 
 # Commands Class #
