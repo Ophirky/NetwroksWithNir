@@ -9,12 +9,11 @@ import logging
 import os
 import random as ran
 import socket as sock
-from typing import List
 
 # Constants #
 IP = "0.0.0.0"
 PORT = 5500
-MAX_PACKET = 10
+MAX_PACKET = 4
 QUEUE_LEN = 1
 
 LOG_FORMAT = "%(levelname)s | %(asctime)s | %(processName)s | %(msg)s"
@@ -22,8 +21,10 @@ LOG_LEVEL = logging.DEBUG
 LOG_DIR = "logs"
 LOG_FILE = f"{LOG_DIR}/server_log.log"
 
-ERR_INVALID_INPUT = "Must have 4 characters"
 ERR_UNKNOWN_COMMAND = "Unknown Command"
+ERR_RAND_ASSERTION = "Rand command not failed"
+ERR_SERVER_NAME_ASSERTION = "Name command not working"
+ERR_PROTOCOL_ASSERTION = "Protocol Formatting not working"
 
 PROTOCOL_FORMAT = "{msg_len}|{msg}"
 SERVER_NAME = "Parabot"
@@ -37,15 +38,6 @@ def protocol_format(msg: str) -> str:
     :return: None
     """
     return PROTOCOL_FORMAT.format(msg_len=len(msg), msg=msg)
-
-
-def protocol_deformat(formatted_msg: str) -> List:
-    """
-    returns the separated msg in a list
-    :param formatted_msg: the protocol formatted msg
-    :return List[int, string]: {len, msg}
-    """
-    return formatted_msg.split("|")  # [msg_len, msg]
 
 
 # Commands Class #
@@ -90,17 +82,16 @@ class Commands:
         client_socket.close()
 
     @staticmethod
-    def command_validate_and_run(client_socket: tuple, socket: sock.socket) -> None:
+    def command_validate_and_run(client_socket: tuple) -> None:
         """
         Handles the client input
         :param client_socket: tuple containing (client_ip: str, client_socket: sock.socket)
-        :param socket:
         :return:
         """
         while True:
-            user_input = protocol_deformat(client_socket[1].recv(MAX_PACKET).decode().upper())
+            user_input = client_socket[1].recv(MAX_PACKET).decode().upper()
             print(user_input)
-            match user_input[1]:
+            match user_input:
                 # TIME - sends back the current time #
                 case 'TIME':
                     client_socket[1].send(protocol_format(Commands.comm_time()).encode())
@@ -121,10 +112,7 @@ class Commands:
 
                 # Default - unknown command #
                 case _:
-                    if int(user_input[0]) != 4:
-                        client_socket[1].send(protocol_format(ERR_INVALID_INPUT).encode())
-                    else:
-                        client_socket[1].send(protocol_format(ERR_UNKNOWN_COMMAND).encode())
+                    client_socket[1].send(protocol_format(ERR_UNKNOWN_COMMAND).encode())
 
 
 def client_handle(socket: sock.socket):
@@ -143,7 +131,7 @@ def client_handle(socket: sock.socket):
         client_socket.send(f"{Commands.commands=}".encode())
 
         try:
-            Commands.command_validate_and_run((client_ip, client_socket), socket)
+            Commands.command_validate_and_run((client_ip, client_socket))
 
         except Exception as err:
             logging.exception(err)
@@ -179,8 +167,9 @@ if __name__ == '__main__':
     logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
 
     # Auto Checks #
-    assert Commands.comm_name() == SERVER_NAME, "Name command not working"
-    assert 11 > Commands.comm_rand() > 0, "Rand command not failed"
+    assert Commands.comm_name() == SERVER_NAME, ERR_SERVER_NAME_ASSERTION
+    assert 11 > Commands.comm_rand() > 0, ERR_RAND_ASSERTION
+    assert protocol_format("msg") == PROTOCOL_FORMAT.format(msg_len=str(len("msg")), msg="msg"), ERR_PROTOCOL_ASSERTION
 
     # Running main code #
     main()

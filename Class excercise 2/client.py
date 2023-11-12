@@ -22,14 +22,7 @@ LOG_FILE = f"{LOG_DIR}/client_log.log"
 
 PROTOCOL_FORMAT = "{msg_len}|{msg}"
 
-
-def protocol_format(msg: str) -> str:
-    """
-    Formats the msg to fit the protocol
-    :param msg: the msg to send
-    :return: None
-    """
-    return PROTOCOL_FORMAT.format(msg_len=len(msg), msg=msg)
+ERR_INVALID_INPUT = "Must have 4 characters"
 
 
 def protocol_deformat(formatted_msg: str) -> List:
@@ -39,6 +32,16 @@ def protocol_deformat(formatted_msg: str) -> List:
     :return List[int, string]: {len, msg}
     """
     return formatted_msg.split("|")
+
+
+def validate_msg(msg: str) -> bool:
+    """
+    Checks if the message is a command
+    :param msg: the user input
+    :return: boolean if the message is valid
+    """
+    return True if msg.upper() == 'TIME' or msg.upper() == 'NAME' or msg.upper() == "RAND" or msg.upper() == "EXIT" \
+        else False
 
 
 # Client code #
@@ -51,11 +54,11 @@ def main() -> None:
 
         while True:
             # Getting user input #
-            user_in = protocol_format(input("Enter a command: "))
+            user_in = input("Enter a command: ")
 
             # Validating #
-            if len(user_in) > 6:
-                print("Invalid input")
+            if len(user_in) != 4:
+                print(ERR_INVALID_INPUT)
                 continue
 
             # Sending the user input to the server #
@@ -85,8 +88,12 @@ if __name__ == '__main__':
     logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
 
     # Automatic checks #
-    assert protocol_format("msg") == PROTOCOL_FORMAT.format(msg_len=len("msg"), msg="msg")
     assert protocol_deformat(f"{len('msg')}|msg") == f"{len('msg')}|msg".split("|")
+
+    assert validate_msg("TIME")
+    assert validate_msg("NAME")
+    assert validate_msg("RAND")
+    assert validate_msg("EXIT")
 
     # Running main code #
     main()
