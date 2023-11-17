@@ -22,7 +22,7 @@ LOG_FILE = f"{LOG_DIR}/client_log.log"
 
 PROTOCOL_FORMAT = "{msg_len}|{msg}"
 
-ERR_INVALID_INPUT = "Must have 4 characters"
+ERR_INVALID_INPUT = "Invalid Input"
 
 
 def protocol_deformat(formatted_msg: str) -> List:
@@ -57,7 +57,7 @@ def main() -> None:
             user_in = input("Enter a command: ")
 
             # Validating #
-            if len(user_in) != 4:
+            if not validate_msg(user_in):
                 print(ERR_INVALID_INPUT)
                 continue
 

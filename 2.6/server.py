@@ -21,7 +21,6 @@ LOG_LEVEL = logging.DEBUG
 LOG_DIR = "logs"
 LOG_FILE = f"{LOG_DIR}/server_log.log"
 
-ERR_UNKNOWN_COMMAND = "Unknown Command"
 ERR_RAND_ASSERTION = "Rand command not failed"
 ERR_SERVER_NAME_ASSERTION = "Name command not working"
 ERR_PROTOCOL_ASSERTION = "Protocol Formatting not working"
@@ -109,9 +108,8 @@ class Commands:
                     print(f"client disconnected: {client_socket[0]}")
                     break
 
-                # Default - unknown command #
                 case _:
-                    client_socket[1].send(protocol_format(ERR_UNKNOWN_COMMAND).encode())
+                    logging.info(f"Client '{client_socket[0]}' Crashed")
 
 
 def client_handle(socket: sock.socket):
