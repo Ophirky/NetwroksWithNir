@@ -94,6 +94,7 @@ if __name__ == '__main__':
     assert validate_msg("NAME")
     assert validate_msg("RAND")
     assert validate_msg("EXIT")
+    assert not validate_msg("EXITED")
 
     # Running main code #
     main()

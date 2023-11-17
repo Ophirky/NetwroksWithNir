@@ -164,7 +164,7 @@ if __name__ == '__main__':
     logging.basicConfig(format=LOG_FORMAT, filename=LOG_FILE, level=LOG_LEVEL)
 
     # Auto Checks #
-    assert Commands.comm_name() == SERVER_NAME, ERR_SERVER_NAME_ASSERTION
+    assert Commands.comm_name() == "Parabot", ERR_SERVER_NAME_ASSERTION
     assert 11 > Commands.comm_rand() > 0, ERR_RAND_ASSERTION
     assert protocol_format("msg") == PROTOCOL_FORMAT.format(msg_len=str(len("msg")), msg="msg"), ERR_PROTOCOL_ASSERTION
 
