@@ -64,6 +64,7 @@ class Commands:
             except Exception as e:  # Handle any errors during screenshot capture
                 response = "Error taking screenshot: %s" % e  # Prepare an error response
 
+
 class Server:
     """
     Server class for handling client connections.
@@ -92,4 +93,3 @@ class Server:
         """
         client_sock, client_addr = self.sock.accept()  # Accept an incoming connection from a client
         return Client(client_addr[0], client_addr[1])  # Create a Client object for the connected client
-
