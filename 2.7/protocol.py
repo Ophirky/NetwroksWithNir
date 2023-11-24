@@ -5,6 +5,9 @@
     DATE: 24/11/23
 """
 
+# Imports #
+from typing import Tuple
+
 def format_message(msg: str) -> bytes:
     """
     formats message to the protocol from the client to the server
@@ -22,4 +25,11 @@ def format_message(msg: str) -> bytes:
     # Return the byte code for the protocol #
     return protocol.encode()
 
-print(format_message("COPY c:\\hukana\\matata c:\\banana").decode())
+# TODO: Write the deformat_message function (also accepts the message)
+def deformat_message(fmsg: bytes) -> Tuple:
+    """
+    Accepts the message and deformats it
+    :param fmsg: the formatted message
+    :return: tuple -> (comm/was_successful, payload)
+    """
+    pass

@@ -4,16 +4,66 @@
     DESCRIPTION: Server technician interaction app
 """
 # Imports #
-import socket
+import socket as sock
+import glob
+import logging
+import os
+from typing import Tuple, List
 
 
-# Command handling #
+# Constants #
+ERR_FOLDER_NOT_FOUND = "Folder not found"
+ERR_FILE_NOT_FOUND = "File not found"
 
-class Commands:
-    # Commands #
-    @staticmethod
-    def exit():
+LOG_LEVEL = logging.DEBUG
+LOG_DIR = r"Logs"
+LOG_FILE = LOG_DIR + r"\server_log.log"
+LOG_FORMAT = "%(asctime)s | %(levelname)s | %(message)s"
+
+
+# Server class #
+class Server:
+    """
+    Server class for handling client connections.
+    """
+    def __init__(self, host, port, queue_len) -> None:
+        """
+        Initialize the server object with host and port information.
+        :param host: The hostname or IP address of the server.
+        :param port: The port number of the server.
+        :param queue_len: The queue length of the socket
+        """
+        self.host = host
+        self.port = port
+        self.sock = sock.socket(sock.AF_INET, sock.SOCK_STREAM)  # Create a socket object
+        self.sock.bind((self.host, self.port))  # Bind the socket to the specified host and port
+        self.sock.listen(queue_len)  # Listen for incoming connections
+
+    def accept_connection(self) -> Tuple:
+        """
+        Accept a connection from a client.
+        :return: tuple containing the client socket and the client ip
+        """
+        return self.sock.accept()
+
+    # TODO: Create the send message function -> according to the protocol
+    def send_message(self, msg) -> None:
         pass
+
+# Command Handler #
+class Commands:
+    """
+    utility class that handles all the clients commands
+    """
+    # TODO: finish all of the commands
+    @staticmethod
+    def exit(client_socket: sock.socket, server: Server) -> None:
+        """
+        Closes the program
+        :return: None
+        """
+        server.send_message("Disconnecting...")
+        client_socket.close()
 
     @staticmethod
     def take_screenshot():
@@ -24,72 +74,70 @@ class Commands:
         pass
 
     @staticmethod
-    def dir():
-        pass
+    def dir(path) -> List[str]:
+        """
+        Returns the contents of a folder
+        :param path: the folder path
+        :return:
+        """
+        if not os.path.isdir(path):
+            logging.info(ERR_FOLDER_NOT_FOUND)
+            return [ERR_FOLDER_NOT_FOUND]
+
+        folder_content = glob.glob(path+"\\*.*")
+        return path + ":" + "".join([f'\n\t{i}' for i in folder_content] if folder_content != [] else "Null")
 
     @staticmethod
     def copy():
         pass
 
     @staticmethod
-    def delete():
-        pass
+    def delete(file_path) -> str:
+        """
+        deletes a file according to the given path
+        :param file_path: the file path
+        :return: success\fail message
+        """
+        try:
+            os.remove(file_path)
+        except FileNotFoundError:
+            logging.error(ERR_FILE_NOT_FOUND)
+            return ERR_FILE_NOT_FOUND
+        except Exception as err:
+            logging.exception(err)
+            return str(err)
 
-    # Command handling #
+    # TODO: Add the command handling
     @staticmethod
-    def handle_command(client, command, args):
+    def handle_command(client, command, args) -> None:
         """
-        Handle a command received from a client.
-
-        Args:
-            client (Client): The client object representing the connected client.
-            command (str): The command received from the client.
-            args (str): The arguments received with the command from the client.
+        Handles the commands given from the client
+        :param client: The client socket and ip - tuple(socket.socket(), str)
+        :param command: the given command from the client -> str
+        :param args: The arguments given to the command by the client -> tuple
+        :return: None
         """
-        if command == "COPY":
-            try:
-                shutil.copy(args[0], args[1])  # Execute the COPY command
-                response = "File copied successfully"  # Prepare a success response
-                was_successful = True  # Set success flag
-            except Exception as e:  # Handle any errors during command execution
-                response = "Error copying file: %s" % e  # Prepare an error response
-                was_successful = False  # Set failure flag
-
-        elif command == "TAKE_SCREENSHOT":
-            try:
-                screenshot = pyscreenshot.grab()  # Take a screenshot using pyscreenshot
-                screenshot.save('screenshot.png')  # Save the screenshot to a file
-                response = "Screenshot taken successfully"  # Prepare a success response
-                was_successful = True  # Set success flag
-            except Exception as e:  # Handle any errors during screenshot capture
-                response = "Error taking screenshot: %s" % e  # Prepare an error response
 
 
-class Server:
+# TODO: Create the main function
+def main() -> None:
     """
-    Server class for handling client connections.
+    The main function for the server file
+    :return: None
     """
+    pass
 
-    def __init__(self, host, port, queue_len):
-        """
-        Initialize the server object with host and port information.
 
-        Args:
-            host (str): The hostname or IP address of the server.
-            port (int): The port number of the server.
-        """
-        self.host = host
-        self.port = port
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # Create a socket object
-        self.sock.bind((self.host, self.port))  # Bind the socket to the specified host and port
-        self.sock.listen(queue_len)  # Listen for incoming connections
+if __name__ == '__main__':
+    # Testing if the logging folder exists #
+    if not os.path.isdir(LOG_DIR):
+        os.makedirs(LOG_DIR)
 
-    def accept_connection(self):
-        """
-        Accept a connection from a client.
+    # Log setup #
+    logging.basicConfig(level=LOG_LEVEL, filename=LOG_FILE, format=LOG_FORMAT)
 
-        Returns:
-            Client: A new Client object representing the connected client.
-        """
-        client_sock, client_addr = self.sock.accept()  # Accept an incoming connection from a client
-        return Client(client_addr[0], client_addr[1])  # Create a Client object for the connected client
+    # Asserts #
+    # TODO: Add asserts
+
+    # Main function call #
+    main()
