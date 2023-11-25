@@ -6,6 +6,7 @@
 """
 
 # Imports #
+import socket as sock
 from typing import Tuple
 
 def format_message(msg: str) -> bytes:
@@ -25,11 +26,20 @@ def format_message(msg: str) -> bytes:
     # Return the byte code for the protocol #
     return protocol.encode()
 
-# TODO: Write the deformat_message function (also accepts the message)
-def deformat_message(fmsg: bytes) -> Tuple:
+
+def deformat_message(socket: sock.socket) -> Tuple:
     """
     Accepts the message and deformats it
-    :param fmsg: the formatted message
+    :param socket: the socket that is used in the program
     :return: tuple -> (comm/was_successful, payload)
     """
-    pass
+    # Getting the length of the message #
+    length = 0
+    char = socket.recv(1).decode()
+    while char != '|':
+        length = (length * 10) + int(char)
+        char = socket.recv(1).decode()
+
+
+    return tuple(socket.recv(length).split(b'|'))
+

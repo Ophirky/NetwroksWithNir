@@ -8,6 +8,7 @@ import socket as sock
 import glob
 import logging
 import os
+import protocol
 from typing import Tuple, List
 
 
@@ -35,20 +36,19 @@ class Server:
         """
         self.host = host
         self.port = port
-        self.sock = sock.socket(sock.AF_INET, sock.SOCK_STREAM)  # Create a socket object
-        self.sock.bind((self.host, self.port))  # Bind the socket to the specified host and port
-        self.sock.listen(queue_len)  # Listen for incoming connections
+        self.socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)  # Create a socket object
+        self.socket.bind((self.host, self.port))  # Bind the socket to the specified host and port
+        self.socket.listen(queue_len)  # Listen for incoming connections
 
     def accept_connection(self) -> Tuple:
         """
         Accept a connection from a client.
         :return: tuple containing the client socket and the client ip
         """
-        return self.sock.accept()
+        return self.socket.accept()
 
-    # TODO: Create the send message function -> according to the protocol
     def send_message(self, msg) -> None:
-        pass
+        self.socket.send(protocol.format_message(msg))
 
 # Command Handler #
 class Commands:
