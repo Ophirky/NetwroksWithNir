@@ -7,6 +7,7 @@
 import socket as sock
 import logging
 import os
+import protocol
 
 
 # Constants #
@@ -15,13 +16,14 @@ LOG_DIR = r"Logs"
 LOG_FILE = LOG_DIR + r"\client_log.log"
 LOG_FORMAT = "%(asctime)s | %(levelname)s | %(message)s"
 
+IP = "127.0.0.1"
+PORT = 5500
 
 # Client class #
 class Client:
     """
     Client class for interacting with the server.
     """
-
     def __init__(self, host, port) -> None:
         """
         Initialize the client object with host and port information.
@@ -45,14 +47,20 @@ class Client:
             logging.exception(err)
             print(err)
 
-    # TODO: add protocol format
-    def send_command(self, command, args="") -> None:
+    def send_command(self, msg) -> None:
         """
         Sends a message to the server
-        :param command: the command given by the user
-        :param args: the parameters of the func
+        :param msg: the msg send to the server
         :return: None
         """
+        self.sock.send(protocol.format_message(msg))
+
+    def close(self) -> None:
+        """
+        Closes the connection
+        :return: None
+        """
+        self.sock.close()
 
 # TODO: Create the main function
 def main() -> None:
@@ -60,7 +68,30 @@ def main() -> None:
     The main function for the server file
     :return: None
     """
-    pass
+    socket = Client(IP, PORT)
+    try:
+        while True:
+
+            socket.connect()
+
+            while True:
+                # Getting user input #
+                user_in = input("Enter a command: ")
+
+                # Sending the user input to the server #
+                socket.send_command(user_in)
+
+                # Receiving answer from server #
+                server_ans = protocol.deformat_message(socket.sock)
+
+                # Printing the server answer #
+                print(server_ans)
+
+    except sock.error as err:
+        logging.exception(err)
+
+    finally:
+        socket.close()
 
 
 if __name__ == '__main__':

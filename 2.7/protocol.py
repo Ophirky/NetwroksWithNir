@@ -18,12 +18,17 @@ def format_message(msg: str) -> bytes:
 
     # msg formatting #
     msg = msg.split(" ", 1)
-    protocol = f"{msg[0]}|{msg[1]}"  # msg[0] -> command\was_successful, msg[1] -> payload
+
+    if (len(msg) > 1):
+        protocol = f"{msg[0]}|{msg[1]}"  # msg[0] -> command\was_successful, msg[1] -> payload
+    else:
+        protocol = f"{msg[0]}|"
 
     # Add the msg len #
     protocol = str(len(protocol)) + "|" + protocol
 
     # Return the byte code for the protocol #
+    print(protocol)
     return protocol.encode()
 
 
@@ -37,9 +42,8 @@ def deformat_message(socket: sock.socket) -> Tuple:
     length = 0
     char = socket.recv(1).decode()
     while char != '|':
+        print(char)
         length = (length * 10) + int(char)
         char = socket.recv(1).decode()
 
-
-    return tuple(socket.recv(length).split(b'|'))
-
+    return tuple(socket.recv(length).split(b'|', 1))
