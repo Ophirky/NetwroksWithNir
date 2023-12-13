@@ -1,23 +1,29 @@
-2023-12-10 16:19:22,262 | ERROR | invalid literal for int() with base 10: ''
+2023-12-12 13:03:35,853 | ERROR | invalid literal for int() with base 10: ''
 Traceback (most recent call last):
-  File "D:\Python\Networks with Nir\2.7\server.py", line 77, in main
+  File "D:\Python\Networks with Nir\2.7\server.py", line 83, in main
     user_input = protocol.deformat_message(client_socket)
-  File "D:\Python\Networks with Nir\2.7\protocol.py", line 46, in deformat_message
+  File "D:\Python\Networks with Nir\2.7\protocol.py", line 45, in deformat_message
     length = (length * 10) + int(char)
 ValueError: invalid literal for int() with base 10: ''
-2023-12-10 16:19:31,144 | ERROR | 'Server' object has no attribute 'client_socket'
+2023-12-12 13:10:50,383 | ERROR | [WinError 5] Access is denied: 'D:\\PYTHON\\NETWORKS WITH NIR\\2.7'
 Traceback (most recent call last):
-  File "D:\Python\Networks with Nir\2.7\server.py", line 82, in main
-    server.send_message(client_socket, getattr(server_functions, user_input[0].decode()).__call__())
-  File "D:\Python\Networks with Nir\2.7\server.py", line 55, in send_message
-    self.client_socket.send(protocol.format_message(msg))
-AttributeError: 'Server' object has no attribute 'client_socket'
-
-During handling of the above exception, another exception occurred:
-
+  File "D:\Python\Networks with Nir\2.7\server_functions.py", line 109, in delete
+    os.remove(file_path)
+PermissionError: [WinError 5] Access is denied: 'D:\\PYTHON\\NETWORKS WITH NIR\\2.7'
+2023-12-12 13:12:45,288 | ERROR | [WinError 5] Access is denied: 'C:\\USERS\\OPHIR\\DESKTOP\\SCHOOL'
 Traceback (most recent call last):
-  File "D:\Python\Networks with Nir\2.7\server.py", line 88, in main
-    server.send_message(client_socket, "False " + str(err))
-  File "D:\Python\Networks with Nir\2.7\server.py", line 55, in send_message
-    self.client_socket.send(protocol.format_message(msg))
-AttributeError: 'Server' object has no attribute 'client_socket'
+  File "D:\Python\Networks with Nir\2.7\server_functions.py", line 109, in delete
+    os.remove(file_path)
+PermissionError: [WinError 5] Access is denied: 'C:\\USERS\\OPHIR\\DESKTOP\\SCHOOL'
+2023-12-12 13:14:02,220 | ERROR | [WinError 5] Access is denied: 'D:\\PYTHON\\NETWORKS WITH NIR\\2.7'
+Traceback (most recent call last):
+  File "D:\Python\Networks with Nir\2.7\server_functions.py", line 109, in delete
+    os.remove(file_path)
+PermissionError: [WinError 5] Access is denied: 'D:\\PYTHON\\NETWORKS WITH NIR\\2.7'
+2023-12-12 13:16:46,127 | ERROR | [WinError 10054] An existing connection was forcibly closed by the remote host
+Traceback (most recent call last):
+  File "D:\Python\Networks with Nir\2.7\server.py", line 83, in main
+    user_input = protocol.deformat_message(client_socket)
+  File "D:\Python\Networks with Nir\2.7\protocol.py", line 42, in deformat_message
+    char = socket.recv(1).decode()
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

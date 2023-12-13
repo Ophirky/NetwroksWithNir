@@ -52,6 +52,12 @@ class Server:
         return self.socket.accept()
 
     def send_message(self, client_socket: sock.socket, msg) -> None:
+        """
+        sends a message to The client.
+        :param client_socket: The socket that the msg is for.
+        :param msg: the msg that is meant to be sent.
+        :return: None
+        """
         client_socket.send(protocol.format_message(msg))
 
 # Main Server Code #
@@ -75,11 +81,21 @@ def main() -> None:
                 while True:
                     # Getting the message from the client #
                     user_input = protocol.deformat_message(client_socket)
-                    print(user_input)
 
                     try:
                         # Handling the commands from the client #
-                        server.send_message(client_socket, getattr(server_functions, user_input[0].decode()).__call__())
+                        match user_input[0].decode().upper():
+                            case 'DELETE':
+                                server.send_message(client_socket, server_functions.delete(user_input[1].decode()))
+                            case 'EXECUTE':
+                                server.send_message(client_socket, server_functions.execute(user_input[1].decode()))
+                            case 'DIR':
+                                server.send_message(client_socket, server_functions.delete(user_input[1].decode()))
+                            case 'TAKE_SCREENSHOT':
+                                server.send_message(client_socket, server_functions.take_screenshot())
+                            case 'EXIT':
+                                server_functions.exit_client(client_socket)
+                                break
 
                     except sock.error as err:
                         logging.error(err)

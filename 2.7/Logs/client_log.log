@@ -1,7 +1,0 @@
-2023-12-10 16:18:46,639 | ERROR | [WinError 10054] An existing connection was forcibly closed by the remote host
-Traceback (most recent call last):
-  File "D:\Python\Networks with Nir\2.7\client.py", line 82, in main
-    socket.send_command(user_in)
-  File "D:\Python\Networks with Nir\2.7\client.py", line 56, in send_command
-    self.sock.send(protocol.format_message(msg))
-ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

@@ -19,7 +19,7 @@ def format_message(msg: str) -> bytes:
     # msg formatting #
     msg = msg.split(" ", 1)
 
-    if (len(msg) > 1):
+    if len(msg) > 1:
         protocol = f"{msg[0]}|{msg[1]}"  # msg[0] -> command\was_successful, msg[1] -> payload
     else:
         protocol = f"{msg[0]}|"
@@ -28,7 +28,6 @@ def format_message(msg: str) -> bytes:
     protocol = str(len(protocol)) + "|" + protocol
 
     # Return the byte code for the protocol #
-    print(protocol)
     return protocol.encode()
 
 
