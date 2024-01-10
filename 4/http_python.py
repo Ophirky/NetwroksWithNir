@@ -1,20 +1,47 @@
-# TO DO: import modules
+# TODO: add logs to the entire file using the python logging package
+# TODO: Fix page not loading when called from browser
+
+import re
 import socket
 import os
 
-# TO DO: set constants
 QUEUE_SIZE = 10
 IP = '0.0.0.0'
 PORT = 80
 SOCKET_TIMEOUT = 2
 
 
-# TO DO: define constants
+# TODO: define constants
 DEFAULT_URL = "/"
 REDIRECTION_DICTIONARY = {
     "forbidden": "/forbidden",
     "moved": "/index.html",
     "error": "/error",
+}
+
+HTTP_VERSION = b"HTTP/1.1"
+HEADER_SEPERATOR = b"\r\n"
+LOCATION_HEADER = b"Location: %s"
+CONTENT_TYPE_HEADER = b"Content-Type: %s"
+CONTENT_LEN_HEADER = b"Content-Length: %d"
+
+ERROR_CODES = {
+    200: b"OK",
+    500: b"INTERNAL SERVER ERROR",
+    302: b"MOVED TEMPORARILY",
+    403: b"FORBIDDEN",
+    404: b"NOT FOUND",
+    400: b"BAD REQUEST"
+}
+MIME_TYPES = {
+    ".html": "text/html;charset=utf-8",
+    ".jpg": "image/jpeg",
+    ".css": "text/css",
+    ".js": "text/javascript; charset=UTF-8",
+    ".txt": "text/plain",
+    ".ico": "image/x-icon",
+    ".gif": "image/jpeg",
+    ".png": "image/png"
 }
 
 
@@ -24,9 +51,50 @@ def get_file_data(file_name):
     :param file_name: the name of the file
     :return: the file data in a string
     """
+    if file_name == "/":
+        file_name = "/index.html"
     with open("WEB-ROOT" + file_name, "rb") as f:
         data = f.read()
     return data
+
+
+def error_code_finder(error_code: int):
+    """
+    returns the error code and messge using the error code.
+    :param error_code: the error code to be found
+    :return: str the error code
+    """
+    if error_code in ERROR_CODES.keys():
+        return str(error_code).encode() + b" " + ERROR_CODES[error_code]
+    else:
+        return "-1"
+
+
+def build_http(error_code: int = 200, body=b"", **headers):
+    """
+    builds a http protocol msg
+    :param body: the payload of the msg.
+    :param error_code: the error code of the msg
+    :param headers: all the headers that can be put in the msg [location, content-type, content-length]
+    :return: msg to send to the client or -1 error code
+    """
+    if error_code_finder(error_code) != "-1":
+        res = HTTP_VERSION + b" " + error_code_finder(error_code) + HEADER_SEPERATOR
+
+        if "location" in headers.keys():
+            res += LOCATION_HEADER % headers["location"].encode() + HEADER_SEPERATOR
+
+        if "content_type" in headers.keys():
+            res += CONTENT_TYPE_HEADER % headers["content_type"].encode() + HEADER_SEPERATOR
+
+        if "content_length" in headers.keys():
+            res += CONTENT_LEN_HEADER % headers["content_length"] + HEADER_SEPERATOR
+
+        res += HEADER_SEPERATOR + body
+    else:
+        res = b"-1"
+
+    return res
 
 
 def handle_client_request(resource, client_socket):
@@ -38,6 +106,9 @@ def handle_client_request(resource, client_socket):
     :return: None
     """
 
+    # TODO: insert the build_http function into the function.
+    # TODO: use the MIME_TYPES constant with the calling of the build_http function
+
     if resource == '':
         uri = DEFAULT_URL
     else:
@@ -48,7 +119,9 @@ def handle_client_request(resource, client_socket):
     else:
         # check if file exists
         filename = uri
-        if not os.path.isfile(filename):
+        if filename == "/": filename = "/index.html"
+        if not os.path.isfile("WEB-ROOT" + filename):
+            print("WEB-ROOTS" + filename)
             http_header = "HTTP/1.1 404 Not Found\r\n\r\n"
         else:
             # extract requested file type from URL (html, jpg etc)
@@ -56,20 +129,43 @@ def handle_client_request(resource, client_socket):
 
             # generate proper HTTP header
             if file_type == ".html":
-                http_header = "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: %d\r\n\r\n" % len(
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: %d\r\n\r\n" % len(
                     get_file_data(filename)
                 )
-            elif file_type == ".jpg":
-                filename = "/imgs" + filename
-                http_header = "HTTP/1.1 200 OK\r\nContent-Type: image/jpeg\r\nContent-Length: %d\r\n\r\n" % len(
+                file_data = get_file_data(filename)
+                http_header = build_http(body=file_data, content_type=MIME_TYPES[".html"], content_length=len(file_data))
+            elif file_type == ".jpg" or file_type == ".gif":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: image/jpeg\r\nContent-Length: %d\r\n\r\n" % len(
+                    get_file_data(filename)
+                )
+            elif file_type == ".css":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/css\r\nContent-Length: %d\r\n\r\n" % len(
+                    get_file_data(filename)
+                )
+            elif file_type == ".ico":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/x-icon\r\nContent-Length: %d\r\n\r\n" % len(
+                    get_file_data(filename)
+                )
+            elif file_type == ".txt":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/css\r\nContent-Length: %d\r\n\r\n" % len(
+                    get_file_data(filename)
+                )
+            elif file_type == ".png":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: image/png\r\nContent-Length: %d\r\n\r\n" % len(
+                    get_file_data(filename)
+                )
+            elif file_type == ".js":
+                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/javascript; charset=UTF-8\r\nContent-Length: %d\r\n\r\n" % len(
                     get_file_data(filename)
                 )
             else:
-                http_header = "HTTP/1.1 400 Bad Request\r\n\r\n"
+                http_header = b"HTTP/1.1 400 Bad Request\r\n\r\n"
 
     # send response
-    http_response = http_header.encode() + get_file_data(filename)
+    http_response = http_header
+    print(http_response)
     client_socket.send(http_response)
+    print("sent http resp")
 
 
 def validate_http_request(request):
@@ -140,5 +236,11 @@ def main():
 
 
 if __name__ == "__main__":
+    http_test_example = b"HTTP/1.1 200 OK\r\nLocation: /index.html\r\n\r\n"
+
+    # Asserts
+    # TODO: add asserts
+    assert build_http(location="/index.html") == http_test_example, "build_http - not working"
+
     # Call the main handler function
     main()
