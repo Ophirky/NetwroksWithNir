@@ -1,22 +1,27 @@
-# TODO: add logs to the entire file using the python logging package
-# TODO: Fix page not loading when called from browser
+"""
+    AUTHOR: Ophir Nevo Michrowski
+    Date: 05/01/24
+    DESCRIPTION: Simple http server using python
+"""
 
+# TODO: add logs to the entire file using the python logging package
+# TODO: check for comments
+import logging
+import os
 import re
 import socket
-import os
 
 QUEUE_SIZE = 10
 IP = '0.0.0.0'
 PORT = 80
 SOCKET_TIMEOUT = 2
+MAX_PACKET = 1024
 
-
-# TODO: define constants
 DEFAULT_URL = "/"
 REDIRECTION_DICTIONARY = {
-    "forbidden": "/forbidden",
-    "moved": "/index.html",
-    "error": "/error",
+    "/forbidden": "/forbidden",
+    "/moved": "/index.html",
+    "/error": "/error",
 }
 
 HTTP_VERSION = b"HTTP/1.1"
@@ -24,6 +29,9 @@ HEADER_SEPERATOR = b"\r\n"
 LOCATION_HEADER = b"Location: %s"
 CONTENT_TYPE_HEADER = b"Content-Type: %s"
 CONTENT_LEN_HEADER = b"Content-Length: %d"
+
+ERR_NUMBER_CONVERTION = "NAN"
+ERR_BAD_REQUEST = "Bad Request"
 
 ERROR_CODES = {
     200: b"OK",
@@ -43,6 +51,97 @@ MIME_TYPES = {
     ".gif": "image/jpeg",
     ".png": "image/png"
 }
+
+
+def get_query_params(http_request: str):
+    """
+    Extract the parameters from the http request
+    :param http_request: the http request
+    :return: dictionary of all the query parameters
+    """
+    return dict(x.split("=") for x in http_request.split("?", 1)[1].split("&"))
+
+
+def get_request_body(http_request: bytes, client_socket: socket):
+    """
+    returns the body of the request
+    :param http_request: http_request: the http request
+    :return: bytes of the body
+    """
+    content_length = int(re.search(rb'Content-Length: (\d+)', http_request).group(1))
+    body = b''
+    while len(body) < content_length:
+        chunk = client_socket.recv(MAX_PACKET)
+        if not chunk:
+            break
+        body += chunk
+
+    if len(body) < content_length:
+        logging.error('Error: Incomplete request body received')
+
+    return body
+
+def calculate_next(number: bytes) -> str:
+    """
+    returns the following number to the number given
+    :param number: the number to calc
+    :return: string containing the following number
+    """
+    try:
+        return str(int(number) + 1)
+    except ValueError as err:
+        logging.error(err)
+        return ERR_NUMBER_CONVERTION
+
+
+def handle_calculate_next(http_request: bytes):
+    """
+    handles the http according to the needed answer
+    :param http_request:  the http request
+    :return: returns the http response
+    """
+    param = get_query_params(http_request)
+    error_code = 200
+    if param == "NAN" or "num" not in param or calculate_next(param["num"]) == "NAN":
+        logging.error(ERR_BAD_REQUEST)
+        body = ""
+        error_code = 400
+    else:
+        body = calculate_next(param["num"])
+
+    return build_http(error_code=error_code, content_type=MIME_TYPES[".txt"], content_length=len(body), body=body.encode())
+
+
+def calculate_area(width: bytes, height: bytes) -> str:
+    """
+    returns the following number to the number given
+    :param height: the height of the triangle
+    :param width: the width of the triangle
+    :return: string with the area of the triangle
+    """
+    try:
+        return str((float(width) * float(height))/2)
+    except ValueError as err:
+        logging.error(err)
+        return ERR_NUMBER_CONVERTION
+
+
+def handle_calculate_area(http_request: bytes):
+    """
+    handles the http according to the needed answer
+    :param http_request:  the http request
+    :return: returns the http response
+    """
+    param = get_query_params(http_request)
+    error_code = 200
+    if param == "NAN" or "width" not in param or "height" not in param or calculate_area(param["width"], param["height"]) == "NAN":
+        logging.error(ERR_BAD_REQUEST)
+        body = ""
+        error_code = 400
+    else:
+        body = calculate_area(param["width"], param["height"])
+
+    return build_http(error_code=error_code, content_type=MIME_TYPES[".txt"], content_length=len(body), body=body.encode())
 
 
 def get_file_data(file_name):
@@ -97,7 +196,31 @@ def build_http(error_code: int = 200, body=b"", **headers):
     return res
 
 
-def handle_client_request(resource, client_socket):
+def upload(http_request: bytes, resource: str, client_socket: socket):
+
+    body = get_request_body(http_request, client_socket)
+    file_name = get_query_params(resource)
+
+    if "file-name" not in file_name:
+        logging.error(ERR_BAD_REQUEST)
+        return build_http(error_code=400, location="/index.html")
+
+    if not os.path.isdir("upload"):
+        os.makedirs("upload")
+
+    try:
+        with open("upload/" + file_name["file-name"], 'wb') as f:
+            f.write(body)
+
+        res = build_http()
+    except Exception as err:
+        res = build_http(error_code=500)
+        logging.error(err)
+
+    return res
+
+
+def handle_client_request(resource, http_req, client_socket):
     """
     Check the required resource, generate proper HTTP response and send
     to client
@@ -106,66 +229,51 @@ def handle_client_request(resource, client_socket):
     :return: None
     """
 
-    # TODO: insert the build_http function into the function.
-    # TODO: use the MIME_TYPES constant with the calling of the build_http function
-
+    http_header = b""
     if resource == '':
         uri = DEFAULT_URL
     else:
         uri = resource
+    if http_req.startswith("POST"):
+        if uri.startswith("/upload"):
+            http_header = upload(http_req.encode(), uri, client_socket)
+    elif http_req.startswith("GET"):
+        if uri in REDIRECTION_DICTIONARY:
+            match uri:
+                case '/forbidden':
+                    error_code = 403
+                case '/moved':
+                    error_code = 302
+                case '/error':
+                    error_code = 500
+                case _:
+                    error_code = 200
+            file_data = get_file_data("/index.html")
+            http_header = build_http(error_code=error_code, body=file_data, content_type=MIME_TYPES[".html"],
+                                     content_length=len(file_data), location="/index.html")
+        elif uri.startswith("/calculate-next"):
+            http_header = handle_calculate_next(uri)
+        elif uri.startswith("/calculate-area"):
+            http_header = handle_calculate_area(uri)
 
-    if uri in REDIRECTION_DICTIONARY:
-        http_header = "HTTP/1.1 302 Found\r\nLocation: /index.html\r\n\r\n"
-    else:
-        # check if file exists
-        filename = uri
-        if filename == "/": filename = "/index.html"
-        if not os.path.isfile("WEB-ROOT" + filename):
-            print("WEB-ROOTS" + filename)
-            http_header = "HTTP/1.1 404 Not Found\r\n\r\n"
         else:
-            # extract requested file type from URL (html, jpg etc)
-            file_type = os.path.splitext(filename)[1]
-
-            # generate proper HTTP header
-            if file_type == ".html":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-                file_data = get_file_data(filename)
-                http_header = build_http(body=file_data, content_type=MIME_TYPES[".html"], content_length=len(file_data))
-            elif file_type == ".jpg" or file_type == ".gif":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: image/jpeg\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-            elif file_type == ".css":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/css\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-            elif file_type == ".ico":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/x-icon\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-            elif file_type == ".txt":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/css\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-            elif file_type == ".png":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: image/png\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
-            elif file_type == ".js":
-                http_header = b"HTTP/1.1 200 OK\r\nContent-Type: text/javascript; charset=UTF-8\r\nContent-Length: %d\r\n\r\n" % len(
-                    get_file_data(filename)
-                )
+            # check if file exists
+            filename = uri
+            if filename == "/":
+                filename = "/index.html"
+            if not os.path.isfile("WEB-ROOT" + filename):
+                print("WEB-ROOTS" + filename)
+                http_header = build_http(error_code=404)
             else:
-                http_header = b"HTTP/1.1 400 Bad Request\r\n\r\n"
+                # extract requested file type from URL (html, jpg etc)
+                file_type = os.path.splitext(filename)[1]
+
+                # generate proper HTTP header
+                file_data = get_file_data(filename)
+                http_header = build_http(body=file_data, content_type=MIME_TYPES[file_type], content_length=len(file_data))
 
     # send response
-    http_response = http_header
-    print(http_response)
-    client_socket.send(http_response)
-    print("sent http resp")
+    client_socket.send(http_header)
 
 
 def validate_http_request(request):
@@ -177,7 +285,7 @@ def validate_http_request(request):
     the requested resource )
     """
     # check if request starts with "GET"
-    if request.startswith("GET"):
+    if request.startswith("GET") or request.startswith("POST"):
         # get resource from request
         resource = request.split(" ")[1]
 
@@ -199,11 +307,14 @@ def handle_client(client_socket):
     """
     print("Client connected")
     while True:
-        client_request = client_socket.recv(1024).decode()
+        client_request = client_socket.recv(MAX_PACKET).decode()
+        while '\r\n\r\n' not in client_request:
+            client_request += client_socket.recv(MAX_PACKET).decode()
         valid_http, resource = validate_http_request(client_request)
         if valid_http:
+            print(resource)
             print("Got a valid HTTP request")
-            handle_client_request(resource, client_socket)
+            handle_client_request(resource, client_request, client_socket)
         else:
             print("Error: Not a valid HTTP request")
             break
@@ -223,7 +334,7 @@ def main():
             client_socket, client_address = server_socket.accept()
             try:
                 print('New connection received')
-                # client_socket.settimeout(SOCKET_TIMEOUT)
+                client_socket.settimeout(SOCKET_TIMEOUT)
                 handle_client(client_socket)
             except socket.error as err:
                 print('received socket exception - ' + str(err))
@@ -237,10 +348,13 @@ def main():
 
 if __name__ == "__main__":
     http_test_example = b"HTTP/1.1 200 OK\r\nLocation: /index.html\r\n\r\n"
+    demo_req = "WEB-ROOTS/calculate-next?num=2"
 
     # Asserts
-    # TODO: add asserts
     assert build_http(location="/index.html") == http_test_example, "build_http - not working"
+    assert get_query_params(demo_req) == {"num": "2"}
+    assert calculate_next(b"2") == "3"
+    assert calculate_next(b"b") == ERR_NUMBER_CONVERTION
 
     # Call the main handler function
     main()
