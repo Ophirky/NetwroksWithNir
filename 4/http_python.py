@@ -32,6 +32,12 @@ CONTENT_LEN_HEADER = b"Content-Length: %d"
 
 ERR_NUMBER_CONVERTION = "NAN"
 ERR_BAD_REQUEST = "Bad Request"
+ERR_INTERNAL_SERVER_ERROR = "Internal Server Error"
+
+LOG_LEVEL = logging.DEBUG
+LOG_DIR = r"Logs"
+LOG_FILE = LOG_DIR + r"\server_log.log"
+LOG_FORMAT = "%(asctime)s | %(levelname)s | %(message)s"
 
 ERROR_CODES = {
     200: b"OK",
@@ -213,11 +219,33 @@ def upload(http_request: bytes, resource: str, client_socket: socket):
             f.write(body)
 
         res = build_http()
-    except Exception as err:
+    except Exception:
         res = build_http(error_code=500)
-        logging.error(err)
+        logging.error(ERR_INTERNAL_SERVER_ERROR)
 
     return res
+
+
+def upload_image(http_request: bytes):
+    param = get_query_params(http_request)
+    print(param)
+    if "image-name" not in param:
+        logging.error(ERR_BAD_REQUEST)
+        return build_http(error_code=400, location="/index.html")
+    print("upload\\" + param["image-name"])
+    # if os.path.isfile("upload\\" + param["image-name"]):
+    #     print("g")
+    #     return build_http(error_code=404, location="/index.html")
+
+    try:
+        print("h")
+        with open("upload/" + param["image-name"], 'rb') as f:
+            read = f.read()
+            return build_http(body=read, content_type=MIME_TYPES[os.path.splitext(param["image-name"])[1]], content_length=len(read))
+    except Exception:
+        print("f")
+        logging.error(ERR_INTERNAL_SERVER_ERROR)
+        return build_http(error_code=500)
 
 
 def handle_client_request(resource, http_req, client_socket):
@@ -255,7 +283,8 @@ def handle_client_request(resource, http_req, client_socket):
             http_header = handle_calculate_next(uri)
         elif uri.startswith("/calculate-area"):
             http_header = handle_calculate_area(uri)
-
+        elif uri.startswith("/image"):
+            http_header = upload_image(resource)
         else:
             # check if file exists
             filename = uri
@@ -349,6 +378,12 @@ def main():
 if __name__ == "__main__":
     http_test_example = b"HTTP/1.1 200 OK\r\nLocation: /index.html\r\n\r\n"
     demo_req = "WEB-ROOTS/calculate-next?num=2"
+
+    if not os.path.isdir(LOG_DIR):
+        os.makedirs(LOG_DIR)
+
+        # Log setup #
+    logging.basicConfig(level=LOG_LEVEL, filename=LOG_FILE, format=LOG_FORMAT)
 
     # Asserts
     assert build_http(location="/index.html") == http_test_example, "build_http - not working"
