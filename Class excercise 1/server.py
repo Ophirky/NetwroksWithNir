@@ -2,7 +2,7 @@ import socket as sok
 
 MAX_PACKET = 1024
 QUEUE_LEN = 1
-IP = "127.0.0.1"
+IP = "0.0.0.0"
 PORT = 5500
 
 sock = sok.socket(sok.AF_INET, sok.SOCK_STREAM)

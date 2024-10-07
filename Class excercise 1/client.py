@@ -1,7 +1,7 @@
 import socket as sock
 
-IP = "127.0.0.1"
-PORT = 5500
+IP = "192.168.68.100"
+PORT = 5555
 MAX_PACKET = 1024
 
 socket = sock.socket(sock.AF_INET, sock.SOCK_STREAM)
