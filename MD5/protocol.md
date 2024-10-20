@@ -4,11 +4,7 @@
 
 ## Overview
 
-This protocol is the exchange of messages that initiate decryption requests, manage ranges of values to search, and communicate results.
-
-### Author
-
-- **Ophir Nevo Michrowski**
+This protocol enbales decryption requests, manage ranges of values to search, and results.
 
 ## Protocol Structure
 - This protocol is text and keyword based,
@@ -57,8 +53,7 @@ Below is the sequence diagram illustrating the interaction of the components in 
 sequenceDiagram
 Client1 --> Server: request
 Server --> Client1: 1-100,5d41402abc4b2a76b9719d911017c592`
-Client1 --> Server: found:42
-
 Client2 --> Server: request
 Server --> Client2: 101-200,5d41402abc4b2a76b9719d911017c592`
-Server --> Client: stop
+Client1 --> Server: found:42
+Server --> Client2: stop
