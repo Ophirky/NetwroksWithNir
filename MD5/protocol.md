@@ -55,7 +55,10 @@ Below is the sequence diagram illustrating the interaction of the components in 
 
 ```mermaid
 sequenceDiagram
-Client --> Server: request
-Server --> Client: 1-100,5d41402abc4b2a76b9719d911017c592`
-Client --> Server: found:42
+Client1 --> Server: request
+Server --> Client1: 1-100,5d41402abc4b2a76b9719d911017c592`
+Client1 --> Server: found:42
+
+Client2 --> Server: request
+Server --> Client2: 101-200,5d41402abc4b2a76b9719d911017c592`
 Server --> Client: stop
