@@ -4,7 +4,7 @@
 
 ## Overview
 
-The **MD5 Decryption Protocol** is a lightweight communication protocol designed for distributed systems to efficiently encrypt and decrypt messages using the MD5 hashing algorithm. This protocol facilitates the exchange of messages that initiate decryption requests, manage ranges of values to search, and communicate results.
+This protocol is the exchange of messages that initiate decryption requests, manage ranges of values to search, and communicate results.
 
 ### Author
 
