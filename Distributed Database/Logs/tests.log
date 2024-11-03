@@ -2,3 +2,86 @@
 2024-11-02 17:26:16,077 | DEBUG | Get value test complete
 2024-11-02 17:26:16,078 | DEBUG | Adding value test complete
 2024-11-02 17:26:16,078 | DEBUG | Changing value test complete
+2024-11-03 09:02:34,609 | DEBUG | Delete value test complete
+2024-11-03 09:02:34,609 | DEBUG | Get value test complete
+2024-11-03 09:02:34,609 | DEBUG | Adding value test complete
+2024-11-03 09:02:34,609 | DEBUG | Changing value test complete
+2024-11-03 09:05:34,399 | DEBUG | Delete value test complete
+2024-11-03 09:05:34,399 | DEBUG | Get value test complete
+2024-11-03 09:05:34,399 | DEBUG | Adding value test complete
+2024-11-03 09:05:34,399 | DEBUG | Changing value test complete
+2024-11-03 09:06:34,311 | DEBUG | Delete value test complete
+2024-11-03 09:06:34,311 | DEBUG | Get value test complete
+2024-11-03 09:06:34,311 | DEBUG | Adding value test complete
+2024-11-03 09:06:34,311 | DEBUG | Changing value test complete
+2024-11-03 09:07:51,655 | DEBUG | Delete value test complete
+2024-11-03 09:07:51,655 | DEBUG | Get value test complete
+2024-11-03 09:07:51,655 | DEBUG | Adding value test complete
+2024-11-03 09:07:51,655 | DEBUG | Changing value test complete
+2024-11-03 09:11:36,306 | DEBUG | Delete value test complete
+2024-11-03 09:11:36,306 | DEBUG | Get value test complete
+2024-11-03 09:11:36,306 | DEBUG | Adding value test complete
+2024-11-03 09:11:36,306 | DEBUG | Changing value test complete
+2024-11-03 09:11:36,321 | DEBUG | Writing to file test finished
+2024-11-03 09:11:36,321 | DEBUG | File read was successful
+2024-11-03 09:11:36,321 | DEBUG | File read was successful
+2024-11-03 09:11:36,321 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 09:12:52,857 | DEBUG | Delete value test complete
+2024-11-03 09:12:52,857 | DEBUG | Get value test complete
+2024-11-03 09:12:52,857 | DEBUG | Adding value test complete
+2024-11-03 09:12:52,857 | DEBUG | Changing value test complete
+2024-11-03 09:12:52,857 | DEBUG | Writing to file test finished
+2024-11-03 09:12:52,857 | DEBUG | File read was successful
+2024-11-03 09:12:52,857 | DEBUG | File read was successful
+2024-11-03 09:12:52,857 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 09:12:56,857 | DEBUG | Delete value test complete
+2024-11-03 09:12:56,857 | DEBUG | Get value test complete
+2024-11-03 09:12:56,857 | DEBUG | Adding value test complete
+2024-11-03 09:12:56,857 | DEBUG | Changing value test complete
+2024-11-03 09:12:56,857 | DEBUG | Writing to file test finished
+2024-11-03 09:12:56,857 | DEBUG | File read was successful
+2024-11-03 09:12:56,857 | DEBUG | File read was successful
+2024-11-03 09:12:56,857 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 09:13:32,107 | DEBUG | Delete value test complete
+2024-11-03 09:13:32,107 | DEBUG | Get value test complete
+2024-11-03 09:13:32,107 | DEBUG | Adding value test complete
+2024-11-03 09:13:32,107 | DEBUG | Changing value test complete
+2024-11-03 09:13:32,107 | DEBUG | Writing to file test finished
+2024-11-03 09:13:32,107 | DEBUG | File read was successful
+2024-11-03 09:13:32,107 | DEBUG | File read was successful
+2024-11-03 09:13:32,107 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 09:13:47,090 | DEBUG | Delete value test complete
+2024-11-03 09:13:47,090 | DEBUG | Get value test complete
+2024-11-03 09:13:47,090 | DEBUG | Adding value test complete
+2024-11-03 09:13:47,090 | DEBUG | Changing value test complete
+2024-11-03 09:13:47,090 | DEBUG | Writing to file test finished
+2024-11-03 09:13:47,090 | DEBUG | File read was successful
+2024-11-03 09:13:47,090 | DEBUG | File read was successful
+2024-11-03 09:13:47,090 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 10:01:56,881 | DEBUG | Delete value test complete
+2024-11-03 10:01:56,881 | DEBUG | Get value test complete
+2024-11-03 10:01:56,881 | DEBUG | Adding value test complete
+2024-11-03 10:01:56,881 | DEBUG | Changing value test complete
+2024-11-03 10:01:56,881 | DEBUG | Reading from file test complete
+2024-11-03 10:01:56,881 | DEBUG | Writing to file test finished
+2024-11-03 10:01:56,881 | DEBUG | File read was successful
+2024-11-03 10:01:56,881 | DEBUG | File read was successful
+2024-11-03 10:01:56,896 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 10:02:17,542 | DEBUG | Delete value test complete
+2024-11-03 10:02:17,542 | DEBUG | Get value test complete
+2024-11-03 10:02:17,542 | DEBUG | Adding value test complete
+2024-11-03 10:02:17,542 | DEBUG | Changing value test complete
+2024-11-03 10:02:17,542 | DEBUG | Reading from file test complete
+2024-11-03 10:02:17,542 | DEBUG | Writing to file test finished
+2024-11-03 10:02:17,542 | DEBUG | File read was successful
+2024-11-03 10:02:17,542 | DEBUG | File read was successful
+2024-11-03 10:02:17,542 | DEBUG | Testing file contents after writing to file test finished
+2024-11-03 10:02:30,830 | DEBUG | Delete value test complete
+2024-11-03 10:02:30,830 | DEBUG | Get value test complete
+2024-11-03 10:02:30,830 | DEBUG | Adding value test complete
+2024-11-03 10:02:30,830 | DEBUG | Changing value test complete
+2024-11-03 10:02:30,830 | DEBUG | Reading from file test complete
+2024-11-03 10:02:30,830 | DEBUG | Writing to file test finished
+2024-11-03 10:02:30,830 | DEBUG | File read was successful
+2024-11-03 10:02:30,830 | DEBUG | File read was successful
+2024-11-03 10:02:30,830 | DEBUG | Testing file contents after writing to file test finished

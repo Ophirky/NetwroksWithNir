@@ -41,11 +41,17 @@ class DbFileHandler(Database):
 
         return res
 
-    def write_data(self) -> None:
+    def write_data(self) -> bool:
         """
         Write data to the file
-        :return: None
+        :return: successful or not
         """
-        with open(self.name + self.__extension, 'wb') as f:
-            pickle.dump(self.db, f)
-            LOGGER.debug('Data written')
+        res = True
+        try:
+            with open(self.name + self.__extension, 'wb') as f:
+                pickle.dump(self.db, f)
+                LOGGER.debug('Data written')
+        except FileNotFoundError as e:
+            res = False
+
+        return res
