@@ -1,204 +1,701 @@
-2024-11-02 17:25:20,705 | DEBUG | Tests complete
-2024-11-02 17:25:20,706 | DEBUG | Data written
-2024-11-02 17:25:20,706 | DEBUG | Value added to dictionary
-2024-11-02 17:25:20,706 | DEBUG | Value added to dictionary
-2024-11-02 17:25:20,706 | DEBUG | Data written
-2024-11-02 17:25:20,706 | DEBUG | Got data
-2024-11-02 17:26:16,077 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,077 | DEBUG | Deleted value from dict
-2024-11-02 17:26:16,077 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,077 | DEBUG | Got value from dict - Ophir
-2024-11-02 17:26:16,078 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,078 | DEBUG | Got value from dict - Ophir
-2024-11-02 17:26:16,078 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,078 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,078 | DEBUG | Tests complete
-2024-11-02 17:26:16,078 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,078 | DEBUG | Value added to dictionary
-2024-11-02 17:26:16,078 | DEBUG | Data written
-2024-11-02 17:26:16,078 | DEBUG | Got data
-2024-11-03 09:02:34,609 | DEBUG | Data written
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Deleted value from dict
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Data written
-2024-11-03 09:02:34,609 | DEBUG | Tests complete
-2024-11-03 09:02:34,609 | DEBUG | Data written
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Value added to dictionary
-2024-11-03 09:02:34,609 | DEBUG | Data written
-2024-11-03 09:02:34,609 | DEBUG | Got data
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,399 | DEBUG | Deleted value from dict
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,399 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,399 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,399 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,414 | DEBUG | Data written
-2024-11-03 09:05:34,414 | DEBUG | Tests complete
-2024-11-03 09:05:34,414 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,414 | DEBUG | Value added to dictionary
-2024-11-03 09:05:34,414 | DEBUG | Data written
-2024-11-03 09:05:34,414 | DEBUG | Got data
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Deleted value from dict
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Data written
-2024-11-03 09:06:34,311 | DEBUG | Got data
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Data written
-2024-11-03 09:06:34,311 | DEBUG | Tests complete
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Value added to dictionary
-2024-11-03 09:06:34,311 | DEBUG | Data written
-2024-11-03 09:06:34,311 | DEBUG | Got data
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Deleted value from dict
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Data written
-2024-11-03 09:07:51,655 | DEBUG | Got data
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Data written
-2024-11-03 09:07:51,655 | DEBUG | Tests complete
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Value added to dictionary
-2024-11-03 09:07:51,655 | DEBUG | Data written
-2024-11-03 09:07:51,655 | DEBUG | Got data
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Deleted value from dict
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,306 | DEBUG | Data written
-2024-11-03 09:11:36,321 | DEBUG | Got data
-2024-11-03 09:11:36,321 | DEBUG | Value added to dictionary
-2024-11-03 09:11:36,321 | DEBUG | Data written
-2024-11-03 09:11:36,321 | DEBUG | Tests complete
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Deleted value from dict
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Data written
-2024-11-03 09:12:52,857 | DEBUG | Got data
-2024-11-03 09:12:52,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:52,857 | DEBUG | Data written
-2024-11-03 09:12:52,857 | DEBUG | Tests complete
-2024-11-03 09:12:56,857 | DEBUG | Data written
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Deleted value from dict
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Data written
-2024-11-03 09:12:56,857 | DEBUG | Got data
-2024-11-03 09:12:56,857 | DEBUG | Value added to dictionary
-2024-11-03 09:12:56,857 | DEBUG | Data written
-2024-11-03 09:12:56,857 | DEBUG | Tests complete
-2024-11-03 09:13:32,091 | DEBUG | Data written
-2024-11-03 09:13:32,091 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,091 | DEBUG | Deleted value from dict
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Data written
-2024-11-03 09:13:32,107 | DEBUG | Got data
-2024-11-03 09:13:32,107 | DEBUG | Value added to dictionary
-2024-11-03 09:13:32,107 | DEBUG | Data written
-2024-11-03 09:13:32,107 | DEBUG | Tests complete
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Deleted value from dict
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Got value from dict - Ophir
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Data written
-2024-11-03 09:13:47,090 | DEBUG | Got data
-2024-11-03 09:13:47,090 | DEBUG | Value added to dictionary
-2024-11-03 09:13:47,090 | DEBUG | Data written
-2024-11-03 09:13:47,106 | DEBUG | Tests complete
-2024-11-03 10:01:56,881 | DEBUG | Data written
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Deleted value from dict
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Data written
-2024-11-03 10:01:56,881 | DEBUG | Got data
-2024-11-03 10:01:56,881 | DEBUG | Value added to dictionary
-2024-11-03 10:01:56,881 | DEBUG | Data written
-2024-11-03 10:01:56,896 | DEBUG | Tests complete
-2024-11-03 10:02:17,527 | DEBUG | Data written
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Deleted value from dict
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Data written
-2024-11-03 10:02:17,542 | DEBUG | Got data
-2024-11-03 10:02:17,542 | DEBUG | Value added to dictionary
-2024-11-03 10:02:17,542 | DEBUG | Data written
-2024-11-03 10:02:17,542 | DEBUG | Tests complete
-2024-11-03 10:02:30,830 | DEBUG | Data written
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Deleted value from dict
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Got value from dict - Ophir
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Data written
-2024-11-03 10:02:30,830 | DEBUG | Got data
-2024-11-03 10:02:30,830 | DEBUG | Value added to dictionary
-2024-11-03 10:02:30,830 | DEBUG | Data written
-2024-11-03 10:02:30,830 | DEBUG | Tests complete
+2024-11-03 19:09:33,465 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:09:33,465 | DEBUG | Got data
+2024-11-03 19:09:33,481 | DEBUG | Value added to dictionary
+2024-11-03 19:09:33,481 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:09:33,481 | DEBUG | writer
+2024-11-03 19:09:33,481 | DEBUG | waiting for writer
+2024-11-03 19:09:33,481 | DEBUG | Data written
+2024-11-03 19:09:33,481 | DEBUG | writing was True
+2024-11-03 19:09:33,481 | DEBUG | released all reader slots
+2024-11-03 19:10:31,988 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:10:31,988 | DEBUG | Got data
+2024-11-03 19:10:31,988 | DEBUG | Value added to dictionary
+2024-11-03 19:10:31,988 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:10:31,988 | DEBUG | writer
+2024-11-03 19:10:31,988 | DEBUG | waiting for writer
+2024-11-03 19:10:31,988 | DEBUG | Data written
+2024-11-03 19:10:32,003 | DEBUG | writing was True
+2024-11-03 19:10:32,003 | DEBUG | released all reader slots
+2024-11-03 19:11:26,544 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:11:26,560 | DEBUG | Got data
+2024-11-03 19:11:26,560 | DEBUG | Value added to dictionary
+2024-11-03 19:11:26,560 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:11:26,560 | DEBUG | writer
+2024-11-03 19:11:26,560 | DEBUG | waiting for writer
+2024-11-03 19:11:26,560 | DEBUG | Data written
+2024-11-03 19:11:26,560 | DEBUG | writing was True
+2024-11-03 19:11:26,560 | DEBUG | released all reader slots
+2024-11-03 19:32:50,004 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:32:50,004 | DEBUG | Got data
+2024-11-03 19:32:50,004 | DEBUG | Value added to dictionary
+2024-11-03 19:32:50,019 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:32:50,019 | DEBUG | Data written
+2024-11-03 19:32:50,019 | DEBUG | writing was True
+2024-11-03 19:32:50,019 | DEBUG | released all reader slots
+2024-11-03 19:32:50,019 | DEBUG | No writer
+2024-11-03 19:32:50,019 | DEBUG | Acquired reader lock
+2024-11-03 19:32:50,019 | DEBUG | Got value from dict - ophir
+2024-11-03 19:35:06,341 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:35:06,341 | DEBUG | Got data
+2024-11-03 19:35:06,341 | DEBUG | Value added to dictionary
+2024-11-03 19:35:06,341 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:35:06,356 | DEBUG | Data written
+2024-11-03 19:35:06,356 | DEBUG | writing was True
+2024-11-03 19:35:06,356 | DEBUG | released all reader slots
+2024-11-03 19:35:06,356 | DEBUG | No writer
+2024-11-03 19:35:06,356 | DEBUG | No writer
+2024-11-03 19:35:06,356 | DEBUG | Deleted value from dict
+2024-11-03 19:35:06,356 | DEBUG | deleted name
+2024-11-03 19:35:06,372 | DEBUG | Data written
+2024-11-03 19:35:06,372 | DEBUG | writing was ophir
+2024-11-03 19:35:06,372 | DEBUG | released all reader slots
+2024-11-03 19:35:06,372 | DEBUG | Acquired reader lock
+2024-11-03 19:35:06,372 | DEBUG | Acquired reader lock
+2024-11-03 19:35:06,372 | DEBUG | Got value from dict - None
+2024-11-03 19:35:06,372 | DEBUG | Got value from dict - None
+2024-11-03 19:35:35,361 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:35:35,361 | DEBUG | Got data
+2024-11-03 19:35:35,377 | DEBUG | Value added to dictionary
+2024-11-03 19:35:35,377 | DEBUG | adding name: ophir to db was True
+2024-11-03 19:35:35,377 | DEBUG | Data written
+2024-11-03 19:35:35,377 | DEBUG | writing was True
+2024-11-03 19:35:35,392 | DEBUG | released all reader slots
+2024-11-03 19:35:35,392 | DEBUG | No writer
+2024-11-03 19:35:35,392 | DEBUG | Acquired reader lock
+2024-11-03 19:35:35,392 | DEBUG | Got value from dict - ophir
+2024-11-03 19:35:45,386 | DEBUG | Deleted value from dict
+2024-11-03 19:35:45,386 | DEBUG | deleted name
+2024-11-03 19:35:45,386 | DEBUG | Data written
+2024-11-03 19:35:45,386 | DEBUG | writing was ophir
+2024-11-03 19:35:45,386 | DEBUG | released all reader slots
+2024-11-03 19:35:45,386 | DEBUG | No writer
+2024-11-03 19:35:45,386 | DEBUG | Acquired reader lock
+2024-11-03 19:35:45,386 | DEBUG | Got value from dict - None
+2024-11-03 19:51:01,614 | DEBUG | Data written
+2024-11-03 19:51:01,629 | DEBUG | Value added to dictionary
+2024-11-03 19:51:01,629 | DEBUG | Deleted value from dict
+2024-11-03 19:51:01,629 | DEBUG | Value added to dictionary
+2024-11-03 19:51:01,629 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:51:01,629 | DEBUG | Value added to dictionary
+2024-11-03 19:51:01,629 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:51:01,629 | DEBUG | Value added to dictionary
+2024-11-03 19:51:01,629 | DEBUG | Value added to dictionary
+2024-11-03 19:51:01,629 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:01,645 | DEBUG | Got data
+2024-11-03 19:51:01,645 | DEBUG | No writer
+2024-11-03 19:51:01,660 | DEBUG | Acquired reader lock
+2024-11-03 19:51:01,660 | DEBUG | Got value from dict - None
+2024-11-03 19:51:01,660 | DEBUG | No writer
+2024-11-03 19:51:01,660 | DEBUG | Acquired reader lock
+2024-11-03 19:51:01,660 | DEBUG | No writer
+2024-11-03 19:51:01,660 | DEBUG | Got value from dict - None
+2024-11-03 19:51:01,660 | DEBUG | No writer
+2024-11-03 19:51:01,660 | DEBUG | Acquired reader lock
+2024-11-03 19:51:01,660 | DEBUG | No writer
+2024-11-03 19:51:01,676 | DEBUG | Acquired reader lock
+2024-11-03 19:51:01,676 | DEBUG | Got value from dict - None
+2024-11-03 19:51:01,676 | DEBUG | Acquired reader lock
+2024-11-03 19:51:01,676 | DEBUG | Got value from dict - None
+2024-11-03 19:51:01,676 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,185 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:02,185 | DEBUG | Got data
+2024-11-03 19:51:02,185 | DEBUG | Value added to dictionary
+2024-11-03 19:51:02,185 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:51:02,185 | DEBUG | Data written
+2024-11-03 19:51:02,185 | DEBUG | writing was True
+2024-11-03 19:51:02,185 | DEBUG | released all reader slots
+2024-11-03 19:51:02,294 | DEBUG | No writer
+2024-11-03 19:51:02,294 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,294 | DEBUG | Got value from dict - value4
+2024-11-03 19:51:02,294 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:02,341 | DEBUG | Got data
+2024-11-03 19:51:02,341 | DEBUG | No writer
+2024-11-03 19:51:02,341 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,341 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,449 | DEBUG | Value added to dictionary
+2024-11-03 19:51:02,449 | DEBUG | adding key3: value3 to db was True
+2024-11-03 19:51:02,449 | DEBUG | Data written
+2024-11-03 19:51:02,449 | DEBUG | writing was True
+2024-11-03 19:51:02,449 | DEBUG | released all reader slots
+2024-11-03 19:51:02,449 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:02,496 | DEBUG | Got data
+2024-11-03 19:51:02,496 | DEBUG | No writer
+2024-11-03 19:51:02,496 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,496 | DEBUG | No writer
+2024-11-03 19:51:02,496 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,496 | DEBUG | No writer
+2024-11-03 19:51:02,496 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,496 | DEBUG | No writer
+2024-11-03 19:51:02,511 | DEBUG | No writer
+2024-11-03 19:51:02,511 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,511 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,511 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,511 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,511 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,511 | DEBUG | Acquired reader lock
+2024-11-03 19:51:02,511 | DEBUG | Got value from dict - None
+2024-11-03 19:51:02,511 | DEBUG | Value added to dictionary
+2024-11-03 19:51:02,511 | DEBUG | adding key7: value7 to db was True
+2024-11-03 19:51:02,527 | DEBUG | Data written
+2024-11-03 19:51:02,527 | DEBUG | writing was True
+2024-11-03 19:51:02,527 | DEBUG | released all reader slots
+2024-11-03 19:51:03,024 | DEBUG | No writer
+2024-11-03 19:51:03,024 | DEBUG | Acquired reader lock
+2024-11-03 19:51:03,024 | DEBUG | Got value from dict - value7
+2024-11-03 19:51:03,024 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:03,071 | DEBUG | Got data
+2024-11-03 19:51:03,071 | DEBUG | Value added to dictionary
+2024-11-03 19:51:03,071 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:51:03,071 | DEBUG | Data written
+2024-11-03 19:51:03,087 | DEBUG | writing was True
+2024-11-03 19:51:03,087 | DEBUG | released all reader slots
+2024-11-03 19:51:03,087 | DEBUG | No writer
+2024-11-03 19:51:03,087 | DEBUG | Acquired reader lock
+2024-11-03 19:51:03,087 | DEBUG | Got value from dict - value2
+2024-11-03 19:51:03,087 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:03,118 | DEBUG | Got data
+2024-11-03 19:51:03,118 | DEBUG | Value added to dictionary
+2024-11-03 19:51:03,118 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:51:03,118 | DEBUG | Data written
+2024-11-03 19:51:03,133 | DEBUG | writing was True
+2024-11-03 19:51:03,133 | DEBUG | released all reader slots
+2024-11-03 19:51:03,133 | DEBUG | Value added to dictionary
+2024-11-03 19:51:03,133 | DEBUG | Data written
+2024-11-03 19:51:03,165 | DEBUG | Got data
+2024-11-03 19:51:03,165 | DEBUG | Value added to dictionary
+2024-11-03 19:51:03,165 | DEBUG | Data written
+2024-11-03 19:51:03,180 | DEBUG | Tests complete
+2024-11-03 19:51:03,180 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:51:03,196 | DEBUG | Got data
+2024-11-03 19:54:28,842 | DEBUG | Data written
+2024-11-03 19:54:28,858 | DEBUG | Value added to dictionary
+2024-11-03 19:54:28,858 | DEBUG | Deleted value from dict
+2024-11-03 19:54:28,858 | DEBUG | Value added to dictionary
+2024-11-03 19:54:28,858 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:54:28,858 | DEBUG | Value added to dictionary
+2024-11-03 19:54:28,858 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:54:28,858 | DEBUG | Value added to dictionary
+2024-11-03 19:54:28,858 | DEBUG | Value added to dictionary
+2024-11-03 19:54:29,204 | DEBUG | Value added to dictionary
+2024-11-03 19:54:29,219 | DEBUG | Data written
+2024-11-03 19:54:29,219 | DEBUG | Got data
+2024-11-03 19:54:29,235 | DEBUG | Value added to dictionary
+2024-11-03 19:54:29,235 | DEBUG | Data written
+2024-11-03 19:54:29,251 | DEBUG | Tests complete
+2024-11-03 19:54:29,266 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:54:29,266 | DEBUG | Got data
+2024-11-03 19:54:47,798 | DEBUG | Data written
+2024-11-03 19:54:47,813 | DEBUG | Value added to dictionary
+2024-11-03 19:54:47,813 | DEBUG | Deleted value from dict
+2024-11-03 19:54:47,813 | DEBUG | Value added to dictionary
+2024-11-03 19:54:47,813 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:54:47,813 | DEBUG | Value added to dictionary
+2024-11-03 19:54:47,813 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:54:47,813 | DEBUG | Value added to dictionary
+2024-11-03 19:54:47,829 | DEBUG | Value added to dictionary
+2024-11-03 19:54:49,284 | DEBUG | Value added to dictionary
+2024-11-03 19:54:49,284 | DEBUG | Data written
+2024-11-03 19:54:49,300 | DEBUG | Got data
+2024-11-03 19:54:49,315 | DEBUG | Value added to dictionary
+2024-11-03 19:54:49,315 | DEBUG | Data written
+2024-11-03 19:54:49,347 | DEBUG | Tests complete
+2024-11-03 19:54:49,347 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:54:49,347 | DEBUG | Got data
+2024-11-03 19:55:33,435 | DEBUG | Data written
+2024-11-03 19:55:33,451 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,451 | DEBUG | Deleted value from dict
+2024-11-03 19:55:33,451 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,451 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:55:33,451 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,451 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:55:33,451 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,466 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,920 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,920 | DEBUG | Data written
+2024-11-03 19:55:33,951 | DEBUG | Got data
+2024-11-03 19:55:33,951 | DEBUG | Value added to dictionary
+2024-11-03 19:55:33,951 | DEBUG | Data written
+2024-11-03 19:55:33,966 | DEBUG | Tests complete
+2024-11-03 19:55:33,982 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:55:33,982 | DEBUG | Got data
+2024-11-03 19:55:54,775 | DEBUG | Data written
+2024-11-03 19:55:54,775 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:55:54,775 | DEBUG | Got data
+2024-11-03 19:55:54,806 | DEBUG | Value added to dictionary
+2024-11-03 19:55:54,806 | DEBUG | Deleted value from dict
+2024-11-03 19:55:54,806 | DEBUG | Value added to dictionary
+2024-11-03 19:55:54,806 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:55:54,806 | DEBUG | Value added to dictionary
+2024-11-03 19:55:54,806 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:55:54,806 | DEBUG | Value added to dictionary
+2024-11-03 19:55:54,806 | DEBUG | Value added to dictionary
+2024-11-03 19:55:54,822 | DEBUG | No writer
+2024-11-03 19:55:54,822 | DEBUG | Acquired reader lock
+2024-11-03 19:55:54,822 | DEBUG | No writer
+2024-11-03 19:55:54,822 | DEBUG | Got value from dict - None
+2024-11-03 19:55:54,822 | DEBUG | Acquired reader lock
+2024-11-03 19:55:54,822 | DEBUG | No writer
+2024-11-03 19:55:54,822 | DEBUG | Got value from dict - None
+2024-11-03 19:55:54,822 | DEBUG | Acquired reader lock
+2024-11-03 19:55:54,822 | DEBUG | No writer
+2024-11-03 19:55:54,838 | DEBUG | No writer
+2024-11-03 19:55:54,838 | DEBUG | Got value from dict - None
+2024-11-03 19:55:54,838 | DEBUG | Acquired reader lock
+2024-11-03 19:55:54,838 | DEBUG | Acquired reader lock
+2024-11-03 19:55:54,838 | DEBUG | Got value from dict - None
+2024-11-03 19:55:54,838 | DEBUG | Got value from dict - None
+2024-11-03 19:55:55,348 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,348 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:55:55,348 | DEBUG | Data written
+2024-11-03 19:55:55,348 | DEBUG | writing was True
+2024-11-03 19:55:55,348 | DEBUG | released all reader slots
+2024-11-03 19:55:55,453 | DEBUG | No writer
+2024-11-03 19:55:55,453 | DEBUG | Acquired reader lock
+2024-11-03 19:55:55,453 | DEBUG | Got value from dict - value4
+2024-11-03 19:55:55,453 | DEBUG | No writer
+2024-11-03 19:55:55,453 | DEBUG | Acquired reader lock
+2024-11-03 19:55:55,453 | DEBUG | Got value from dict - None
+2024-11-03 19:55:55,566 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,566 | DEBUG | adding key3: value3 to db was True
+2024-11-03 19:55:55,566 | DEBUG | Data written
+2024-11-03 19:55:55,566 | DEBUG | writing was True
+2024-11-03 19:55:55,566 | DEBUG | released all reader slots
+2024-11-03 19:55:55,566 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,566 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:55:55,566 | DEBUG | Data written
+2024-11-03 19:55:55,581 | DEBUG | writing was True
+2024-11-03 19:55:55,581 | DEBUG | released all reader slots
+2024-11-03 19:55:55,581 | DEBUG | No writer
+2024-11-03 19:55:55,581 | DEBUG | Acquired reader lock
+2024-11-03 19:55:55,581 | DEBUG | Got value from dict - value2
+2024-11-03 19:55:55,581 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,581 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:55:55,581 | DEBUG | Data written
+2024-11-03 19:55:55,581 | DEBUG | writing was True
+2024-11-03 19:55:55,581 | DEBUG | released all reader slots
+2024-11-03 19:55:55,597 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,597 | DEBUG | Data written
+2024-11-03 19:55:55,613 | DEBUG | Got data
+2024-11-03 19:55:55,613 | DEBUG | Value added to dictionary
+2024-11-03 19:55:55,613 | DEBUG | Data written
+2024-11-03 19:55:55,628 | DEBUG | Tests complete
+2024-11-03 19:55:55,628 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:55:55,628 | DEBUG | Got data
+2024-11-03 19:57:21,330 | DEBUG | Data written
+2024-11-03 19:57:21,330 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:57:21,346 | DEBUG | Got data
+2024-11-03 19:57:21,377 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,377 | DEBUG | Deleted value from dict
+2024-11-03 19:57:21,377 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,377 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:57:21,377 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,393 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:57:21,393 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,393 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,393 | DEBUG | No writer
+2024-11-03 19:57:21,409 | DEBUG | Acquired reader lock
+2024-11-03 19:57:21,409 | DEBUG | Got value from dict - None
+2024-11-03 19:57:21,409 | DEBUG | No writer
+2024-11-03 19:57:21,409 | DEBUG | Acquired reader lock
+2024-11-03 19:57:21,409 | DEBUG | Got value from dict - None
+2024-11-03 19:57:21,409 | DEBUG | No writer
+2024-11-03 19:57:21,409 | DEBUG | Acquired reader lock
+2024-11-03 19:57:21,424 | DEBUG | Got value from dict - None
+2024-11-03 19:57:21,424 | DEBUG | No writer
+2024-11-03 19:57:21,424 | DEBUG | No writer
+2024-11-03 19:57:21,424 | DEBUG | Acquired reader lock
+2024-11-03 19:57:21,424 | DEBUG | Acquired reader lock
+2024-11-03 19:57:21,424 | DEBUG | Got value from dict - None
+2024-11-03 19:57:21,424 | DEBUG | Got value from dict - None
+2024-11-03 19:57:21,937 | DEBUG | Value added to dictionary
+2024-11-03 19:57:21,937 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:57:21,937 | DEBUG | Data written
+2024-11-03 19:57:21,937 | DEBUG | writing was True
+2024-11-03 19:57:21,937 | DEBUG | released all reader slots
+2024-11-03 19:57:22,044 | DEBUG | No writer
+2024-11-03 19:57:22,044 | DEBUG | Acquired reader lock
+2024-11-03 19:57:22,044 | DEBUG | Got value from dict - value4
+2024-11-03 19:57:22,044 | DEBUG | No writer
+2024-11-03 19:57:22,044 | DEBUG | Acquired reader lock
+2024-11-03 19:57:22,044 | DEBUG | Got value from dict - None
+2024-11-03 19:57:22,106 | DEBUG | Value added to dictionary
+2024-11-03 19:57:22,106 | DEBUG | adding key3: value3 to db was True
+2024-11-03 19:57:22,106 | DEBUG | Data written
+2024-11-03 19:57:22,106 | DEBUG | writing was True
+2024-11-03 19:57:22,106 | DEBUG | released all reader slots
+2024-11-03 19:57:22,106 | DEBUG | Value added to dictionary
+2024-11-03 19:57:22,106 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:57:22,106 | DEBUG | Data written
+2024-11-03 19:57:22,106 | DEBUG | writing was True
+2024-11-03 19:57:22,106 | DEBUG | released all reader slots
+2024-11-03 19:57:22,106 | DEBUG | No writer
+2024-11-03 19:57:22,122 | DEBUG | Acquired reader lock
+2024-11-03 19:57:22,122 | DEBUG | Got value from dict - value2
+2024-11-03 19:57:22,122 | DEBUG | Value added to dictionary
+2024-11-03 19:57:22,122 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:57:22,122 | DEBUG | Data written
+2024-11-03 19:57:22,122 | DEBUG | writing was True
+2024-11-03 19:57:22,122 | DEBUG | released all reader slots
+2024-11-03 19:57:22,122 | DEBUG | Value added to dictionary
+2024-11-03 19:57:22,122 | DEBUG | Data written
+2024-11-03 19:57:22,137 | DEBUG | Got data
+2024-11-03 19:57:22,137 | DEBUG | Value added to dictionary
+2024-11-03 19:57:22,137 | DEBUG | Data written
+2024-11-03 19:57:22,153 | DEBUG | Tests complete
+2024-11-03 19:57:22,153 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:57:22,153 | DEBUG | Got data
+2024-11-03 19:57:39,521 | DEBUG | Data written
+2024-11-03 19:57:39,521 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:57:39,536 | DEBUG | Got data
+2024-11-03 19:57:39,552 | DEBUG | Value added to dictionary
+2024-11-03 19:57:39,552 | DEBUG | Deleted value from dict
+2024-11-03 19:57:39,552 | DEBUG | Value added to dictionary
+2024-11-03 19:57:39,552 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:57:39,568 | DEBUG | Value added to dictionary
+2024-11-03 19:57:39,568 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:57:39,568 | DEBUG | Value added to dictionary
+2024-11-03 19:57:39,568 | DEBUG | Value added to dictionary
+2024-11-03 19:57:39,568 | DEBUG | No writer
+2024-11-03 19:57:39,568 | DEBUG | Acquired reader lock
+2024-11-03 19:57:39,568 | DEBUG | Got value from dict - None
+2024-11-03 19:57:39,583 | DEBUG | No writer
+2024-11-03 19:57:39,583 | DEBUG | Acquired reader lock
+2024-11-03 19:57:39,583 | DEBUG | No writer
+2024-11-03 19:57:39,583 | DEBUG | Got value from dict - None
+2024-11-03 19:57:39,583 | DEBUG | Acquired reader lock
+2024-11-03 19:57:39,583 | DEBUG | No writer
+2024-11-03 19:57:39,583 | DEBUG | Got value from dict - None
+2024-11-03 19:57:39,583 | DEBUG | No writer
+2024-11-03 19:57:39,583 | DEBUG | Acquired reader lock
+2024-11-03 19:57:39,583 | DEBUG | Acquired reader lock
+2024-11-03 19:57:39,583 | DEBUG | Got value from dict - None
+2024-11-03 19:57:39,599 | DEBUG | Got value from dict - None
+2024-11-03 19:57:40,103 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,103 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:57:40,103 | DEBUG | Data written
+2024-11-03 19:57:40,103 | DEBUG | writing was True
+2024-11-03 19:57:40,103 | DEBUG | released all reader slots
+2024-11-03 19:57:40,208 | DEBUG | No writer
+2024-11-03 19:57:40,208 | DEBUG | Acquired reader lock
+2024-11-03 19:57:40,208 | DEBUG | Got value from dict - value4
+2024-11-03 19:57:40,208 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,208 | DEBUG | adding key3: value3 to db was True
+2024-11-03 19:57:40,224 | DEBUG | Data written
+2024-11-03 19:57:40,224 | DEBUG | writing was True
+2024-11-03 19:57:40,224 | DEBUG | released all reader slots
+2024-11-03 19:57:40,224 | DEBUG | No writer
+2024-11-03 19:57:40,224 | DEBUG | Acquired reader lock
+2024-11-03 19:57:40,224 | DEBUG | Got value from dict - None
+2024-11-03 19:57:40,239 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,239 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:57:40,239 | DEBUG | Data written
+2024-11-03 19:57:40,239 | DEBUG | writing was True
+2024-11-03 19:57:40,239 | DEBUG | released all reader slots
+2024-11-03 19:57:40,239 | DEBUG | No writer
+2024-11-03 19:57:40,239 | DEBUG | Acquired reader lock
+2024-11-03 19:57:40,239 | DEBUG | Got value from dict - value2
+2024-11-03 19:57:40,255 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,255 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:57:40,255 | DEBUG | Data written
+2024-11-03 19:57:40,255 | DEBUG | writing was True
+2024-11-03 19:57:40,255 | DEBUG | released all reader slots
+2024-11-03 19:57:40,255 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,255 | DEBUG | Data written
+2024-11-03 19:57:40,271 | DEBUG | Got data
+2024-11-03 19:57:40,271 | DEBUG | Value added to dictionary
+2024-11-03 19:57:40,271 | DEBUG | Data written
+2024-11-03 19:57:40,286 | DEBUG | Tests complete
+2024-11-03 19:57:40,286 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:57:40,286 | DEBUG | Got data
+2024-11-03 19:58:47,089 | DEBUG | Data written
+2024-11-03 19:58:47,105 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:58:47,105 | DEBUG | Got data
+2024-11-03 19:58:47,120 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,120 | DEBUG | Deleted value from dict
+2024-11-03 19:58:47,136 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,136 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:58:47,136 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,136 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:58:47,136 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,136 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,136 | DEBUG | No writer
+2024-11-03 19:58:47,136 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,136 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,151 | DEBUG | No writer
+2024-11-03 19:58:47,151 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,151 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,151 | DEBUG | No writer
+2024-11-03 19:58:47,151 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,151 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,151 | DEBUG | No writer
+2024-11-03 19:58:47,151 | DEBUG | No writer
+2024-11-03 19:58:47,151 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,151 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,167 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,167 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,672 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,672 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:58:47,672 | DEBUG | Data written
+2024-11-03 19:58:47,672 | DEBUG | writing was True
+2024-11-03 19:58:47,672 | DEBUG | released all reader slots
+2024-11-03 19:58:47,777 | DEBUG | No writer
+2024-11-03 19:58:47,777 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,777 | DEBUG | Got value from dict - value4
+2024-11-03 19:58:47,777 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,777 | DEBUG | adding key3: value3 to db was True
+2024-11-03 19:58:47,793 | DEBUG | Data written
+2024-11-03 19:58:47,793 | DEBUG | writing was True
+2024-11-03 19:58:47,793 | DEBUG | released all reader slots
+2024-11-03 19:58:47,793 | DEBUG | No writer
+2024-11-03 19:58:47,793 | DEBUG | No writer
+2024-11-03 19:58:47,793 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,793 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,793 | DEBUG | Got value from dict - None
+2024-11-03 19:58:47,793 | DEBUG | Got value from dict - value3
+2024-11-03 19:58:47,809 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,809 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:58:47,809 | DEBUG | Data written
+2024-11-03 19:58:47,809 | DEBUG | writing was True
+2024-11-03 19:58:47,809 | DEBUG | released all reader slots
+2024-11-03 19:58:47,809 | DEBUG | No writer
+2024-11-03 19:58:47,809 | DEBUG | Acquired reader lock
+2024-11-03 19:58:47,809 | DEBUG | Got value from dict - value2
+2024-11-03 19:58:47,809 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,809 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:58:47,824 | DEBUG | Data written
+2024-11-03 19:58:47,824 | DEBUG | writing was True
+2024-11-03 19:58:47,824 | DEBUG | released all reader slots
+2024-11-03 19:58:47,824 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,824 | DEBUG | Data written
+2024-11-03 19:58:47,840 | DEBUG | Got data
+2024-11-03 19:58:47,840 | DEBUG | Value added to dictionary
+2024-11-03 19:58:47,840 | DEBUG | Data written
+2024-11-03 19:58:47,871 | DEBUG | Tests complete
+2024-11-03 19:58:47,871 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:58:47,871 | DEBUG | Got data
+2024-11-03 19:59:09,462 | DEBUG | Data written
+2024-11-03 19:59:09,477 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:59:09,477 | DEBUG | Got data
+2024-11-03 19:59:09,493 | DEBUG | Value added to dictionary
+2024-11-03 19:59:09,493 | DEBUG | Deleted value from dict
+2024-11-03 19:59:09,509 | DEBUG | Value added to dictionary
+2024-11-03 19:59:09,509 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:59:09,509 | DEBUG | Value added to dictionary
+2024-11-03 19:59:09,509 | DEBUG | Got value from dict - Ophir
+2024-11-03 19:59:09,509 | DEBUG | Value added to dictionary
+2024-11-03 19:59:09,509 | DEBUG | Value added to dictionary
+2024-11-03 19:59:09,509 | DEBUG | No writer
+2024-11-03 19:59:09,509 | DEBUG | Acquired reader lock
+2024-11-03 19:59:09,509 | DEBUG | Got value from dict - None
+2024-11-03 19:59:09,524 | DEBUG | No writer
+2024-11-03 19:59:09,524 | DEBUG | No writer
+2024-11-03 19:59:09,524 | DEBUG | Acquired reader lock
+2024-11-03 19:59:09,524 | DEBUG | Acquired reader lock
+2024-11-03 19:59:09,524 | DEBUG | No writer
+2024-11-03 19:59:09,524 | DEBUG | Got value from dict - None
+2024-11-03 19:59:09,524 | DEBUG | No writer
+2024-11-03 19:59:09,524 | DEBUG | Got value from dict - None
+2024-11-03 19:59:09,524 | DEBUG | Acquired reader lock
+2024-11-03 19:59:09,524 | DEBUG | Acquired reader lock
+2024-11-03 19:59:09,524 | DEBUG | Got value from dict - None
+2024-11-03 19:59:09,540 | DEBUG | Got value from dict - None
+2024-11-03 19:59:10,043 | DEBUG | Value added to dictionary
+2024-11-03 19:59:10,043 | DEBUG | adding key4: value4 to db was True
+2024-11-03 19:59:10,043 | DEBUG | Data written
+2024-11-03 19:59:10,043 | DEBUG | writing was True
+2024-11-03 19:59:10,043 | DEBUG | released all reader slots
+2024-11-03 19:59:10,149 | DEBUG | No writer
+2024-11-03 19:59:10,149 | DEBUG | Acquired reader lock
+2024-11-03 19:59:10,149 | DEBUG | Got value from dict - value4
+2024-11-03 19:59:10,149 | DEBUG | Value added to dictionary
+2024-11-03 19:59:10,149 | DEBUG | adding key2: value2 to db was True
+2024-11-03 19:59:10,149 | DEBUG | Data written
+2024-11-03 19:59:10,149 | DEBUG | writing was True
+2024-11-03 19:59:10,149 | DEBUG | released all reader slots
+2024-11-03 19:59:10,149 | DEBUG | No writer
+2024-11-03 19:59:10,149 | DEBUG | Acquired reader lock
+2024-11-03 19:59:10,149 | DEBUG | Got value from dict - value2
+2024-11-03 19:59:10,165 | DEBUG | Value added to dictionary
+2024-11-03 19:59:10,165 | DEBUG | adding key1: value1 to db was True
+2024-11-03 19:59:10,165 | DEBUG | Data written
+2024-11-03 19:59:10,165 | DEBUG | writing was True
+2024-11-03 19:59:10,165 | DEBUG | released all reader slots
+2024-11-03 19:59:10,165 | DEBUG | Value added to dictionary
+2024-11-03 19:59:10,165 | DEBUG | Data written
+2024-11-03 19:59:10,180 | DEBUG | Got data
+2024-11-03 19:59:10,180 | DEBUG | Value added to dictionary
+2024-11-03 19:59:10,180 | DEBUG | Data written
+2024-11-03 19:59:10,196 | DEBUG | Tests complete
+2024-11-03 19:59:10,196 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 19:59:10,196 | DEBUG | Got data
+2024-11-03 20:00:49,851 | DEBUG | Data written
+2024-11-03 20:00:49,866 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:00:49,866 | DEBUG | Got data
+2024-11-03 20:00:49,913 | DEBUG | Value added to dictionary
+2024-11-03 20:00:49,913 | DEBUG | Deleted value from dict
+2024-11-03 20:00:49,913 | DEBUG | Value added to dictionary
+2024-11-03 20:00:49,913 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:00:49,929 | DEBUG | Value added to dictionary
+2024-11-03 20:00:49,929 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:00:49,929 | DEBUG | Value added to dictionary
+2024-11-03 20:00:49,929 | DEBUG | Value added to dictionary
+2024-11-03 20:00:49,944 | DEBUG | No writer
+2024-11-03 20:00:49,944 | DEBUG | Acquired reader lock
+2024-11-03 20:00:49,944 | DEBUG | No writer
+2024-11-03 20:00:49,944 | DEBUG | Got value from dict - None
+2024-11-03 20:00:49,944 | DEBUG | No writer
+2024-11-03 20:00:49,944 | DEBUG | Acquired reader lock
+2024-11-03 20:00:49,944 | DEBUG | No writer
+2024-11-03 20:00:49,960 | DEBUG | Acquired reader lock
+2024-11-03 20:00:49,960 | DEBUG | No writer
+2024-11-03 20:00:49,960 | DEBUG | Got value from dict - None
+2024-11-03 20:00:49,960 | DEBUG | Acquired reader lock
+2024-11-03 20:00:49,960 | DEBUG | Got value from dict - None
+2024-11-03 20:00:49,960 | DEBUG | Acquired reader lock
+2024-11-03 20:00:49,960 | DEBUG | Got value from dict - None
+2024-11-03 20:00:49,960 | DEBUG | Got value from dict - None
+2024-11-03 20:00:50,478 | DEBUG | Value added to dictionary
+2024-11-03 20:00:50,478 | DEBUG | adding key2: value2 to db was True
+2024-11-03 20:00:50,478 | DEBUG | Data written
+2024-11-03 20:00:50,478 | DEBUG | writing was True
+2024-11-03 20:00:50,478 | DEBUG | released all reader slots
+2024-11-03 20:00:50,478 | DEBUG | No writer
+2024-11-03 20:00:50,478 | DEBUG | Acquired reader lock
+2024-11-03 20:00:50,478 | DEBUG | Got value from dict - value2
+2024-11-03 20:00:50,478 | DEBUG | Value added to dictionary
+2024-11-03 20:00:50,478 | DEBUG | adding key1: value1 to db was True
+2024-11-03 20:00:50,494 | DEBUG | Data written
+2024-11-03 20:00:50,494 | DEBUG | writing was True
+2024-11-03 20:00:50,494 | DEBUG | released all reader slots
+2024-11-03 20:00:50,494 | DEBUG | Value added to dictionary
+2024-11-03 20:00:50,494 | DEBUG | Data written
+2024-11-03 20:00:50,509 | DEBUG | Got data
+2024-11-03 20:00:50,509 | DEBUG | Value added to dictionary
+2024-11-03 20:00:50,509 | DEBUG | Data written
+2024-11-03 20:00:50,525 | DEBUG | Tests complete
+2024-11-03 20:00:50,541 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:00:50,541 | DEBUG | Got data
+2024-11-03 20:04:26,085 | DEBUG | Data written
+2024-11-03 20:04:26,085 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-03 20:04:26,241 | DEBUG | Got data
+2024-11-03 20:04:26,288 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:04:26,288 | DEBUG | Got data
+2024-11-03 20:04:26,320 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,320 | DEBUG | Deleted value from dict
+2024-11-03 20:04:26,335 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,335 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:04:26,335 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,335 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:04:26,335 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,335 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,366 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,366 | DEBUG | adding key2: value2 to db was True
+2024-11-03 20:04:26,382 | DEBUG | Data written
+2024-11-03 20:04:26,382 | DEBUG | writing was True
+2024-11-03 20:04:26,382 | DEBUG | released all reader slots
+2024-11-03 20:04:26,382 | DEBUG | No writer
+2024-11-03 20:04:26,382 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,382 | DEBUG | Got value from dict - value2
+2024-11-03 20:04:26,398 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,398 | DEBUG | adding key1: value1 to db was True
+2024-11-03 20:04:26,398 | DEBUG | Data written
+2024-11-03 20:04:26,398 | DEBUG | writing was True
+2024-11-03 20:04:26,398 | DEBUG | released all reader slots
+2024-11-03 20:04:26,413 | DEBUG | No writer
+2024-11-03 20:04:26,413 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,413 | DEBUG | No writer
+2024-11-03 20:04:26,413 | DEBUG | Got value from dict - None
+2024-11-03 20:04:26,429 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,429 | DEBUG | No writer
+2024-11-03 20:04:26,429 | DEBUG | No writer
+2024-11-03 20:04:26,429 | DEBUG | Got value from dict - None
+2024-11-03 20:04:26,429 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,429 | DEBUG | No writer
+2024-11-03 20:04:26,429 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,445 | DEBUG | Got value from dict - None
+2024-11-03 20:04:26,445 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,445 | DEBUG | Got value from dict - None
+2024-11-03 20:04:26,445 | DEBUG | Got value from dict - None
+2024-11-03 20:04:26,954 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,954 | DEBUG | adding key2: value2 to db was True
+2024-11-03 20:04:26,954 | DEBUG | Data written
+2024-11-03 20:04:26,954 | DEBUG | writing was True
+2024-11-03 20:04:26,954 | DEBUG | released all reader slots
+2024-11-03 20:04:26,954 | DEBUG | No writer
+2024-11-03 20:04:26,954 | DEBUG | Acquired reader lock
+2024-11-03 20:04:26,954 | DEBUG | Got value from dict - value2
+2024-11-03 20:04:26,954 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,954 | DEBUG | adding key1: value1 to db was True
+2024-11-03 20:04:26,970 | DEBUG | Data written
+2024-11-03 20:04:26,970 | DEBUG | writing was True
+2024-11-03 20:04:26,970 | DEBUG | released all reader slots
+2024-11-03 20:04:26,970 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,970 | DEBUG | Data written
+2024-11-03 20:04:26,985 | DEBUG | Got data
+2024-11-03 20:04:26,985 | DEBUG | Value added to dictionary
+2024-11-03 20:04:26,985 | DEBUG | Data written
+2024-11-03 20:04:27,001 | DEBUG | Tests complete
+2024-11-03 20:04:27,001 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:04:27,001 | DEBUG | Got data
+2024-11-03 20:05:20,743 | DEBUG | Data written
+2024-11-03 20:05:20,743 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-03 20:05:20,837 | DEBUG | Got data
+2024-11-03 20:05:20,852 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:05:20,852 | DEBUG | Got data
+2024-11-03 20:05:20,868 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,884 | DEBUG | Deleted value from dict
+2024-11-03 20:05:20,884 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,884 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:05:20,884 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,884 | DEBUG | Got value from dict - Ophir
+2024-11-03 20:05:20,884 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,884 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,977 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,977 | DEBUG | adding key2: value2 to db was True
+2024-11-03 20:05:20,977 | DEBUG | Data written
+2024-11-03 20:05:20,977 | DEBUG | writing was True
+2024-11-03 20:05:20,977 | DEBUG | released all reader slots
+2024-11-03 20:05:20,977 | DEBUG | No writer
+2024-11-03 20:05:20,977 | DEBUG | Acquired reader lock
+2024-11-03 20:05:20,977 | DEBUG | Got value from dict - value2
+2024-11-03 20:05:20,977 | DEBUG | Value added to dictionary
+2024-11-03 20:05:20,977 | DEBUG | adding key1: value1 to db was True
+2024-11-03 20:05:20,993 | DEBUG | Data written
+2024-11-03 20:05:20,993 | DEBUG | writing was True
+2024-11-03 20:05:20,993 | DEBUG | released all reader slots
+2024-11-03 20:05:20,993 | DEBUG | No writer
+2024-11-03 20:05:20,993 | DEBUG | Acquired reader lock
+2024-11-03 20:05:20,993 | DEBUG | Got value from dict - None
+2024-11-03 20:05:20,993 | DEBUG | No writer
+2024-11-03 20:05:21,009 | DEBUG | Acquired reader lock
+2024-11-03 20:05:21,009 | DEBUG | Got value from dict - None
+2024-11-03 20:05:21,009 | DEBUG | No writer
+2024-11-03 20:05:21,009 | DEBUG | Acquired reader lock
+2024-11-03 20:05:21,009 | DEBUG | Got value from dict - None
+2024-11-03 20:05:21,009 | DEBUG | No writer
+2024-11-03 20:05:21,009 | DEBUG | Acquired reader lock
+2024-11-03 20:05:21,009 | DEBUG | Got value from dict - None
+2024-11-03 20:05:21,009 | DEBUG | No writer
+2024-11-03 20:05:21,009 | DEBUG | Acquired reader lock
+2024-11-03 20:05:21,009 | DEBUG | Got value from dict - None
+2024-11-03 20:05:21,523 | DEBUG | Value added to dictionary
+2024-11-03 20:05:21,523 | DEBUG | adding key2: value2 to db was True
+2024-11-03 20:05:21,523 | DEBUG | Data written
+2024-11-03 20:05:21,523 | DEBUG | writing was True
+2024-11-03 20:05:21,523 | DEBUG | released all reader slots
+2024-11-03 20:05:21,523 | DEBUG | No writer
+2024-11-03 20:05:21,523 | DEBUG | Acquired reader lock
+2024-11-03 20:05:21,523 | DEBUG | Got value from dict - value2
+2024-11-03 20:05:21,523 | DEBUG | Value added to dictionary
+2024-11-03 20:05:21,523 | DEBUG | adding key1: value1 to db was True
+2024-11-03 20:05:21,523 | DEBUG | Data written
+2024-11-03 20:05:21,539 | DEBUG | writing was True
+2024-11-03 20:05:21,539 | DEBUG | released all reader slots
+2024-11-03 20:05:21,539 | DEBUG | Value added to dictionary
+2024-11-03 20:05:21,539 | DEBUG | Data written
+2024-11-03 20:05:21,539 | DEBUG | Got data
+2024-11-03 20:05:21,554 | DEBUG | Value added to dictionary
+2024-11-03 20:05:21,554 | DEBUG | Data written
+2024-11-03 20:05:21,570 | DEBUG | Tests complete
+2024-11-03 20:05:21,570 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-03 20:05:21,570 | DEBUG | Got data
