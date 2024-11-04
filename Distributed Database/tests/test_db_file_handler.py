@@ -15,7 +15,7 @@ class TestFileHandler(unittest.TestCase):
 
     DB_NAME: str = "test_db"
     EXTENSION: str = ".pkl"
-    db: DbFileHandler = DbFileHandler(DB_NAME)
+    db = DbFileHandler(DB_NAME)
 
     def __get_file_content(self, filepath: str) -> bytes:
         """

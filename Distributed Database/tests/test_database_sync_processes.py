@@ -1,69 +1,142 @@
 import unittest
-from multiprocessing import Process
+import multiprocessing
 import time
+
 from operation_methods import OperationSettings
 from database_syncer import DbSynchronizer
 from log_manager import LOGGER
+from typing import Any
+
+db_sync = DbSynchronizer(operation_method=OperationSettings.PROCESSES, name="test_processes")
+tmp_db = DbSynchronizer(OperationSettings.PROCESSES, 'tmp_db_processes')
 
 
 class TestDbSynchronizerWithProcesses(unittest.TestCase):
-    db_sync = DbSynchronizer(operation_method=OperationSettings.PROCESSES, name="test_db")
+    key, value = "name", "Ophir"
 
-    def test_simple_write_access(self) -> None:
+    def read(self, key: Any, result: Any, db: DbSynchronizer, test: str) -> None:
         """
-        Tests that write access can be acquired without any competition.
-        Logs the start and end of the test, and the result of the write operation.
+        Read from db and test result.
+        :param test: the test name for the logs
+        :param db: the db to read from
+        :param key: the key to read from the db.
+        :param result: the expected result.
         :return: None
         """
-        LOGGER.debug("Starting test_simple_write_access")
-        result = self.db_sync.write_to_db("key1", "value1")
-        LOGGER.debug(f"Write access result: {result}")
-        self.assertTrue(result)
-        LOGGER.debug("Completed test_simple_write_access")
+        res = db.read_from_db(key)
 
-    def test_simple_read_access(self):
+        self.assertEqual(res, result)
+        LOGGER.debug('finished reading - ' + test)
+
+    def write(self, key: Any, value: Any, db: DbSynchronizer, test: str) -> None:
         """
-        Tests that read access can be acquired without any competition.
-        Logs the start and end of the test, and verifies the read result matches the expected value.
+        Write to db and test result
+        :param test: the test name for the logs
+        :param db: the db to write to
+        :param key: the key to write to  the db.
+        :param value: the value to write.
         :return: None
         """
-        LOGGER.debug("Starting test_simple_read_access")
-        self.db_sync.write_to_db("key2", "value2")
-        result = self.db_sync.read_from_db("key2")
-        LOGGER.debug(f"Read access result for key2: {result}")
-        self.assertEqual(result, "value2")
-        LOGGER.debug("Completed test_simple_read_access")
+        res = db.write_to_db(key, value)
 
-    def test_concurrent_read_access(self):
+        self.assertTrue(res)
+        LOGGER.debug('finished writing - ' + test)
+
+    def test_no_contest_write(self) -> None:
         """
-        Tests that multiple processes can acquire read access concurrently.
-        Logs the start and end of the test, along with each reader process's activity.
+        Test writing to the file using processes without any contest
         :return: None
         """
-        LOGGER.debug("Starting test_concurrent_read_access")
+        res = db_sync.write_to_db(self.key, self.value)
 
-        def reader():
-            """
-            Simulates a read operation on the database with delay.
-            Logs the start and completion of each read operation.
-            :return: None
-            """
-            LOGGER.debug(f"Reader process {current_process().name} started")
-            self.db_sync.read_from_db("key5")
-            LOGGER.debug(f"Reader process {current_process().name} completed")
-            time.sleep(0.5)
+        self.assertTrue(res)
+        LOGGER.debug('no contest writing test finished')
 
-        readers = [Process(target=reader, name=f'Reader-{i}') for i in range(5)]
+    def test_no_contest_read(self) -> None:
+        """
+        Test writing to the file using processes without any contest
+        :return: None
+        """
+        # Making sure that it is written
+        db_sync.write_to_db(self.key, self.value)
 
-        for r in readers:
-            r.start()
+        res = db_sync.read_from_db(self.key)
+        self.assertEqual(self.value, res)
+        LOGGER.debug('no contest reading test complete')
 
-        for r in readers:
-            r.join()
+    def test_write_then_read(self) -> None:
+        """
+        Test trying to read while writer is writing.
+        :return: None
+        """
+        key, value = "age", 17
 
-        LOGGER.debug("Completed test_concurrent_read_access")
-        self.assertTrue(True)
+        processes = [multiprocessing.Process(target=self.write, args=[key, value, db_sync, "write then read"]),
+                     multiprocessing.Process(target=self.read, args=[key, value, db_sync, "write then read"])]
 
+        for p in processes:
+            p.start()
 
-if __name__ == "__main__":
-    unittest.main()
+        for p in processes:
+            p.join()
+
+    def test_read_then_write(self) -> None:
+        """
+        Test trying to read while writer is writing.
+        :return: None
+        """
+        key, value = "height", "tall"
+
+        p1 = multiprocessing.Process(target=self.read, args=[key, None, db_sync, "read then write"])
+        p2 = multiprocessing.Process(target=self.write, args=[key, value, db_sync, "read then write"])
+
+        p1.start()
+        time.sleep(.1)
+        p2.start()
+
+        p1.join()
+        p2.join()
+
+    def test_multiple_readers(self) -> None:
+        """
+        Test multiple readers at the same time
+        :return: None
+        """
+        db_sync.write_to_db(self.key, self.value)
+
+        processes = [multiprocessing.Process(target=self.read, args=[self.key, self.value, db_sync,
+                                                                     "multiple readers"]) for i in range(10)]
+
+        for p in processes:
+            p.start()
+
+        for p in processes:
+            p.join()
+
+    def test_final(self) -> None:
+        """
+        Test in different db!
+        Final Test
+        :return: None
+        """
+
+        processes = [multiprocessing.Process(target=self.read, args=["num", None, tmp_db, "write then read"])
+                     for i in range(3)]
+
+        writing_process = multiprocessing.Process(target=self.write, args=["num", "12", tmp_db, "write then read"])
+
+        processes2 = [multiprocessing.Process(target=self.read, args=["num", "12", tmp_db, "write then read"])
+                      for i in range(3)]
+
+        for p in processes:
+            p.start()
+
+        time.sleep(.001)
+        writing_process.start()
+        time.sleep(.001)
+
+        for p in processes2:
+            p.start()
+
+        for p in processes + processes2 + [writing_process]:
+            p.join()

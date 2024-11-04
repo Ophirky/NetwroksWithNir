@@ -2,11 +2,11 @@
     AUTHOR: Ophir Nevo Michrowski
     DESCRIPTION: File handling class
 """
-import os.path
 # Imports #
-import pickle
+import os.path
 from database import Database
 from global_varaibles import LOGGER
+import pickle
 
 # File Handler #
 class DbFileHandler(Database):
