@@ -8,6 +8,7 @@ import threading
 import multiprocessing
 from typing import Any
 
+import operation_methods
 from operation_methods import OperationSettings
 from global_varaibles import LOGGER
 from database_file_handler import DbFileHandler
@@ -65,6 +66,7 @@ class DbSynchronizer(DbFileHandler):
         with self.reader_lock:
             LOGGER.debug('Acquired reader lock')
             res = self.get_value(key)
+            print("sync: " + str(res))
 
         return res
 
