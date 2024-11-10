@@ -37,19 +37,20 @@ class DbSynchronizer(DbFileHandler):
                 self.reader_lock = threading.Semaphore(MAX_READERS)
                 self.waiting_for_writer = threading.Event()
 
+                # Initial read of the file #
+                self.db = self.get_data()
+
             case OperationSettings.PROCESSES:
                 self.write_lock = multiprocessing.Lock()
                 self.reader_lock = multiprocessing.Semaphore(MAX_READERS)
                 self.waiting_for_writer = multiprocessing.Event()
+                self.db = multiprocessing.Manager().dict(self.get_data())
 
             case _:
                 raise ValueError('Operation method not recognized')
 
         # When event is set there is no writer and when event is clear there is a writer #
         self.waiting_for_writer.set()
-
-        # Initial read of the file #
-        self.db = self.get_data()
 
     def read_from_db(self, key: Any) -> Any:
         """
@@ -66,7 +67,6 @@ class DbSynchronizer(DbFileHandler):
         with self.reader_lock:
             LOGGER.debug('Acquired reader lock')
             res = self.get_value(key)
-            print("sync: " + str(res))
 
         return res
 

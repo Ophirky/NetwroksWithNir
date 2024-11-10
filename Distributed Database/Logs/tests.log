@@ -412,3 +412,378 @@
 2024-11-04 18:16:54,023 | DEBUG | Finished writing - write then read
 2024-11-04 18:16:54,150 | DEBUG | Finished reading - write then read
 2024-11-04 18:16:59,342 | DEBUG | Finished writing - write then read
+2024-11-10 12:42:57,456 | DEBUG | Finished writing - write then read
+2024-11-10 12:42:57,646 | DEBUG | Finished reading - write then read
+2024-11-10 12:43:21,468 | DEBUG | No contest writing test finished
+2024-11-10 12:43:21,468 | DEBUG | No contest reading test complete
+2024-11-10 12:43:21,579 | DEBUG | Finished writing - write then read
+2024-11-10 12:43:21,698 | DEBUG | Finished reading - write then read
+2024-11-10 12:43:21,800 | DEBUG | Finished reading - read then write
+2024-11-10 12:43:21,920 | DEBUG | Finished writing - read then write
+2024-11-10 12:43:22,052 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,075 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,095 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,112 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,131 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,145 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,163 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,179 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,196 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,212 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:43:22,323 | DEBUG | Finished reading - final
+2024-11-10 12:43:22,342 | DEBUG | Finished reading - final
+2024-11-10 12:43:22,361 | DEBUG | Finished reading - final
+2024-11-10 12:43:22,392 | DEBUG | Finished writing - final
+2024-11-10 12:46:25,731 | DEBUG | No contest writing test finished
+2024-11-10 12:46:25,731 | DEBUG | No contest reading test complete
+2024-11-10 12:46:25,836 | DEBUG | Finished writing - write then read
+2024-11-10 12:46:25,956 | DEBUG | Finished reading - write then read
+2024-11-10 12:46:26,058 | DEBUG | Finished reading - read then write
+2024-11-10 12:46:26,177 | DEBUG | Finished writing - read then write
+2024-11-10 12:46:26,294 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,314 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,331 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,348 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,367 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,382 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,400 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,419 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,436 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:46:26,450 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,071 | DEBUG | No contest writing test finished
+2024-11-10 12:49:28,071 | DEBUG | No contest reading test complete
+2024-11-10 12:49:28,172 | DEBUG | Finished writing - write then read
+2024-11-10 12:49:28,302 | DEBUG | Finished reading - write then read
+2024-11-10 12:49:28,402 | DEBUG | Finished reading - read then write
+2024-11-10 12:49:28,524 | DEBUG | Finished writing - read then write
+2024-11-10 12:49:28,641 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,660 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,678 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,698 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,717 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,737 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,757 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,771 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,789 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:49:28,805 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,338 | DEBUG | No contest writing test finished
+2024-11-10 12:53:27,338 | DEBUG | No contest reading test complete
+2024-11-10 12:53:27,440 | DEBUG | Finished writing - write then read
+2024-11-10 12:53:27,571 | DEBUG | Finished reading - write then read
+2024-11-10 12:53:27,670 | DEBUG | Finished reading - read then write
+2024-11-10 12:53:27,789 | DEBUG | Finished writing - read then write
+2024-11-10 12:53:27,900 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,918 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,938 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,955 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,975 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:27,991 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:28,008 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:28,025 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:28,040 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:28,055 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:53:28,166 | DEBUG | Finished reading - final
+2024-11-10 12:53:28,185 | DEBUG | Finished reading - final
+2024-11-10 12:53:28,201 | DEBUG | Finished reading - final
+2024-11-10 12:53:28,229 | DEBUG | Finished writing - final
+2024-11-10 12:57:30,882 | DEBUG | No contest writing test finished
+2024-11-10 12:57:30,882 | DEBUG | No contest reading test complete
+2024-11-10 12:57:30,979 | DEBUG | Finished writing - write then read
+2024-11-10 12:57:31,096 | DEBUG | Finished reading - write then read
+2024-11-10 12:57:31,198 | DEBUG | Finished reading - read then write
+2024-11-10 12:57:31,322 | DEBUG | Finished writing - read then write
+2024-11-10 12:57:31,434 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,453 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,471 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,492 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,508 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,526 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,542 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,558 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,576 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,591 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:31,703 | DEBUG | Finished reading - final
+2024-11-10 12:57:31,721 | DEBUG | Finished reading - final
+2024-11-10 12:57:31,739 | DEBUG | Finished reading - final
+2024-11-10 12:57:31,763 | DEBUG | Finished writing - final
+2024-11-10 12:57:51,808 | DEBUG | No contest writing test finished
+2024-11-10 12:57:51,808 | DEBUG | No contest reading test complete
+2024-11-10 12:57:51,902 | DEBUG | Finished writing - write then read
+2024-11-10 12:57:52,123 | DEBUG | Finished reading - read then write
+2024-11-10 12:57:52,247 | DEBUG | Finished writing - read then write
+2024-11-10 12:57:52,363 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,381 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,400 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,418 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,435 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,452 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,467 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,488 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,504 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,519 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:57:52,630 | DEBUG | Finished reading - final
+2024-11-10 12:57:52,650 | DEBUG | Finished reading - final
+2024-11-10 12:57:52,669 | DEBUG | Finished reading - final
+2024-11-10 12:57:52,688 | DEBUG | Finished writing - final
+2024-11-10 12:58:22,369 | DEBUG | No contest writing test finished
+2024-11-10 12:58:22,369 | DEBUG | No contest reading test complete
+2024-11-10 12:58:22,461 | DEBUG | Finished writing - write then read
+2024-11-10 12:58:22,687 | DEBUG | Finished reading - read then write
+2024-11-10 12:58:22,809 | DEBUG | Finished writing - read then write
+2024-11-10 12:58:22,921 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:22,940 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:22,959 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:22,982 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:22,998 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,015 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,033 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,054 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,070 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,084 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:23,199 | DEBUG | Finished reading - final
+2024-11-10 12:58:23,219 | DEBUG | Finished reading - final
+2024-11-10 12:58:23,238 | DEBUG | Finished reading - final
+2024-11-10 12:58:23,260 | DEBUG | Finished writing - final
+2024-11-10 12:58:31,138 | DEBUG | No contest writing test finished
+2024-11-10 12:58:31,138 | DEBUG | No contest reading test complete
+2024-11-10 12:58:31,234 | DEBUG | Finished writing - write then read
+2024-11-10 12:58:31,471 | DEBUG | Finished reading - read then write
+2024-11-10 12:58:31,603 | DEBUG | Finished writing - read then write
+2024-11-10 12:58:31,721 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,741 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,760 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,779 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,801 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,819 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,837 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,858 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,876 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:31,891 | DEBUG | Finished reading - multiple readers
+2024-11-10 12:58:32,005 | DEBUG | Finished reading - final
+2024-11-10 12:58:32,024 | DEBUG | Finished reading - final
+2024-11-10 12:58:32,042 | DEBUG | Finished reading - final
+2024-11-10 12:58:32,065 | DEBUG | Finished writing - final
+2024-11-10 13:07:42,476 | DEBUG | No contest writing test finished
+2024-11-10 13:07:42,476 | DEBUG | No contest reading test complete
+2024-11-10 13:07:42,577 | DEBUG | Finished writing - write then read
+2024-11-10 13:07:42,699 | DEBUG | Finished reading - write then read
+2024-11-10 13:07:42,807 | DEBUG | Finished reading - read then write
+2024-11-10 13:07:42,936 | DEBUG | Finished writing - read then write
+2024-11-10 13:07:43,061 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,080 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,098 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,117 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,135 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,153 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,169 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,186 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,204 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,218 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:43,341 | DEBUG | Finished reading - final
+2024-11-10 13:07:43,360 | DEBUG | Finished reading - final
+2024-11-10 13:07:43,379 | DEBUG | Finished reading - final
+2024-11-10 13:07:43,396 | DEBUG | Finished writing - final
+2024-11-10 13:07:43,428 | DEBUG | Finished reading - final
+2024-11-10 13:07:43,445 | DEBUG | Finished reading - final
+2024-11-10 13:07:43,460 | DEBUG | Finished reading - final
+2024-11-10 13:07:49,995 | DEBUG | No contest writing test finished
+2024-11-10 13:07:49,995 | DEBUG | No contest reading test complete
+2024-11-10 13:07:50,100 | DEBUG | Finished writing - write then read
+2024-11-10 13:07:50,225 | DEBUG | Finished reading - write then read
+2024-11-10 13:07:50,333 | DEBUG | Finished reading - read then write
+2024-11-10 13:07:50,464 | DEBUG | Finished writing - read then write
+2024-11-10 13:07:50,589 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,609 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,628 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,647 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,664 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,681 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,697 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,713 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,728 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,743 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:07:50,864 | DEBUG | Finished reading - final
+2024-11-10 13:07:50,884 | DEBUG | Finished reading - final
+2024-11-10 13:07:50,902 | DEBUG | Finished reading - final
+2024-11-10 13:07:50,923 | DEBUG | Finished writing - final
+2024-11-10 13:07:50,954 | DEBUG | Finished reading - final
+2024-11-10 13:07:50,969 | DEBUG | Finished reading - final
+2024-11-10 13:07:50,985 | DEBUG | Finished reading - final
+2024-11-10 13:08:37,472 | DEBUG | Delete value test complete
+2024-11-10 13:08:37,472 | DEBUG | Delete value test complete
+2024-11-10 13:08:37,472 | DEBUG | Get value test complete
+2024-11-10 13:08:37,472 | DEBUG | Get value test complete
+2024-11-10 13:08:37,472 | DEBUG | Adding value test complete
+2024-11-10 13:08:37,472 | DEBUG | Adding value test complete
+2024-11-10 13:08:37,472 | DEBUG | Changing value test complete
+2024-11-10 13:08:37,472 | DEBUG | Changing value test complete
+2024-11-10 13:08:37,473 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,473 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,474 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,474 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,474 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,474 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,483 | DEBUG | finished writing - final test
+2024-11-10 13:08:37,483 | DEBUG | finished writing - final test
+2024-11-10 13:08:37,499 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,499 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,499 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,499 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,500 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,500 | DEBUG | finished reading - final test
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,502 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,503 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:37,504 | DEBUG | no contest reading test complete
+2024-11-10 13:08:37,504 | DEBUG | no contest reading test complete
+2024-11-10 13:08:37,504 | DEBUG | no contest writing test finished
+2024-11-10 13:08:37,504 | DEBUG | no contest writing test finished
+2024-11-10 13:08:37,504 | DEBUG | finished reading - read then write
+2024-11-10 13:08:37,504 | DEBUG | finished reading - read then write
+2024-11-10 13:08:37,609 | DEBUG | finished writing - read then write
+2024-11-10 13:08:37,609 | DEBUG | finished writing - read then write
+2024-11-10 13:08:37,610 | DEBUG | finished writing - write then read
+2024-11-10 13:08:37,610 | DEBUG | finished writing - write then read
+2024-11-10 13:08:37,610 | DEBUG | finished reading - write then read
+2024-11-10 13:08:37,610 | DEBUG | finished reading - write then read
+2024-11-10 13:08:37,611 | DEBUG | Reading from file test complete
+2024-11-10 13:08:37,611 | DEBUG | Reading from file test complete
+2024-11-10 13:08:37,611 | DEBUG | Writing to file test finished
+2024-11-10 13:08:37,611 | DEBUG | Writing to file test finished
+2024-11-10 13:08:37,611 | DEBUG | File read was successful
+2024-11-10 13:08:37,611 | DEBUG | File read was successful
+2024-11-10 13:08:37,611 | DEBUG | File read was successful
+2024-11-10 13:08:37,611 | DEBUG | File read was successful
+2024-11-10 13:08:37,611 | DEBUG | Testing file contents after writing to file test finished
+2024-11-10 13:08:37,611 | DEBUG | Testing file contents after writing to file test finished
+2024-11-10 13:08:38,064 | DEBUG | No contest writing test finished
+2024-11-10 13:08:38,064 | DEBUG | No contest writing test finished
+2024-11-10 13:08:38,064 | DEBUG | No contest reading test complete
+2024-11-10 13:08:38,064 | DEBUG | No contest reading test complete
+2024-11-10 13:08:38,168 | DEBUG | Finished writing - write then read
+2024-11-10 13:08:38,296 | DEBUG | Finished reading - write then read
+2024-11-10 13:08:38,404 | DEBUG | Finished reading - read then write
+2024-11-10 13:08:38,531 | DEBUG | Finished writing - read then write
+2024-11-10 13:08:38,657 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,676 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,696 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,715 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,733 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,750 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,767 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,784 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,799 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,814 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:38,939 | DEBUG | Finished reading - final
+2024-11-10 13:08:38,958 | DEBUG | Finished reading - final
+2024-11-10 13:08:38,977 | DEBUG | Finished reading - final
+2024-11-10 13:08:38,996 | DEBUG | Finished writing - final
+2024-11-10 13:08:39,025 | DEBUG | Finished reading - final
+2024-11-10 13:08:39,044 | DEBUG | Finished reading - final
+2024-11-10 13:08:39,058 | DEBUG | Finished reading - final
+2024-11-10 13:08:57,403 | DEBUG | Delete value test complete
+2024-11-10 13:08:57,403 | DEBUG | Delete value test complete
+2024-11-10 13:08:57,403 | DEBUG | Get value test complete
+2024-11-10 13:08:57,403 | DEBUG | Get value test complete
+2024-11-10 13:08:57,403 | DEBUG | Adding value test complete
+2024-11-10 13:08:57,403 | DEBUG | Adding value test complete
+2024-11-10 13:08:57,403 | DEBUG | Changing value test complete
+2024-11-10 13:08:57,403 | DEBUG | Changing value test complete
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,405 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,414 | DEBUG | finished writing - final test
+2024-11-10 13:08:57,414 | DEBUG | finished writing - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,431 | DEBUG | finished reading - final test
+2024-11-10 13:08:57,432 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,432 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,432 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,432 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,433 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,433 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,434 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | finished reading - multiple readers
+2024-11-10 13:08:57,435 | DEBUG | no contest reading test complete
+2024-11-10 13:08:57,435 | DEBUG | no contest reading test complete
+2024-11-10 13:08:57,436 | DEBUG | no contest writing test finished
+2024-11-10 13:08:57,436 | DEBUG | no contest writing test finished
+2024-11-10 13:08:57,436 | DEBUG | finished reading - read then write
+2024-11-10 13:08:57,436 | DEBUG | finished reading - read then write
+2024-11-10 13:08:57,540 | DEBUG | finished writing - read then write
+2024-11-10 13:08:57,540 | DEBUG | finished writing - read then write
+2024-11-10 13:08:57,541 | DEBUG | finished writing - write then read
+2024-11-10 13:08:57,541 | DEBUG | finished writing - write then read
+2024-11-10 13:08:57,541 | DEBUG | finished reading - write then read
+2024-11-10 13:08:57,541 | DEBUG | finished reading - write then read
+2024-11-10 13:08:57,542 | DEBUG | Reading from file test complete
+2024-11-10 13:08:57,542 | DEBUG | Reading from file test complete
+2024-11-10 13:08:57,542 | DEBUG | Writing to file test finished
+2024-11-10 13:08:57,542 | DEBUG | Writing to file test finished
+2024-11-10 13:08:57,542 | DEBUG | File read was successful
+2024-11-10 13:08:57,542 | DEBUG | File read was successful
+2024-11-10 13:08:57,542 | DEBUG | File read was successful
+2024-11-10 13:08:57,542 | DEBUG | File read was successful
+2024-11-10 13:08:57,542 | DEBUG | Testing file contents after writing to file test finished
+2024-11-10 13:08:57,542 | DEBUG | Testing file contents after writing to file test finished
+2024-11-10 13:08:58,050 | DEBUG | No contest writing test finished
+2024-11-10 13:08:58,050 | DEBUG | No contest writing test finished
+2024-11-10 13:08:58,050 | DEBUG | No contest reading test complete
+2024-11-10 13:08:58,050 | DEBUG | No contest reading test complete
+2024-11-10 13:08:58,159 | DEBUG | Finished writing - write then read
+2024-11-10 13:08:58,276 | DEBUG | Finished reading - write then read
+2024-11-10 13:08:58,388 | DEBUG | Finished reading - read then write
+2024-11-10 13:08:58,516 | DEBUG | Finished writing - read then write
+2024-11-10 13:08:58,675 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,708 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,738 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,766 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,788 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,806 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,830 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,851 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,867 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:58,880 | DEBUG | Finished reading - multiple readers
+2024-11-10 13:08:59,006 | DEBUG | Finished reading - final
+2024-11-10 13:08:59,027 | DEBUG | Finished reading - final
+2024-11-10 13:08:59,044 | DEBUG | Finished reading - final
+2024-11-10 13:08:59,072 | DEBUG | Finished writing - final
+2024-11-10 13:08:59,104 | DEBUG | Finished reading - final
+2024-11-10 13:08:59,117 | DEBUG | Finished reading - final
+2024-11-10 13:08:59,136 | DEBUG | Finished reading - final

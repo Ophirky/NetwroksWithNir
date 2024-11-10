@@ -12,8 +12,11 @@ from typing import Any
 
 class DbSynchronizerTests:
     def __init__(self):
-        self.db_sync = DbSynchronizer(operation_method=OperationSettings.PROCESSES, name="test_processes")
-        self.tmp_db = DbSynchronizer(OperationSettings.PROCESSES, 'tmp_db_processes')
+        self.db_sync = multiprocessing.Manager().SharedDatabase = DbSynchronizer(
+            operation_method=OperationSettings.PROCESSES, name="test_processes")
+
+        self.tmp_db = multiprocessing.Manager().SharedDatabase = DbSynchronizer(OperationSettings.PROCESSES,
+                                                                                'tmp_db_processes')
         self.key, self.value = "name", "Ophir"
 
     @staticmethod
@@ -42,7 +45,6 @@ class DbSynchronizerTests:
         :return: None
         """
         result = db.write_to_db(key, value)
-        print(result, db.read_from_db(key))
         if not result:
             raise AssertionError(f"Test {test_name} failed: Write operation was not successful")
         LOGGER.debug('Finished writing - ' + test_name)
@@ -124,12 +126,12 @@ class DbSynchronizerTests:
     def run_tests(self) -> None:
         """Run all tests and report results."""
         try:
-            #self.test_no_contest_write()
-            #self.test_no_contest_read()
+            self.test_no_contest_write()
+            self.test_no_contest_read()
             self.test_write_then_read()
-            #self.test_read_then_write()
-            #self.test_multiple_readers()
-            #self.test_final()
+            self.test_read_then_write()
+            self.test_multiple_readers()
+            self.test_final()
             print("All tests passed successfully.")
         except AssertionError as e:
             print(str(e))

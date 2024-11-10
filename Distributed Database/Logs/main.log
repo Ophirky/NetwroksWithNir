@@ -1323,3 +1323,1340 @@
 2024-11-04 18:16:59,460 | DEBUG | Acquired reader lock
 2024-11-04 18:16:59,460 | DEBUG | Got value from dict - None
 2024-11-04 18:16:59,468 | DEBUG | Tests complete
+2024-11-10 12:42:56,912 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:42:56,957 | DEBUG | Got data
+2024-11-10 12:42:56,957 | DEBUG | Data written
+2024-11-10 12:42:56,957 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:42:56,958 | DEBUG | Got data
+2024-11-10 12:42:57,455 | DEBUG | Value added to dictionary
+2024-11-10 12:42:57,455 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:42:57,455 | DEBUG | Data written
+2024-11-10 12:42:57,456 | DEBUG | writing was True
+2024-11-10 12:42:57,456 | DEBUG | released all reader slots
+2024-11-10 12:42:57,456 | DEBUG | No writer
+2024-11-10 12:42:57,456 | DEBUG | Acquired reader lock
+2024-11-10 12:42:57,456 | DEBUG | Got value from dict - 17
+2024-11-10 12:42:57,646 | DEBUG | No writer
+2024-11-10 12:42:57,646 | DEBUG | Acquired reader lock
+2024-11-10 12:42:57,646 | DEBUG | Got value from dict - 17
+2024-11-10 12:42:57,735 | DEBUG | Tests complete
+2024-11-10 12:43:21,458 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:43:21,467 | DEBUG | Got data
+2024-11-10 12:43:21,467 | DEBUG | Data written
+2024-11-10 12:43:21,467 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:43:21,467 | DEBUG | Got data
+2024-11-10 12:43:21,467 | DEBUG | Value added to dictionary
+2024-11-10 12:43:21,467 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:43:21,467 | DEBUG | Data written
+2024-11-10 12:43:21,467 | DEBUG | writing was True
+2024-11-10 12:43:21,468 | DEBUG | released all reader slots
+2024-11-10 12:43:21,468 | DEBUG | No writer
+2024-11-10 12:43:21,468 | DEBUG | Acquired reader lock
+2024-11-10 12:43:21,468 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:21,578 | DEBUG | Value added to dictionary
+2024-11-10 12:43:21,578 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:43:21,579 | DEBUG | Data written
+2024-11-10 12:43:21,579 | DEBUG | writing was True
+2024-11-10 12:43:21,579 | DEBUG | released all reader slots
+2024-11-10 12:43:21,579 | DEBUG | No writer
+2024-11-10 12:43:21,579 | DEBUG | Acquired reader lock
+2024-11-10 12:43:21,579 | DEBUG | Got value from dict - 17
+2024-11-10 12:43:21,698 | DEBUG | No writer
+2024-11-10 12:43:21,698 | DEBUG | Acquired reader lock
+2024-11-10 12:43:21,698 | DEBUG | Got value from dict - 17
+2024-11-10 12:43:21,800 | DEBUG | No writer
+2024-11-10 12:43:21,800 | DEBUG | Acquired reader lock
+2024-11-10 12:43:21,800 | DEBUG | Got value from dict - None
+2024-11-10 12:43:21,920 | DEBUG | Value added to dictionary
+2024-11-10 12:43:21,920 | DEBUG | adding height: tall to db was True
+2024-11-10 12:43:21,920 | DEBUG | Data written
+2024-11-10 12:43:21,920 | DEBUG | writing was True
+2024-11-10 12:43:21,920 | DEBUG | released all reader slots
+2024-11-10 12:43:21,920 | DEBUG | No writer
+2024-11-10 12:43:21,920 | DEBUG | Acquired reader lock
+2024-11-10 12:43:21,920 | DEBUG | Got value from dict - tall
+2024-11-10 12:43:21,927 | DEBUG | Value added to dictionary
+2024-11-10 12:43:21,927 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:43:21,927 | DEBUG | Data written
+2024-11-10 12:43:21,927 | DEBUG | writing was True
+2024-11-10 12:43:21,928 | DEBUG | released all reader slots
+2024-11-10 12:43:22,052 | DEBUG | No writer
+2024-11-10 12:43:22,052 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,052 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,075 | DEBUG | No writer
+2024-11-10 12:43:22,075 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,075 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,095 | DEBUG | No writer
+2024-11-10 12:43:22,095 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,095 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,112 | DEBUG | No writer
+2024-11-10 12:43:22,112 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,112 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,130 | DEBUG | No writer
+2024-11-10 12:43:22,131 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,131 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,145 | DEBUG | No writer
+2024-11-10 12:43:22,145 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,145 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,163 | DEBUG | No writer
+2024-11-10 12:43:22,163 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,163 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,179 | DEBUG | No writer
+2024-11-10 12:43:22,179 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,179 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,196 | DEBUG | No writer
+2024-11-10 12:43:22,196 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,196 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,211 | DEBUG | No writer
+2024-11-10 12:43:22,211 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,212 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:43:22,323 | DEBUG | No writer
+2024-11-10 12:43:22,323 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,323 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,341 | DEBUG | No writer
+2024-11-10 12:43:22,341 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,341 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,361 | DEBUG | No writer
+2024-11-10 12:43:22,361 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,361 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,391 | DEBUG | Value added to dictionary
+2024-11-10 12:43:22,391 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:43:22,392 | DEBUG | Data written
+2024-11-10 12:43:22,392 | DEBUG | writing was True
+2024-11-10 12:43:22,392 | DEBUG | released all reader slots
+2024-11-10 12:43:22,392 | DEBUG | No writer
+2024-11-10 12:43:22,392 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,392 | DEBUG | Got value from dict - 12
+2024-11-10 12:43:22,425 | DEBUG | No writer
+2024-11-10 12:43:22,425 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,425 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,440 | DEBUG | No writer
+2024-11-10 12:43:22,440 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,440 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,458 | DEBUG | No writer
+2024-11-10 12:43:22,458 | DEBUG | Acquired reader lock
+2024-11-10 12:43:22,458 | DEBUG | Got value from dict - None
+2024-11-10 12:43:22,466 | DEBUG | Tests complete
+2024-11-10 12:46:25,722 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:46:25,730 | DEBUG | Got data
+2024-11-10 12:46:25,730 | DEBUG | Data written
+2024-11-10 12:46:25,730 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:46:25,731 | DEBUG | Got data
+2024-11-10 12:46:25,731 | DEBUG | Value added to dictionary
+2024-11-10 12:46:25,731 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:46:25,731 | DEBUG | Data written
+2024-11-10 12:46:25,731 | DEBUG | writing was True
+2024-11-10 12:46:25,731 | DEBUG | released all reader slots
+2024-11-10 12:46:25,731 | DEBUG | No writer
+2024-11-10 12:46:25,731 | DEBUG | Acquired reader lock
+2024-11-10 12:46:25,731 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:25,836 | DEBUG | Value added to dictionary
+2024-11-10 12:46:25,836 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:46:25,836 | DEBUG | Data written
+2024-11-10 12:46:25,836 | DEBUG | writing was True
+2024-11-10 12:46:25,836 | DEBUG | released all reader slots
+2024-11-10 12:46:25,836 | DEBUG | No writer
+2024-11-10 12:46:25,836 | DEBUG | Acquired reader lock
+2024-11-10 12:46:25,836 | DEBUG | Got value from dict - 17
+2024-11-10 12:46:25,955 | DEBUG | No writer
+2024-11-10 12:46:25,956 | DEBUG | Acquired reader lock
+2024-11-10 12:46:25,956 | DEBUG | Got value from dict - 17
+2024-11-10 12:46:26,058 | DEBUG | No writer
+2024-11-10 12:46:26,058 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,058 | DEBUG | Got value from dict - None
+2024-11-10 12:46:26,176 | DEBUG | Value added to dictionary
+2024-11-10 12:46:26,176 | DEBUG | adding height: tall to db was True
+2024-11-10 12:46:26,177 | DEBUG | Data written
+2024-11-10 12:46:26,177 | DEBUG | writing was True
+2024-11-10 12:46:26,177 | DEBUG | released all reader slots
+2024-11-10 12:46:26,177 | DEBUG | No writer
+2024-11-10 12:46:26,177 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,177 | DEBUG | Got value from dict - tall
+2024-11-10 12:46:26,185 | DEBUG | Value added to dictionary
+2024-11-10 12:46:26,185 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:46:26,185 | DEBUG | Data written
+2024-11-10 12:46:26,185 | DEBUG | writing was True
+2024-11-10 12:46:26,185 | DEBUG | released all reader slots
+2024-11-10 12:46:26,294 | DEBUG | No writer
+2024-11-10 12:46:26,294 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,294 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,314 | DEBUG | No writer
+2024-11-10 12:46:26,314 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,314 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,330 | DEBUG | No writer
+2024-11-10 12:46:26,331 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,331 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,348 | DEBUG | No writer
+2024-11-10 12:46:26,348 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,348 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,367 | DEBUG | No writer
+2024-11-10 12:46:26,367 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,367 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,382 | DEBUG | No writer
+2024-11-10 12:46:26,382 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,382 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,400 | DEBUG | No writer
+2024-11-10 12:46:26,400 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,400 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,419 | DEBUG | No writer
+2024-11-10 12:46:26,419 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,419 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,436 | DEBUG | No writer
+2024-11-10 12:46:26,436 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,436 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:46:26,450 | DEBUG | No writer
+2024-11-10 12:46:26,450 | DEBUG | Acquired reader lock
+2024-11-10 12:46:26,450 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,062 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:49:28,070 | DEBUG | Got data
+2024-11-10 12:49:28,070 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:49:28,071 | DEBUG | Got data
+2024-11-10 12:49:28,071 | DEBUG | Value added to dictionary
+2024-11-10 12:49:28,071 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:49:28,071 | DEBUG | Data written
+2024-11-10 12:49:28,071 | DEBUG | writing was True
+2024-11-10 12:49:28,071 | DEBUG | released all reader slots
+2024-11-10 12:49:28,071 | DEBUG | No writer
+2024-11-10 12:49:28,071 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,071 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,172 | DEBUG | Value added to dictionary
+2024-11-10 12:49:28,172 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:49:28,172 | DEBUG | Data written
+2024-11-10 12:49:28,172 | DEBUG | writing was True
+2024-11-10 12:49:28,172 | DEBUG | released all reader slots
+2024-11-10 12:49:28,172 | DEBUG | No writer
+2024-11-10 12:49:28,172 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,172 | DEBUG | Got value from dict - 17
+2024-11-10 12:49:28,302 | DEBUG | No writer
+2024-11-10 12:49:28,302 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,302 | DEBUG | Got value from dict - 17
+2024-11-10 12:49:28,402 | DEBUG | No writer
+2024-11-10 12:49:28,402 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,402 | DEBUG | Got value from dict - None
+2024-11-10 12:49:28,523 | DEBUG | Value added to dictionary
+2024-11-10 12:49:28,523 | DEBUG | adding height: tall to db was True
+2024-11-10 12:49:28,523 | DEBUG | Data written
+2024-11-10 12:49:28,523 | DEBUG | writing was True
+2024-11-10 12:49:28,523 | DEBUG | released all reader slots
+2024-11-10 12:49:28,523 | DEBUG | No writer
+2024-11-10 12:49:28,523 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,523 | DEBUG | Got value from dict - tall
+2024-11-10 12:49:28,531 | DEBUG | Value added to dictionary
+2024-11-10 12:49:28,531 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:49:28,531 | DEBUG | Data written
+2024-11-10 12:49:28,531 | DEBUG | writing was True
+2024-11-10 12:49:28,531 | DEBUG | released all reader slots
+2024-11-10 12:49:28,641 | DEBUG | No writer
+2024-11-10 12:49:28,641 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,641 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,660 | DEBUG | No writer
+2024-11-10 12:49:28,660 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,660 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,677 | DEBUG | No writer
+2024-11-10 12:49:28,678 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,678 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,698 | DEBUG | No writer
+2024-11-10 12:49:28,698 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,698 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,717 | DEBUG | No writer
+2024-11-10 12:49:28,717 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,717 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,736 | DEBUG | No writer
+2024-11-10 12:49:28,736 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,737 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,756 | DEBUG | No writer
+2024-11-10 12:49:28,757 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,757 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,771 | DEBUG | No writer
+2024-11-10 12:49:28,771 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,771 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,789 | DEBUG | No writer
+2024-11-10 12:49:28,789 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,789 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:49:28,805 | DEBUG | No writer
+2024-11-10 12:49:28,805 | DEBUG | Acquired reader lock
+2024-11-10 12:49:28,805 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,329 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:53:27,337 | DEBUG | Got data
+2024-11-10 12:53:27,337 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:53:27,338 | DEBUG | Got data
+2024-11-10 12:53:27,338 | DEBUG | Value added to dictionary
+2024-11-10 12:53:27,338 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:53:27,338 | DEBUG | Data written
+2024-11-10 12:53:27,338 | DEBUG | writing was True
+2024-11-10 12:53:27,338 | DEBUG | released all reader slots
+2024-11-10 12:53:27,338 | DEBUG | No writer
+2024-11-10 12:53:27,338 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,338 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,439 | DEBUG | Value added to dictionary
+2024-11-10 12:53:27,439 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:53:27,440 | DEBUG | Data written
+2024-11-10 12:53:27,440 | DEBUG | writing was True
+2024-11-10 12:53:27,440 | DEBUG | released all reader slots
+2024-11-10 12:53:27,440 | DEBUG | No writer
+2024-11-10 12:53:27,440 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,440 | DEBUG | Got value from dict - 17
+2024-11-10 12:53:27,570 | DEBUG | No writer
+2024-11-10 12:53:27,571 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,571 | DEBUG | Got value from dict - 17
+2024-11-10 12:53:27,670 | DEBUG | No writer
+2024-11-10 12:53:27,670 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,670 | DEBUG | Got value from dict - None
+2024-11-10 12:53:27,789 | DEBUG | Value added to dictionary
+2024-11-10 12:53:27,789 | DEBUG | adding height: tall to db was True
+2024-11-10 12:53:27,789 | DEBUG | Data written
+2024-11-10 12:53:27,789 | DEBUG | writing was True
+2024-11-10 12:53:27,789 | DEBUG | released all reader slots
+2024-11-10 12:53:27,789 | DEBUG | No writer
+2024-11-10 12:53:27,789 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,789 | DEBUG | Got value from dict - tall
+2024-11-10 12:53:27,796 | DEBUG | Value added to dictionary
+2024-11-10 12:53:27,796 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:53:27,796 | DEBUG | Data written
+2024-11-10 12:53:27,796 | DEBUG | writing was True
+2024-11-10 12:53:27,796 | DEBUG | released all reader slots
+2024-11-10 12:53:27,900 | DEBUG | No writer
+2024-11-10 12:53:27,900 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,900 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,918 | DEBUG | No writer
+2024-11-10 12:53:27,918 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,918 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,938 | DEBUG | No writer
+2024-11-10 12:53:27,938 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,938 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,955 | DEBUG | No writer
+2024-11-10 12:53:27,955 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,955 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,975 | DEBUG | No writer
+2024-11-10 12:53:27,975 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,975 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:27,991 | DEBUG | No writer
+2024-11-10 12:53:27,991 | DEBUG | Acquired reader lock
+2024-11-10 12:53:27,991 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:28,008 | DEBUG | No writer
+2024-11-10 12:53:28,008 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,008 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:28,024 | DEBUG | No writer
+2024-11-10 12:53:28,025 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,025 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:28,040 | DEBUG | No writer
+2024-11-10 12:53:28,040 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,040 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:28,055 | DEBUG | No writer
+2024-11-10 12:53:28,055 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,055 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:53:28,166 | DEBUG | No writer
+2024-11-10 12:53:28,166 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,166 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,185 | DEBUG | No writer
+2024-11-10 12:53:28,185 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,185 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,200 | DEBUG | No writer
+2024-11-10 12:53:28,201 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,201 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,229 | DEBUG | Value added to dictionary
+2024-11-10 12:53:28,229 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:53:28,229 | DEBUG | Data written
+2024-11-10 12:53:28,229 | DEBUG | writing was True
+2024-11-10 12:53:28,229 | DEBUG | released all reader slots
+2024-11-10 12:53:28,229 | DEBUG | No writer
+2024-11-10 12:53:28,229 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,229 | DEBUG | Got value from dict - 12
+2024-11-10 12:53:28,260 | DEBUG | No writer
+2024-11-10 12:53:28,260 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,260 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,277 | DEBUG | No writer
+2024-11-10 12:53:28,277 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,277 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,292 | DEBUG | No writer
+2024-11-10 12:53:28,293 | DEBUG | Acquired reader lock
+2024-11-10 12:53:28,293 | DEBUG | Got value from dict - None
+2024-11-10 12:53:28,300 | DEBUG | Tests complete
+2024-11-10 12:57:30,749 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:57:30,757 | DEBUG | Got data
+2024-11-10 12:57:30,882 | DEBUG | Data written
+2024-11-10 12:57:30,882 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:57:30,882 | DEBUG | Got data
+2024-11-10 12:57:30,882 | DEBUG | Value added to dictionary
+2024-11-10 12:57:30,882 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:57:30,882 | DEBUG | Data written
+2024-11-10 12:57:30,882 | DEBUG | writing was True
+2024-11-10 12:57:30,882 | DEBUG | released all reader slots
+2024-11-10 12:57:30,882 | DEBUG | No writer
+2024-11-10 12:57:30,882 | DEBUG | Acquired reader lock
+2024-11-10 12:57:30,882 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:30,979 | DEBUG | Value added to dictionary
+2024-11-10 12:57:30,979 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:57:30,979 | DEBUG | Data written
+2024-11-10 12:57:30,979 | DEBUG | writing was True
+2024-11-10 12:57:30,979 | DEBUG | released all reader slots
+2024-11-10 12:57:30,979 | DEBUG | No writer
+2024-11-10 12:57:30,979 | DEBUG | Acquired reader lock
+2024-11-10 12:57:30,979 | DEBUG | Got value from dict - 17
+2024-11-10 12:57:31,096 | DEBUG | No writer
+2024-11-10 12:57:31,096 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,096 | DEBUG | Got value from dict - 17
+2024-11-10 12:57:31,197 | DEBUG | No writer
+2024-11-10 12:57:31,197 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,198 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,321 | DEBUG | Value added to dictionary
+2024-11-10 12:57:31,321 | DEBUG | adding height: tall to db was True
+2024-11-10 12:57:31,321 | DEBUG | Data written
+2024-11-10 12:57:31,321 | DEBUG | writing was True
+2024-11-10 12:57:31,322 | DEBUG | released all reader slots
+2024-11-10 12:57:31,322 | DEBUG | No writer
+2024-11-10 12:57:31,322 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,322 | DEBUG | Got value from dict - tall
+2024-11-10 12:57:31,329 | DEBUG | Value added to dictionary
+2024-11-10 12:57:31,329 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:57:31,329 | DEBUG | Data written
+2024-11-10 12:57:31,329 | DEBUG | writing was True
+2024-11-10 12:57:31,329 | DEBUG | released all reader slots
+2024-11-10 12:57:31,434 | DEBUG | No writer
+2024-11-10 12:57:31,434 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,453 | DEBUG | No writer
+2024-11-10 12:57:31,453 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,453 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,471 | DEBUG | No writer
+2024-11-10 12:57:31,471 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,471 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,491 | DEBUG | No writer
+2024-11-10 12:57:31,492 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,492 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,508 | DEBUG | No writer
+2024-11-10 12:57:31,508 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,508 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,526 | DEBUG | No writer
+2024-11-10 12:57:31,526 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,526 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,542 | DEBUG | No writer
+2024-11-10 12:57:31,542 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,542 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,558 | DEBUG | No writer
+2024-11-10 12:57:31,558 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,558 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,576 | DEBUG | No writer
+2024-11-10 12:57:31,576 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,576 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,591 | DEBUG | No writer
+2024-11-10 12:57:31,591 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,591 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:31,703 | DEBUG | No writer
+2024-11-10 12:57:31,703 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,703 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,721 | DEBUG | No writer
+2024-11-10 12:57:31,721 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,721 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,739 | DEBUG | No writer
+2024-11-10 12:57:31,739 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,739 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,762 | DEBUG | Value added to dictionary
+2024-11-10 12:57:31,763 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:57:31,763 | DEBUG | Data written
+2024-11-10 12:57:31,763 | DEBUG | writing was True
+2024-11-10 12:57:31,763 | DEBUG | released all reader slots
+2024-11-10 12:57:31,763 | DEBUG | No writer
+2024-11-10 12:57:31,763 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,763 | DEBUG | Got value from dict - 12
+2024-11-10 12:57:31,792 | DEBUG | No writer
+2024-11-10 12:57:31,792 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,792 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,810 | DEBUG | No writer
+2024-11-10 12:57:31,810 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,810 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,825 | DEBUG | No writer
+2024-11-10 12:57:31,825 | DEBUG | Acquired reader lock
+2024-11-10 12:57:31,825 | DEBUG | Got value from dict - None
+2024-11-10 12:57:31,833 | DEBUG | Tests complete
+2024-11-10 12:57:51,671 | DEBUG | Data written
+2024-11-10 12:57:51,671 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:57:51,679 | DEBUG | Got data
+2024-11-10 12:57:51,808 | DEBUG | Data written
+2024-11-10 12:57:51,808 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:57:51,808 | DEBUG | Got data
+2024-11-10 12:57:51,808 | DEBUG | Value added to dictionary
+2024-11-10 12:57:51,808 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:57:51,808 | DEBUG | Data written
+2024-11-10 12:57:51,808 | DEBUG | writing was True
+2024-11-10 12:57:51,808 | DEBUG | released all reader slots
+2024-11-10 12:57:51,808 | DEBUG | No writer
+2024-11-10 12:57:51,808 | DEBUG | Acquired reader lock
+2024-11-10 12:57:51,808 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:51,901 | DEBUG | Value added to dictionary
+2024-11-10 12:57:51,901 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:57:51,901 | DEBUG | Data written
+2024-11-10 12:57:51,902 | DEBUG | writing was True
+2024-11-10 12:57:51,902 | DEBUG | released all reader slots
+2024-11-10 12:57:51,902 | DEBUG | No writer
+2024-11-10 12:57:51,902 | DEBUG | Acquired reader lock
+2024-11-10 12:57:51,902 | DEBUG | Got value from dict - 17
+2024-11-10 12:57:52,023 | DEBUG | No writer
+2024-11-10 12:57:52,023 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,023 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,123 | DEBUG | No writer
+2024-11-10 12:57:52,123 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,123 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,247 | DEBUG | Value added to dictionary
+2024-11-10 12:57:52,247 | DEBUG | adding height: tall to db was True
+2024-11-10 12:57:52,247 | DEBUG | Data written
+2024-11-10 12:57:52,247 | DEBUG | writing was True
+2024-11-10 12:57:52,247 | DEBUG | released all reader slots
+2024-11-10 12:57:52,247 | DEBUG | No writer
+2024-11-10 12:57:52,247 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,247 | DEBUG | Got value from dict - tall
+2024-11-10 12:57:52,254 | DEBUG | Value added to dictionary
+2024-11-10 12:57:52,254 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:57:52,254 | DEBUG | Data written
+2024-11-10 12:57:52,255 | DEBUG | writing was True
+2024-11-10 12:57:52,255 | DEBUG | released all reader slots
+2024-11-10 12:57:52,363 | DEBUG | No writer
+2024-11-10 12:57:52,363 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,363 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,381 | DEBUG | No writer
+2024-11-10 12:57:52,381 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,381 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,400 | DEBUG | No writer
+2024-11-10 12:57:52,400 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,400 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,417 | DEBUG | No writer
+2024-11-10 12:57:52,417 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,418 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,434 | DEBUG | No writer
+2024-11-10 12:57:52,435 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,435 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,452 | DEBUG | No writer
+2024-11-10 12:57:52,452 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,452 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,467 | DEBUG | No writer
+2024-11-10 12:57:52,467 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,467 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,488 | DEBUG | No writer
+2024-11-10 12:57:52,488 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,488 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,504 | DEBUG | No writer
+2024-11-10 12:57:52,504 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,504 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,519 | DEBUG | No writer
+2024-11-10 12:57:52,519 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,519 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:57:52,630 | DEBUG | No writer
+2024-11-10 12:57:52,630 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,630 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,649 | DEBUG | No writer
+2024-11-10 12:57:52,650 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,650 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,669 | DEBUG | No writer
+2024-11-10 12:57:52,669 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,669 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,687 | DEBUG | Value added to dictionary
+2024-11-10 12:57:52,687 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:57:52,687 | DEBUG | Data written
+2024-11-10 12:57:52,688 | DEBUG | writing was True
+2024-11-10 12:57:52,688 | DEBUG | released all reader slots
+2024-11-10 12:57:52,688 | DEBUG | No writer
+2024-11-10 12:57:52,688 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,688 | DEBUG | Got value from dict - 12
+2024-11-10 12:57:52,717 | DEBUG | No writer
+2024-11-10 12:57:52,717 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,717 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,734 | DEBUG | No writer
+2024-11-10 12:57:52,734 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,734 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,749 | DEBUG | No writer
+2024-11-10 12:57:52,749 | DEBUG | Acquired reader lock
+2024-11-10 12:57:52,749 | DEBUG | Got value from dict - None
+2024-11-10 12:57:52,757 | DEBUG | Tests complete
+2024-11-10 12:58:22,124 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:58:22,132 | DEBUG | Got data
+2024-11-10 12:58:22,259 | DEBUG | Data written
+2024-11-10 12:58:22,260 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:58:22,260 | DEBUG | Got data
+2024-11-10 12:58:22,368 | DEBUG | Value added to dictionary
+2024-11-10 12:58:22,368 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:58:22,369 | DEBUG | Data written
+2024-11-10 12:58:22,369 | DEBUG | writing was True
+2024-11-10 12:58:22,369 | DEBUG | released all reader slots
+2024-11-10 12:58:22,369 | DEBUG | No writer
+2024-11-10 12:58:22,369 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,369 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:22,461 | DEBUG | Value added to dictionary
+2024-11-10 12:58:22,461 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:58:22,461 | DEBUG | Data written
+2024-11-10 12:58:22,461 | DEBUG | writing was True
+2024-11-10 12:58:22,461 | DEBUG | released all reader slots
+2024-11-10 12:58:22,461 | DEBUG | No writer
+2024-11-10 12:58:22,461 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,461 | DEBUG | Got value from dict - 17
+2024-11-10 12:58:22,587 | DEBUG | No writer
+2024-11-10 12:58:22,587 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,587 | DEBUG | Got value from dict - None
+2024-11-10 12:58:22,686 | DEBUG | No writer
+2024-11-10 12:58:22,687 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,687 | DEBUG | Got value from dict - None
+2024-11-10 12:58:22,808 | DEBUG | Value added to dictionary
+2024-11-10 12:58:22,808 | DEBUG | adding height: tall to db was True
+2024-11-10 12:58:22,808 | DEBUG | Data written
+2024-11-10 12:58:22,809 | DEBUG | writing was True
+2024-11-10 12:58:22,809 | DEBUG | released all reader slots
+2024-11-10 12:58:22,809 | DEBUG | No writer
+2024-11-10 12:58:22,809 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,809 | DEBUG | Got value from dict - tall
+2024-11-10 12:58:22,816 | DEBUG | Value added to dictionary
+2024-11-10 12:58:22,816 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:58:22,816 | DEBUG | Data written
+2024-11-10 12:58:22,816 | DEBUG | writing was True
+2024-11-10 12:58:22,817 | DEBUG | released all reader slots
+2024-11-10 12:58:22,921 | DEBUG | No writer
+2024-11-10 12:58:22,921 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,921 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:22,940 | DEBUG | No writer
+2024-11-10 12:58:22,940 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,940 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:22,958 | DEBUG | No writer
+2024-11-10 12:58:22,959 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,959 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:22,981 | DEBUG | No writer
+2024-11-10 12:58:22,982 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,982 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:22,997 | DEBUG | No writer
+2024-11-10 12:58:22,997 | DEBUG | Acquired reader lock
+2024-11-10 12:58:22,998 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,015 | DEBUG | No writer
+2024-11-10 12:58:23,015 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,015 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,032 | DEBUG | No writer
+2024-11-10 12:58:23,033 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,033 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,054 | DEBUG | No writer
+2024-11-10 12:58:23,054 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,054 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,069 | DEBUG | No writer
+2024-11-10 12:58:23,069 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,070 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,084 | DEBUG | No writer
+2024-11-10 12:58:23,084 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,084 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:23,199 | DEBUG | No writer
+2024-11-10 12:58:23,199 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,199 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,219 | DEBUG | No writer
+2024-11-10 12:58:23,219 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,219 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,238 | DEBUG | No writer
+2024-11-10 12:58:23,238 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,238 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,260 | DEBUG | Value added to dictionary
+2024-11-10 12:58:23,260 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:58:23,260 | DEBUG | Data written
+2024-11-10 12:58:23,260 | DEBUG | writing was True
+2024-11-10 12:58:23,260 | DEBUG | released all reader slots
+2024-11-10 12:58:23,260 | DEBUG | No writer
+2024-11-10 12:58:23,260 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,260 | DEBUG | Got value from dict - 12
+2024-11-10 12:58:23,288 | DEBUG | No writer
+2024-11-10 12:58:23,288 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,288 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,305 | DEBUG | No writer
+2024-11-10 12:58:23,305 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,305 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,321 | DEBUG | No writer
+2024-11-10 12:58:23,321 | DEBUG | Acquired reader lock
+2024-11-10 12:58:23,321 | DEBUG | Got value from dict - None
+2024-11-10 12:58:23,329 | DEBUG | Tests complete
+2024-11-10 12:58:30,896 | DEBUG | Data written
+2024-11-10 12:58:30,897 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:58:30,904 | DEBUG | Got data
+2024-11-10 12:58:31,028 | DEBUG | Data written
+2024-11-10 12:58:31,028 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 12:58:31,028 | DEBUG | Got data
+2024-11-10 12:58:31,138 | DEBUG | Value added to dictionary
+2024-11-10 12:58:31,138 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:58:31,138 | DEBUG | Data written
+2024-11-10 12:58:31,138 | DEBUG | writing was True
+2024-11-10 12:58:31,138 | DEBUG | released all reader slots
+2024-11-10 12:58:31,138 | DEBUG | No writer
+2024-11-10 12:58:31,138 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,138 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,233 | DEBUG | Value added to dictionary
+2024-11-10 12:58:31,234 | DEBUG | adding age: 17 to db was True
+2024-11-10 12:58:31,234 | DEBUG | Data written
+2024-11-10 12:58:31,234 | DEBUG | writing was True
+2024-11-10 12:58:31,234 | DEBUG | released all reader slots
+2024-11-10 12:58:31,234 | DEBUG | No writer
+2024-11-10 12:58:31,234 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,234 | DEBUG | Got value from dict - 17
+2024-11-10 12:58:31,366 | DEBUG | No writer
+2024-11-10 12:58:31,366 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,367 | DEBUG | Got value from dict - None
+2024-11-10 12:58:31,471 | DEBUG | No writer
+2024-11-10 12:58:31,471 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,471 | DEBUG | Got value from dict - None
+2024-11-10 12:58:31,603 | DEBUG | Value added to dictionary
+2024-11-10 12:58:31,603 | DEBUG | adding height: tall to db was True
+2024-11-10 12:58:31,603 | DEBUG | Data written
+2024-11-10 12:58:31,603 | DEBUG | writing was True
+2024-11-10 12:58:31,603 | DEBUG | released all reader slots
+2024-11-10 12:58:31,603 | DEBUG | No writer
+2024-11-10 12:58:31,603 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,603 | DEBUG | Got value from dict - tall
+2024-11-10 12:58:31,611 | DEBUG | Value added to dictionary
+2024-11-10 12:58:31,611 | DEBUG | adding name: Ophir to db was True
+2024-11-10 12:58:31,611 | DEBUG | Data written
+2024-11-10 12:58:31,611 | DEBUG | writing was True
+2024-11-10 12:58:31,611 | DEBUG | released all reader slots
+2024-11-10 12:58:31,721 | DEBUG | No writer
+2024-11-10 12:58:31,721 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,721 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,741 | DEBUG | No writer
+2024-11-10 12:58:31,741 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,741 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,760 | DEBUG | No writer
+2024-11-10 12:58:31,760 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,760 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,778 | DEBUG | No writer
+2024-11-10 12:58:31,779 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,779 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,800 | DEBUG | No writer
+2024-11-10 12:58:31,800 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,800 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,818 | DEBUG | No writer
+2024-11-10 12:58:31,819 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,819 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,837 | DEBUG | No writer
+2024-11-10 12:58:31,837 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,837 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,857 | DEBUG | No writer
+2024-11-10 12:58:31,858 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,858 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,876 | DEBUG | No writer
+2024-11-10 12:58:31,876 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,876 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:31,891 | DEBUG | No writer
+2024-11-10 12:58:31,891 | DEBUG | Acquired reader lock
+2024-11-10 12:58:31,891 | DEBUG | Got value from dict - Ophir
+2024-11-10 12:58:32,005 | DEBUG | No writer
+2024-11-10 12:58:32,005 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,005 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,024 | DEBUG | No writer
+2024-11-10 12:58:32,024 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,024 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,042 | DEBUG | No writer
+2024-11-10 12:58:32,042 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,042 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,065 | DEBUG | Value added to dictionary
+2024-11-10 12:58:32,065 | DEBUG | adding num: 12 to db was True
+2024-11-10 12:58:32,065 | DEBUG | Data written
+2024-11-10 12:58:32,065 | DEBUG | writing was True
+2024-11-10 12:58:32,065 | DEBUG | released all reader slots
+2024-11-10 12:58:32,065 | DEBUG | No writer
+2024-11-10 12:58:32,065 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,065 | DEBUG | Got value from dict - 12
+2024-11-10 12:58:32,094 | DEBUG | No writer
+2024-11-10 12:58:32,094 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,094 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,109 | DEBUG | No writer
+2024-11-10 12:58:32,109 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,109 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,126 | DEBUG | No writer
+2024-11-10 12:58:32,126 | DEBUG | Acquired reader lock
+2024-11-10 12:58:32,126 | DEBUG | Got value from dict - None
+2024-11-10 12:58:32,134 | DEBUG | Tests complete
+2024-11-10 13:04:08,905 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:04:08,913 | DEBUG | Got data
+2024-11-10 13:07:42,026 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:07:42,151 | DEBUG | Got data
+2024-11-10 13:07:42,262 | DEBUG | Data written
+2024-11-10 13:07:42,262 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:07:42,364 | DEBUG | Got data
+2024-11-10 13:07:42,475 | DEBUG | Value added to dictionary
+2024-11-10 13:07:42,476 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:07:42,476 | DEBUG | Data written
+2024-11-10 13:07:42,476 | DEBUG | writing was True
+2024-11-10 13:07:42,476 | DEBUG | released all reader slots
+2024-11-10 13:07:42,476 | DEBUG | No writer
+2024-11-10 13:07:42,476 | DEBUG | Acquired reader lock
+2024-11-10 13:07:42,476 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:42,576 | DEBUG | Value added to dictionary
+2024-11-10 13:07:42,576 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:07:42,577 | DEBUG | Data written
+2024-11-10 13:07:42,577 | DEBUG | writing was True
+2024-11-10 13:07:42,577 | DEBUG | released all reader slots
+2024-11-10 13:07:42,577 | DEBUG | No writer
+2024-11-10 13:07:42,577 | DEBUG | Acquired reader lock
+2024-11-10 13:07:42,577 | DEBUG | Got value from dict - 17
+2024-11-10 13:07:42,697 | DEBUG | No writer
+2024-11-10 13:07:42,697 | DEBUG | Acquired reader lock
+2024-11-10 13:07:42,699 | DEBUG | Got value from dict - 17
+2024-11-10 13:07:42,806 | DEBUG | No writer
+2024-11-10 13:07:42,806 | DEBUG | Acquired reader lock
+2024-11-10 13:07:42,807 | DEBUG | Got value from dict - None
+2024-11-10 13:07:42,936 | DEBUG | Value added to dictionary
+2024-11-10 13:07:42,936 | DEBUG | adding height: tall to db was True
+2024-11-10 13:07:42,936 | DEBUG | Data written
+2024-11-10 13:07:42,936 | DEBUG | writing was True
+2024-11-10 13:07:42,936 | DEBUG | released all reader slots
+2024-11-10 13:07:42,936 | DEBUG | No writer
+2024-11-10 13:07:42,936 | DEBUG | Acquired reader lock
+2024-11-10 13:07:42,936 | DEBUG | Got value from dict - tall
+2024-11-10 13:07:42,944 | DEBUG | Value added to dictionary
+2024-11-10 13:07:42,944 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:07:42,944 | DEBUG | Data written
+2024-11-10 13:07:42,944 | DEBUG | writing was True
+2024-11-10 13:07:42,945 | DEBUG | released all reader slots
+2024-11-10 13:07:43,060 | DEBUG | No writer
+2024-11-10 13:07:43,060 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,061 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,079 | DEBUG | No writer
+2024-11-10 13:07:43,079 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,080 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,097 | DEBUG | No writer
+2024-11-10 13:07:43,098 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,098 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,116 | DEBUG | No writer
+2024-11-10 13:07:43,116 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,117 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,134 | DEBUG | No writer
+2024-11-10 13:07:43,134 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,134 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,152 | DEBUG | No writer
+2024-11-10 13:07:43,153 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,153 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,169 | DEBUG | No writer
+2024-11-10 13:07:43,169 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,169 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,185 | DEBUG | No writer
+2024-11-10 13:07:43,185 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,186 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,203 | DEBUG | No writer
+2024-11-10 13:07:43,203 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,204 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,218 | DEBUG | No writer
+2024-11-10 13:07:43,218 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,218 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:43,340 | DEBUG | No writer
+2024-11-10 13:07:43,340 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,341 | DEBUG | Got value from dict - None
+2024-11-10 13:07:43,359 | DEBUG | No writer
+2024-11-10 13:07:43,359 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,360 | DEBUG | Got value from dict - None
+2024-11-10 13:07:43,378 | DEBUG | No writer
+2024-11-10 13:07:43,378 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,379 | DEBUG | Got value from dict - None
+2024-11-10 13:07:43,395 | DEBUG | Value added to dictionary
+2024-11-10 13:07:43,395 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:07:43,396 | DEBUG | Data written
+2024-11-10 13:07:43,396 | DEBUG | writing was True
+2024-11-10 13:07:43,396 | DEBUG | released all reader slots
+2024-11-10 13:07:43,396 | DEBUG | No writer
+2024-11-10 13:07:43,396 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,396 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:43,427 | DEBUG | No writer
+2024-11-10 13:07:43,427 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,428 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:43,444 | DEBUG | No writer
+2024-11-10 13:07:43,444 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,445 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:43,459 | DEBUG | No writer
+2024-11-10 13:07:43,459 | DEBUG | Acquired reader lock
+2024-11-10 13:07:43,460 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:43,468 | DEBUG | Tests complete
+2024-11-10 13:07:49,552 | DEBUG | Data written
+2024-11-10 13:07:49,552 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:07:49,674 | DEBUG | Got data
+2024-11-10 13:07:49,784 | DEBUG | Data written
+2024-11-10 13:07:49,784 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:07:49,883 | DEBUG | Got data
+2024-11-10 13:07:49,995 | DEBUG | Value added to dictionary
+2024-11-10 13:07:49,995 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:07:49,995 | DEBUG | Data written
+2024-11-10 13:07:49,995 | DEBUG | writing was True
+2024-11-10 13:07:49,995 | DEBUG | released all reader slots
+2024-11-10 13:07:49,995 | DEBUG | No writer
+2024-11-10 13:07:49,995 | DEBUG | Acquired reader lock
+2024-11-10 13:07:49,995 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,099 | DEBUG | Value added to dictionary
+2024-11-10 13:07:50,099 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:07:50,099 | DEBUG | Data written
+2024-11-10 13:07:50,099 | DEBUG | writing was True
+2024-11-10 13:07:50,099 | DEBUG | released all reader slots
+2024-11-10 13:07:50,099 | DEBUG | No writer
+2024-11-10 13:07:50,099 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,099 | DEBUG | Got value from dict - 17
+2024-11-10 13:07:50,224 | DEBUG | No writer
+2024-11-10 13:07:50,224 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,225 | DEBUG | Got value from dict - 17
+2024-11-10 13:07:50,332 | DEBUG | No writer
+2024-11-10 13:07:50,333 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,333 | DEBUG | Got value from dict - None
+2024-11-10 13:07:50,464 | DEBUG | Value added to dictionary
+2024-11-10 13:07:50,464 | DEBUG | adding height: tall to db was True
+2024-11-10 13:07:50,464 | DEBUG | Data written
+2024-11-10 13:07:50,464 | DEBUG | writing was True
+2024-11-10 13:07:50,464 | DEBUG | released all reader slots
+2024-11-10 13:07:50,464 | DEBUG | No writer
+2024-11-10 13:07:50,464 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,464 | DEBUG | Got value from dict - tall
+2024-11-10 13:07:50,472 | DEBUG | Value added to dictionary
+2024-11-10 13:07:50,472 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:07:50,472 | DEBUG | Data written
+2024-11-10 13:07:50,472 | DEBUG | writing was True
+2024-11-10 13:07:50,472 | DEBUG | released all reader slots
+2024-11-10 13:07:50,588 | DEBUG | No writer
+2024-11-10 13:07:50,589 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,589 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,608 | DEBUG | No writer
+2024-11-10 13:07:50,608 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,609 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,627 | DEBUG | No writer
+2024-11-10 13:07:50,628 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,628 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,646 | DEBUG | No writer
+2024-11-10 13:07:50,646 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,647 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,663 | DEBUG | No writer
+2024-11-10 13:07:50,663 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,664 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,680 | DEBUG | No writer
+2024-11-10 13:07:50,680 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,681 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,697 | DEBUG | No writer
+2024-11-10 13:07:50,697 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,697 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,713 | DEBUG | No writer
+2024-11-10 13:07:50,713 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,713 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,728 | DEBUG | No writer
+2024-11-10 13:07:50,728 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,728 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,742 | DEBUG | No writer
+2024-11-10 13:07:50,742 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,743 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:07:50,863 | DEBUG | No writer
+2024-11-10 13:07:50,863 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,864 | DEBUG | Got value from dict - None
+2024-11-10 13:07:50,883 | DEBUG | No writer
+2024-11-10 13:07:50,883 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,884 | DEBUG | Got value from dict - None
+2024-11-10 13:07:50,901 | DEBUG | No writer
+2024-11-10 13:07:50,901 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,902 | DEBUG | Got value from dict - None
+2024-11-10 13:07:50,922 | DEBUG | Value added to dictionary
+2024-11-10 13:07:50,922 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:07:50,922 | DEBUG | Data written
+2024-11-10 13:07:50,922 | DEBUG | writing was True
+2024-11-10 13:07:50,922 | DEBUG | released all reader slots
+2024-11-10 13:07:50,922 | DEBUG | No writer
+2024-11-10 13:07:50,922 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,923 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:50,953 | DEBUG | No writer
+2024-11-10 13:07:50,953 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,954 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:50,968 | DEBUG | No writer
+2024-11-10 13:07:50,968 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,969 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:50,985 | DEBUG | No writer
+2024-11-10 13:07:50,985 | DEBUG | Acquired reader lock
+2024-11-10 13:07:50,985 | DEBUG | Got value from dict - 12
+2024-11-10 13:07:50,993 | DEBUG | Tests complete
+2024-11-10 13:08:37,469 | DEBUG | Data written
+2024-11-10 13:08:37,470 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-10 13:08:37,470 | DEBUG | Got data
+2024-11-10 13:08:37,471 | DEBUG | Data written
+2024-11-10 13:08:37,472 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,472 | DEBUG | Deleted value from dict
+2024-11-10 13:08:37,472 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,472 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,472 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,472 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,472 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,472 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,472 | DEBUG | Data written
+2024-11-10 13:08:37,472 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-10 13:08:37,473 | DEBUG | Got data
+2024-11-10 13:08:37,473 | DEBUG | No writer
+2024-11-10 13:08:37,473 | DEBUG | No writer
+2024-11-10 13:08:37,473 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,473 | DEBUG | No writer
+2024-11-10 13:08:37,473 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,473 | DEBUG | Got value from dict - None
+2024-11-10 13:08:37,473 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,474 | DEBUG | Got value from dict - None
+2024-11-10 13:08:37,473 | DEBUG | Got value from dict - None
+2024-11-10 13:08:37,483 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,483 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:08:37,483 | DEBUG | Data written
+2024-11-10 13:08:37,483 | DEBUG | writing was True
+2024-11-10 13:08:37,483 | DEBUG | released all reader slots
+2024-11-10 13:08:37,499 | DEBUG | No writer
+2024-11-10 13:08:37,499 | DEBUG | No writer
+2024-11-10 13:08:37,499 | DEBUG | No writer
+2024-11-10 13:08:37,499 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,499 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,499 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,499 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:37,499 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:37,499 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:37,500 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,500 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:37,500 | DEBUG | Data written
+2024-11-10 13:08:37,500 | DEBUG | writing was True
+2024-11-10 13:08:37,500 | DEBUG | released all reader slots
+2024-11-10 13:08:37,500 | DEBUG | No writer
+2024-11-10 13:08:37,500 | DEBUG | No writer
+2024-11-10 13:08:37,500 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,500 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | No writer
+2024-11-10 13:08:37,501 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,501 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,501 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,502 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,502 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,502 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,502 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,502 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,502 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,502 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,501 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,502 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,503 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,502 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,503 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,503 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,502 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,503 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,503 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:37,503 | DEBUG | Data written
+2024-11-10 13:08:37,504 | DEBUG | writing was True
+2024-11-10 13:08:37,504 | DEBUG | released all reader slots
+2024-11-10 13:08:37,504 | DEBUG | No writer
+2024-11-10 13:08:37,504 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,504 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:37,504 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,504 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:37,504 | DEBUG | Data written
+2024-11-10 13:08:37,504 | DEBUG | writing was True
+2024-11-10 13:08:37,504 | DEBUG | released all reader slots
+2024-11-10 13:08:37,504 | DEBUG | No writer
+2024-11-10 13:08:37,504 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,504 | DEBUG | Got value from dict - None
+2024-11-10 13:08:37,609 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,609 | DEBUG | adding height: tall to db was True
+2024-11-10 13:08:37,609 | DEBUG | Data written
+2024-11-10 13:08:37,609 | DEBUG | writing was True
+2024-11-10 13:08:37,609 | DEBUG | released all reader slots
+2024-11-10 13:08:37,610 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,610 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:08:37,610 | DEBUG | Data written
+2024-11-10 13:08:37,610 | DEBUG | writing was True
+2024-11-10 13:08:37,610 | DEBUG | released all reader slots
+2024-11-10 13:08:37,610 | DEBUG | No writer
+2024-11-10 13:08:37,610 | DEBUG | Acquired reader lock
+2024-11-10 13:08:37,610 | DEBUG | Got value from dict - 17
+2024-11-10 13:08:37,610 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,611 | DEBUG | Data written
+2024-11-10 13:08:37,611 | DEBUG | Got data
+2024-11-10 13:08:37,611 | DEBUG | Value added to dictionary
+2024-11-10 13:08:37,611 | DEBUG | Data written
+2024-11-10 13:08:37,612 | DEBUG | Data written
+2024-11-10 13:08:37,612 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:08:37,738 | DEBUG | Got data
+2024-11-10 13:08:37,850 | DEBUG | Data written
+2024-11-10 13:08:37,850 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:08:37,952 | DEBUG | Got data
+2024-11-10 13:08:38,063 | DEBUG | Value added to dictionary
+2024-11-10 13:08:38,063 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:38,064 | DEBUG | Data written
+2024-11-10 13:08:38,064 | DEBUG | writing was True
+2024-11-10 13:08:38,064 | DEBUG | released all reader slots
+2024-11-10 13:08:38,064 | DEBUG | No writer
+2024-11-10 13:08:38,064 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,064 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,168 | DEBUG | Value added to dictionary
+2024-11-10 13:08:38,168 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:08:38,168 | DEBUG | Data written
+2024-11-10 13:08:38,168 | DEBUG | writing was True
+2024-11-10 13:08:38,168 | DEBUG | released all reader slots
+2024-11-10 13:08:38,168 | DEBUG | No writer
+2024-11-10 13:08:38,168 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,168 | DEBUG | Got value from dict - 17
+2024-11-10 13:08:38,295 | DEBUG | No writer
+2024-11-10 13:08:38,295 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,296 | DEBUG | Got value from dict - 17
+2024-11-10 13:08:38,403 | DEBUG | No writer
+2024-11-10 13:08:38,403 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,404 | DEBUG | Got value from dict - None
+2024-11-10 13:08:38,531 | DEBUG | Value added to dictionary
+2024-11-10 13:08:38,531 | DEBUG | adding height: tall to db was True
+2024-11-10 13:08:38,531 | DEBUG | Data written
+2024-11-10 13:08:38,531 | DEBUG | writing was True
+2024-11-10 13:08:38,531 | DEBUG | released all reader slots
+2024-11-10 13:08:38,531 | DEBUG | No writer
+2024-11-10 13:08:38,531 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,531 | DEBUG | Got value from dict - tall
+2024-11-10 13:08:38,539 | DEBUG | Value added to dictionary
+2024-11-10 13:08:38,539 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:38,539 | DEBUG | Data written
+2024-11-10 13:08:38,539 | DEBUG | writing was True
+2024-11-10 13:08:38,539 | DEBUG | released all reader slots
+2024-11-10 13:08:38,656 | DEBUG | No writer
+2024-11-10 13:08:38,656 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,657 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,676 | DEBUG | No writer
+2024-11-10 13:08:38,676 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,676 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,695 | DEBUG | No writer
+2024-11-10 13:08:38,695 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,696 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,714 | DEBUG | No writer
+2024-11-10 13:08:38,714 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,714 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,732 | DEBUG | No writer
+2024-11-10 13:08:38,732 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,733 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,749 | DEBUG | No writer
+2024-11-10 13:08:38,749 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,750 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,766 | DEBUG | No writer
+2024-11-10 13:08:38,766 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,766 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,784 | DEBUG | No writer
+2024-11-10 13:08:38,784 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,784 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,798 | DEBUG | No writer
+2024-11-10 13:08:38,798 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,799 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,814 | DEBUG | No writer
+2024-11-10 13:08:38,814 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,814 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:38,938 | DEBUG | No writer
+2024-11-10 13:08:38,938 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,939 | DEBUG | Got value from dict - None
+2024-11-10 13:08:38,957 | DEBUG | No writer
+2024-11-10 13:08:38,957 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,958 | DEBUG | Got value from dict - None
+2024-11-10 13:08:38,976 | DEBUG | No writer
+2024-11-10 13:08:38,977 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,977 | DEBUG | Got value from dict - None
+2024-11-10 13:08:38,995 | DEBUG | Value added to dictionary
+2024-11-10 13:08:38,995 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:08:38,995 | DEBUG | Data written
+2024-11-10 13:08:38,995 | DEBUG | writing was True
+2024-11-10 13:08:38,995 | DEBUG | released all reader slots
+2024-11-10 13:08:38,995 | DEBUG | No writer
+2024-11-10 13:08:38,995 | DEBUG | Acquired reader lock
+2024-11-10 13:08:38,996 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:39,024 | DEBUG | No writer
+2024-11-10 13:08:39,024 | DEBUG | Acquired reader lock
+2024-11-10 13:08:39,025 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:39,043 | DEBUG | No writer
+2024-11-10 13:08:39,043 | DEBUG | Acquired reader lock
+2024-11-10 13:08:39,044 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:39,057 | DEBUG | No writer
+2024-11-10 13:08:39,057 | DEBUG | Acquired reader lock
+2024-11-10 13:08:39,058 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:39,066 | DEBUG | Tests complete
+2024-11-10 13:08:57,401 | DEBUG | Data written
+2024-11-10 13:08:57,402 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-10 13:08:57,402 | DEBUG | Got data
+2024-11-10 13:08:57,402 | DEBUG | Data written
+2024-11-10 13:08:57,403 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,403 | DEBUG | Deleted value from dict
+2024-11-10 13:08:57,403 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,403 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,403 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,403 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,403 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,403 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,403 | DEBUG | Data written
+2024-11-10 13:08:57,404 | DEBUG | method chosen: OperationSettings.THREADS
+2024-11-10 13:08:57,404 | DEBUG | Got data
+2024-11-10 13:08:57,404 | DEBUG | No writer
+2024-11-10 13:08:57,404 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,404 | DEBUG | No writer
+2024-11-10 13:08:57,405 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,405 | DEBUG | Got value from dict - None
+2024-11-10 13:08:57,404 | DEBUG | Got value from dict - None
+2024-11-10 13:08:57,405 | DEBUG | No writer
+2024-11-10 13:08:57,405 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,405 | DEBUG | Got value from dict - None
+2024-11-10 13:08:57,414 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,414 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:08:57,414 | DEBUG | Data written
+2024-11-10 13:08:57,414 | DEBUG | writing was True
+2024-11-10 13:08:57,414 | DEBUG | released all reader slots
+2024-11-10 13:08:57,430 | DEBUG | No writer
+2024-11-10 13:08:57,430 | DEBUG | No writer
+2024-11-10 13:08:57,430 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,430 | DEBUG | No writer
+2024-11-10 13:08:57,430 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,430 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:57,430 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,431 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:57,430 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:57,431 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,431 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:57,431 | DEBUG | Data written
+2024-11-10 13:08:57,431 | DEBUG | writing was True
+2024-11-10 13:08:57,431 | DEBUG | released all reader slots
+2024-11-10 13:08:57,432 | DEBUG | No writer
+2024-11-10 13:08:57,432 | DEBUG | No writer
+2024-11-10 13:08:57,432 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,432 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,432 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,432 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,432 | DEBUG | No writer
+2024-11-10 13:08:57,432 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,432 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,432 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,433 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,433 | DEBUG | No writer
+2024-11-10 13:08:57,434 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,434 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,434 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,434 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,434 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,435 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,435 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:57,435 | DEBUG | Data written
+2024-11-10 13:08:57,435 | DEBUG | writing was True
+2024-11-10 13:08:57,435 | DEBUG | released all reader slots
+2024-11-10 13:08:57,435 | DEBUG | No writer
+2024-11-10 13:08:57,435 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,435 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:57,436 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,436 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:57,436 | DEBUG | Data written
+2024-11-10 13:08:57,436 | DEBUG | writing was True
+2024-11-10 13:08:57,436 | DEBUG | released all reader slots
+2024-11-10 13:08:57,436 | DEBUG | No writer
+2024-11-10 13:08:57,436 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,436 | DEBUG | Got value from dict - None
+2024-11-10 13:08:57,540 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,540 | DEBUG | adding height: tall to db was True
+2024-11-10 13:08:57,540 | DEBUG | Data written
+2024-11-10 13:08:57,540 | DEBUG | writing was True
+2024-11-10 13:08:57,540 | DEBUG | released all reader slots
+2024-11-10 13:08:57,541 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,541 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:08:57,541 | DEBUG | Data written
+2024-11-10 13:08:57,541 | DEBUG | writing was True
+2024-11-10 13:08:57,541 | DEBUG | released all reader slots
+2024-11-10 13:08:57,541 | DEBUG | No writer
+2024-11-10 13:08:57,541 | DEBUG | Acquired reader lock
+2024-11-10 13:08:57,541 | DEBUG | Got value from dict - 17
+2024-11-10 13:08:57,541 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,542 | DEBUG | Data written
+2024-11-10 13:08:57,542 | DEBUG | Got data
+2024-11-10 13:08:57,542 | DEBUG | Value added to dictionary
+2024-11-10 13:08:57,542 | DEBUG | Data written
+2024-11-10 13:08:57,543 | DEBUG | Data written
+2024-11-10 13:08:57,543 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:08:57,676 | DEBUG | Got data
+2024-11-10 13:08:57,809 | DEBUG | Data written
+2024-11-10 13:08:57,809 | DEBUG | method chosen: OperationSettings.PROCESSES
+2024-11-10 13:08:57,914 | DEBUG | Got data
+2024-11-10 13:08:58,048 | DEBUG | Value added to dictionary
+2024-11-10 13:08:58,050 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:58,050 | DEBUG | Data written
+2024-11-10 13:08:58,050 | DEBUG | writing was True
+2024-11-10 13:08:58,050 | DEBUG | released all reader slots
+2024-11-10 13:08:58,050 | DEBUG | No writer
+2024-11-10 13:08:58,050 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,050 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,158 | DEBUG | Value added to dictionary
+2024-11-10 13:08:58,159 | DEBUG | adding age: 17 to db was True
+2024-11-10 13:08:58,159 | DEBUG | Data written
+2024-11-10 13:08:58,159 | DEBUG | writing was True
+2024-11-10 13:08:58,159 | DEBUG | released all reader slots
+2024-11-10 13:08:58,275 | DEBUG | No writer
+2024-11-10 13:08:58,275 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,276 | DEBUG | Got value from dict - 17
+2024-11-10 13:08:58,387 | DEBUG | No writer
+2024-11-10 13:08:58,387 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,388 | DEBUG | Got value from dict - None
+2024-11-10 13:08:58,516 | DEBUG | Value added to dictionary
+2024-11-10 13:08:58,516 | DEBUG | adding height: tall to db was True
+2024-11-10 13:08:58,516 | DEBUG | Data written
+2024-11-10 13:08:58,516 | DEBUG | writing was True
+2024-11-10 13:08:58,516 | DEBUG | released all reader slots
+2024-11-10 13:08:58,524 | DEBUG | Value added to dictionary
+2024-11-10 13:08:58,524 | DEBUG | adding name: Ophir to db was True
+2024-11-10 13:08:58,524 | DEBUG | Data written
+2024-11-10 13:08:58,524 | DEBUG | writing was True
+2024-11-10 13:08:58,524 | DEBUG | released all reader slots
+2024-11-10 13:08:58,673 | DEBUG | No writer
+2024-11-10 13:08:58,674 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,675 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,707 | DEBUG | No writer
+2024-11-10 13:08:58,707 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,708 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,737 | DEBUG | No writer
+2024-11-10 13:08:58,737 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,738 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,765 | DEBUG | No writer
+2024-11-10 13:08:58,765 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,766 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,787 | DEBUG | No writer
+2024-11-10 13:08:58,787 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,788 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,805 | DEBUG | No writer
+2024-11-10 13:08:58,805 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,806 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,829 | DEBUG | No writer
+2024-11-10 13:08:58,829 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,830 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,850 | DEBUG | No writer
+2024-11-10 13:08:58,850 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,851 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,867 | DEBUG | No writer
+2024-11-10 13:08:58,867 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,867 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:58,879 | DEBUG | No writer
+2024-11-10 13:08:58,879 | DEBUG | Acquired reader lock
+2024-11-10 13:08:58,880 | DEBUG | Got value from dict - Ophir
+2024-11-10 13:08:59,005 | DEBUG | No writer
+2024-11-10 13:08:59,005 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,006 | DEBUG | Got value from dict - None
+2024-11-10 13:08:59,026 | DEBUG | No writer
+2024-11-10 13:08:59,026 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,027 | DEBUG | Got value from dict - None
+2024-11-10 13:08:59,043 | DEBUG | No writer
+2024-11-10 13:08:59,043 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,044 | DEBUG | Got value from dict - None
+2024-11-10 13:08:59,072 | DEBUG | Value added to dictionary
+2024-11-10 13:08:59,072 | DEBUG | adding num: 12 to db was True
+2024-11-10 13:08:59,072 | DEBUG | Data written
+2024-11-10 13:08:59,072 | DEBUG | writing was True
+2024-11-10 13:08:59,072 | DEBUG | released all reader slots
+2024-11-10 13:08:59,103 | DEBUG | No writer
+2024-11-10 13:08:59,103 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,104 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:59,117 | DEBUG | No writer
+2024-11-10 13:08:59,117 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,117 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:59,135 | DEBUG | No writer
+2024-11-10 13:08:59,135 | DEBUG | Acquired reader lock
+2024-11-10 13:08:59,135 | DEBUG | Got value from dict - 12
+2024-11-10 13:08:59,145 | DEBUG | Tests complete
