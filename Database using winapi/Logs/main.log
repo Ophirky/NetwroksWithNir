@@ -1,0 +1,489 @@
+2024-11-17 17:05:01,894 | DEBUG | Written to file
+2024-11-17 17:05:01,894 | DEBUG | File Handle Closed
+2024-11-17 17:05:02,057 | DEBUG | Read from file complete
+2024-11-17 17:05:02,057 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,140 | DEBUG | Written to file
+2024-11-17 17:05:16,140 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,273 | DEBUG | Read from file complete
+2024-11-17 17:05:16,273 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,273 | DEBUG | Converted data to dict
+2024-11-17 17:05:16,392 | DEBUG | Written to file
+2024-11-17 17:05:16,392 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,501 | DEBUG | Read from file complete
+2024-11-17 17:05:16,501 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,501 | DEBUG | Converted data to dict
+2024-11-17 17:05:16,625 | DEBUG | Value added to dictionary
+2024-11-17 17:05:16,625 | DEBUG | adding name: Ophir to db was True
+2024-11-17 17:05:16,625 | DEBUG | Written to file
+2024-11-17 17:05:16,625 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,625 | DEBUG | writing was True
+2024-11-17 17:05:16,625 | DEBUG | released all reader slots
+2024-11-17 17:05:16,625 | DEBUG | No writer
+2024-11-17 17:05:16,625 | DEBUG | Acquired reader lock
+2024-11-17 17:05:16,625 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:16,737 | DEBUG | Value added to dictionary
+2024-11-17 17:05:16,737 | DEBUG | adding age: 17 to db was True
+2024-11-17 17:05:16,737 | DEBUG | Written to file
+2024-11-17 17:05:16,737 | DEBUG | File Handle Closed
+2024-11-17 17:05:16,737 | DEBUG | writing was True
+2024-11-17 17:05:16,737 | DEBUG | released all reader slots
+2024-11-17 17:05:16,856 | DEBUG | No writer
+2024-11-17 17:05:16,856 | DEBUG | Acquired reader lock
+2024-11-17 17:05:16,857 | DEBUG | Got value from dict - 17
+2024-11-17 17:05:16,979 | DEBUG | No writer
+2024-11-17 17:05:16,979 | DEBUG | Acquired reader lock
+2024-11-17 17:05:16,980 | DEBUG | Got value from dict - None
+2024-11-17 17:05:17,097 | DEBUG | Value added to dictionary
+2024-11-17 17:05:17,097 | DEBUG | adding height: tall to db was True
+2024-11-17 17:05:17,097 | DEBUG | Written to file
+2024-11-17 17:05:17,097 | DEBUG | File Handle Closed
+2024-11-17 17:05:17,098 | DEBUG | writing was True
+2024-11-17 17:05:17,098 | DEBUG | released all reader slots
+2024-11-17 17:05:17,106 | DEBUG | Value added to dictionary
+2024-11-17 17:05:17,106 | DEBUG | adding name: Ophir to db was True
+2024-11-17 17:05:17,106 | DEBUG | Written to file
+2024-11-17 17:05:17,107 | DEBUG | File Handle Closed
+2024-11-17 17:05:17,107 | DEBUG | writing was True
+2024-11-17 17:05:17,107 | DEBUG | released all reader slots
+2024-11-17 17:05:17,245 | DEBUG | No writer
+2024-11-17 17:05:17,246 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,247 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,272 | DEBUG | No writer
+2024-11-17 17:05:17,272 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,273 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,298 | DEBUG | No writer
+2024-11-17 17:05:17,298 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,299 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,317 | DEBUG | No writer
+2024-11-17 17:05:17,317 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,318 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,339 | DEBUG | No writer
+2024-11-17 17:05:17,339 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,340 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,357 | DEBUG | No writer
+2024-11-17 17:05:17,357 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,358 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,371 | DEBUG | No writer
+2024-11-17 17:05:17,372 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,372 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,386 | DEBUG | No writer
+2024-11-17 17:05:17,386 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,387 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,403 | DEBUG | No writer
+2024-11-17 17:05:17,403 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,404 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,420 | DEBUG | No writer
+2024-11-17 17:05:17,420 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,420 | DEBUG | Got value from dict - Ophir
+2024-11-17 17:05:17,554 | DEBUG | No writer
+2024-11-17 17:05:17,554 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,555 | DEBUG | Got value from dict - None
+2024-11-17 17:05:17,572 | DEBUG | No writer
+2024-11-17 17:05:17,573 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,573 | DEBUG | Got value from dict - None
+2024-11-17 17:05:17,591 | DEBUG | No writer
+2024-11-17 17:05:17,591 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,591 | DEBUG | Got value from dict - None
+2024-11-17 17:05:17,613 | DEBUG | Value added to dictionary
+2024-11-17 17:05:17,613 | DEBUG | adding num: 12 to db was True
+2024-11-17 17:05:17,614 | DEBUG | Written to file
+2024-11-17 17:05:17,614 | DEBUG | File Handle Closed
+2024-11-17 17:05:17,614 | DEBUG | writing was True
+2024-11-17 17:05:17,614 | DEBUG | released all reader slots
+2024-11-17 17:05:17,642 | DEBUG | No writer
+2024-11-17 17:05:17,642 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,642 | DEBUG | Got value from dict - 12
+2024-11-17 17:05:17,657 | DEBUG | No writer
+2024-11-17 17:05:17,657 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,658 | DEBUG | Got value from dict - 12
+2024-11-17 17:05:17,674 | DEBUG | No writer
+2024-11-17 17:05:17,674 | DEBUG | Acquired reader lock
+2024-11-17 17:05:17,675 | DEBUG | Got value from dict - 12
+2024-11-17 17:05:17,683 | DEBUG | Tests complete
+2024-11-17 17:06:18,078 | DEBUG | Read from file complete
+2024-11-17 17:06:18,079 | DEBUG | File Handle Closed
+2024-11-17 17:06:22,984 | DEBUG | Read from file complete
+2024-11-17 17:06:22,984 | DEBUG | File Handle Closed
+2024-11-17 17:06:35,479 | DEBUG | Tests complete
+2024-11-17 17:06:42,810 | DEBUG | Tests complete
+2024-11-17 17:07:09,655 | DEBUG | Written to file
+2024-11-17 17:07:09,655 | DEBUG | File Handle Closed
+2024-11-17 17:07:09,656 | DEBUG | Value added to dictionary
+2024-11-17 17:07:09,656 | DEBUG | Written to file
+2024-11-17 17:07:09,656 | DEBUG | File Handle Closed
+2024-11-17 17:07:09,656 | DEBUG | Read from file complete
+2024-11-17 17:07:09,656 | DEBUG | File Handle Closed
+2024-11-17 17:07:09,656 | DEBUG | Converted data to dict
+2024-11-17 17:07:09,656 | DEBUG | Value added to dictionary
+2024-11-17 17:07:09,656 | DEBUG | Written to file
+2024-11-17 17:07:09,656 | DEBUG | File Handle Closed
+2024-11-17 17:07:09,657 | DEBUG | Tests complete
+2024-11-17 17:07:12,098 | DEBUG | Value added to dictionary
+2024-11-17 17:07:12,099 | DEBUG | Written to file
+2024-11-17 17:07:12,099 | DEBUG | File Handle Closed
+2024-11-17 17:07:12,099 | DEBUG | Read from file complete
+2024-11-17 17:07:12,099 | DEBUG | File Handle Closed
+2024-11-17 17:07:12,099 | DEBUG | Converted data to dict
+2024-11-17 17:07:12,099 | DEBUG | Value added to dictionary
+2024-11-17 17:07:12,099 | DEBUG | Written to file
+2024-11-17 17:07:12,099 | DEBUG | File Handle Closed
+2024-11-17 17:07:12,099 | DEBUG | Tests complete
+2024-11-17 17:07:20,231 | DEBUG | Value added to dictionary
+2024-11-17 17:07:20,231 | DEBUG | Written to file
+2024-11-17 17:07:20,232 | DEBUG | File Handle Closed
+2024-11-17 17:07:20,232 | DEBUG | Read from file complete
+2024-11-17 17:07:20,232 | DEBUG | File Handle Closed
+2024-11-17 17:07:20,232 | DEBUG | Converted data to dict
+2024-11-17 17:07:20,232 | DEBUG | Value added to dictionary
+2024-11-17 17:07:20,232 | DEBUG | Written to file
+2024-11-17 17:07:20,232 | DEBUG | File Handle Closed
+2024-11-17 17:07:20,232 | DEBUG | Tests complete
+2024-11-17 17:07:44,971 | DEBUG | Value added to dictionary
+2024-11-17 17:07:44,971 | DEBUG | Written to file
+2024-11-17 17:07:44,971 | DEBUG | File Handle Closed
+2024-11-17 17:07:44,971 | DEBUG | Read from file complete
+2024-11-17 17:07:44,971 | DEBUG | File Handle Closed
+2024-11-17 17:07:44,971 | DEBUG | Converted data to dict
+2024-11-17 17:07:44,971 | DEBUG | Value added to dictionary
+2024-11-17 17:07:44,971 | DEBUG | Written to file
+2024-11-17 17:07:44,971 | DEBUG | File Handle Closed
+2024-11-17 17:07:44,972 | DEBUG | Tests complete
+2024-11-17 17:08:08,851 | DEBUG | Value added to dictionary
+2024-11-17 17:08:08,851 | DEBUG | Written to file
+2024-11-17 17:08:08,852 | DEBUG | File Handle Closed
+2024-11-17 17:08:08,852 | DEBUG | Read from file complete
+2024-11-17 17:08:08,852 | DEBUG | File Handle Closed
+2024-11-17 17:08:08,852 | DEBUG | Converted data to dict
+2024-11-17 17:08:08,852 | DEBUG | Value added to dictionary
+2024-11-17 17:08:08,852 | DEBUG | Written to file
+2024-11-17 17:08:08,852 | DEBUG | File Handle Closed
+2024-11-17 17:08:08,852 | DEBUG | Tests complete
+2024-11-17 17:09:18,699 | DEBUG | Value added to dictionary
+2024-11-17 17:09:18,699 | DEBUG | Written to file
+2024-11-17 17:09:18,700 | DEBUG | File Handle Closed
+2024-11-17 17:09:18,700 | DEBUG | Read from file complete
+2024-11-17 17:09:18,700 | DEBUG | File Handle Closed
+2024-11-17 17:09:18,700 | DEBUG | Converted data to dict
+2024-11-17 17:09:18,700 | DEBUG | Value added to dictionary
+2024-11-17 17:09:18,700 | DEBUG | Written to file
+2024-11-17 17:09:18,700 | DEBUG | File Handle Closed
+2024-11-17 17:09:18,700 | DEBUG | Tests complete
+2024-11-17 17:09:31,762 | DEBUG | Written to file
+2024-11-17 17:09:31,762 | DEBUG | File Handle Closed
+2024-11-17 17:09:31,762 | DEBUG | Value added to dictionary
+2024-11-17 17:09:31,762 | DEBUG | Written to file
+2024-11-17 17:09:31,762 | DEBUG | File Handle Closed
+2024-11-17 17:09:31,763 | DEBUG | Read from file complete
+2024-11-17 17:09:31,763 | DEBUG | File Handle Closed
+2024-11-17 17:09:31,763 | DEBUG | Converted data to dict
+2024-11-17 17:09:31,763 | DEBUG | Value added to dictionary
+2024-11-17 17:09:31,763 | DEBUG | Written to file
+2024-11-17 17:09:31,763 | DEBUG | File Handle Closed
+2024-11-17 17:09:31,763 | DEBUG | Tests complete
+2024-11-17 17:10:16,230 | DEBUG | Value added to dictionary
+2024-11-17 17:10:16,230 | DEBUG | Written to file
+2024-11-17 17:10:16,230 | DEBUG | File Handle Closed
+2024-11-17 17:10:16,230 | DEBUG | Read from file complete
+2024-11-17 17:10:16,230 | DEBUG | File Handle Closed
+2024-11-17 17:10:16,230 | DEBUG | Converted data to dict
+2024-11-17 17:10:16,230 | DEBUG | Value added to dictionary
+2024-11-17 17:10:16,230 | DEBUG | Written to file
+2024-11-17 17:10:16,230 | DEBUG | File Handle Closed
+2024-11-17 17:10:16,231 | DEBUG | Tests complete
+2024-11-17 17:10:39,580 | DEBUG | Value added to dictionary
+2024-11-17 17:10:39,580 | DEBUG | Written to file
+2024-11-17 17:10:39,580 | DEBUG | File Handle Closed
+2024-11-17 17:10:39,581 | DEBUG | Read from file complete
+2024-11-17 17:10:39,581 | DEBUG | File Handle Closed
+2024-11-17 17:10:39,581 | DEBUG | Converted data to dict
+2024-11-17 17:10:39,581 | DEBUG | Value added to dictionary
+2024-11-17 17:10:39,581 | DEBUG | Written to file
+2024-11-17 17:10:39,581 | DEBUG | File Handle Closed
+2024-11-17 17:10:39,581 | DEBUG | Tests complete
+2024-11-17 17:10:53,258 | DEBUG | Value added to dictionary
+2024-11-17 17:10:53,258 | DEBUG | Written to file
+2024-11-17 17:10:53,258 | DEBUG | File Handle Closed
+2024-11-17 17:10:53,258 | DEBUG | Read from file complete
+2024-11-17 17:10:53,258 | DEBUG | File Handle Closed
+2024-11-17 17:10:53,258 | DEBUG | Converted data to dict
+2024-11-17 17:10:53,258 | DEBUG | Read from file complete
+2024-11-17 17:10:53,258 | DEBUG | File Handle Closed
+2024-11-17 17:10:53,258 | DEBUG | Converted data to dict
+2024-11-17 17:10:53,258 | DEBUG | Value added to dictionary
+2024-11-17 17:10:53,258 | DEBUG | Written to file
+2024-11-17 17:10:53,259 | DEBUG | File Handle Closed
+2024-11-17 17:10:53,259 | DEBUG | Tests complete
+2024-11-17 17:13:41,015 | DEBUG | Value added to dictionary
+2024-11-17 17:13:41,015 | DEBUG | Written to file
+2024-11-17 17:13:41,015 | DEBUG | File Handle Closed
+2024-11-17 17:13:41,015 | DEBUG | Read from file complete
+2024-11-17 17:13:41,015 | DEBUG | File Handle Closed
+2024-11-17 17:13:41,015 | DEBUG | Converted data to dict
+2024-11-17 17:13:41,015 | DEBUG | Value added to dictionary
+2024-11-17 17:13:41,015 | DEBUG | Written to file
+2024-11-17 17:13:41,015 | DEBUG | File Handle Closed
+2024-11-17 17:13:41,016 | DEBUG | Tests complete
+2024-11-17 17:13:43,611 | DEBUG | Written to file
+2024-11-17 17:13:43,611 | DEBUG | File Handle Closed
+2024-11-17 17:13:43,612 | DEBUG | Value added to dictionary
+2024-11-17 17:13:43,612 | DEBUG | Written to file
+2024-11-17 17:13:43,612 | DEBUG | File Handle Closed
+2024-11-17 17:13:43,612 | DEBUG | Read from file complete
+2024-11-17 17:13:43,612 | DEBUG | File Handle Closed
+2024-11-17 17:13:43,612 | DEBUG | Converted data to dict
+2024-11-17 17:13:43,612 | DEBUG | Value added to dictionary
+2024-11-17 17:13:43,612 | DEBUG | Written to file
+2024-11-17 17:13:43,612 | DEBUG | File Handle Closed
+2024-11-17 17:13:43,612 | DEBUG | Tests complete
+2024-11-17 17:13:44,522 | DEBUG | Written to file
+2024-11-17 17:13:44,522 | DEBUG | File Handle Closed
+2024-11-17 17:13:44,523 | DEBUG | Value added to dictionary
+2024-11-17 17:13:44,523 | DEBUG | Written to file
+2024-11-17 17:13:44,523 | DEBUG | File Handle Closed
+2024-11-17 17:13:44,523 | DEBUG | Read from file complete
+2024-11-17 17:13:44,523 | DEBUG | File Handle Closed
+2024-11-17 17:13:44,523 | DEBUG | Converted data to dict
+2024-11-17 17:13:44,523 | DEBUG | Value added to dictionary
+2024-11-17 17:13:44,523 | DEBUG | Written to file
+2024-11-17 17:13:44,523 | DEBUG | File Handle Closed
+2024-11-17 17:13:44,524 | DEBUG | Tests complete
+2024-11-17 17:13:45,385 | DEBUG | Written to file
+2024-11-17 17:13:45,385 | DEBUG | File Handle Closed
+2024-11-17 17:13:45,385 | DEBUG | Value added to dictionary
+2024-11-17 17:13:45,386 | DEBUG | Written to file
+2024-11-17 17:13:45,386 | DEBUG | File Handle Closed
+2024-11-17 17:13:45,386 | DEBUG | Read from file complete
+2024-11-17 17:13:45,386 | DEBUG | File Handle Closed
+2024-11-17 17:13:45,386 | DEBUG | Converted data to dict
+2024-11-17 17:13:45,386 | DEBUG | Value added to dictionary
+2024-11-17 17:13:45,386 | DEBUG | Written to file
+2024-11-17 17:13:45,386 | DEBUG | File Handle Closed
+2024-11-17 17:13:45,387 | DEBUG | Tests complete
+2024-11-17 17:13:46,274 | DEBUG | Written to file
+2024-11-17 17:13:46,274 | DEBUG | File Handle Closed
+2024-11-17 17:13:46,275 | DEBUG | Value added to dictionary
+2024-11-17 17:13:46,275 | DEBUG | Written to file
+2024-11-17 17:13:46,275 | DEBUG | File Handle Closed
+2024-11-17 17:13:46,275 | DEBUG | Read from file complete
+2024-11-17 17:13:46,275 | DEBUG | File Handle Closed
+2024-11-17 17:13:46,275 | DEBUG | Converted data to dict
+2024-11-17 17:13:46,275 | DEBUG | Value added to dictionary
+2024-11-17 17:13:46,275 | DEBUG | Written to file
+2024-11-17 17:13:46,275 | DEBUG | File Handle Closed
+2024-11-17 17:13:46,276 | DEBUG | Tests complete
+2024-11-17 17:13:47,274 | DEBUG | Written to file
+2024-11-17 17:13:47,274 | DEBUG | File Handle Closed
+2024-11-17 17:13:47,274 | DEBUG | Value added to dictionary
+2024-11-17 17:13:47,274 | DEBUG | Written to file
+2024-11-17 17:13:47,274 | DEBUG | File Handle Closed
+2024-11-17 17:13:47,275 | DEBUG | Read from file complete
+2024-11-17 17:13:47,275 | DEBUG | File Handle Closed
+2024-11-17 17:13:47,275 | DEBUG | Converted data to dict
+2024-11-17 17:13:47,275 | DEBUG | Value added to dictionary
+2024-11-17 17:13:47,275 | DEBUG | Written to file
+2024-11-17 17:13:47,275 | DEBUG | File Handle Closed
+2024-11-17 17:13:47,275 | DEBUG | Tests complete
+2024-11-17 17:13:48,133 | DEBUG | Written to file
+2024-11-17 17:13:48,133 | DEBUG | File Handle Closed
+2024-11-17 17:13:48,134 | DEBUG | Value added to dictionary
+2024-11-17 17:13:48,134 | DEBUG | Written to file
+2024-11-17 17:13:48,134 | DEBUG | File Handle Closed
+2024-11-17 17:13:48,134 | DEBUG | Read from file complete
+2024-11-17 17:13:48,134 | DEBUG | File Handle Closed
+2024-11-17 17:13:48,134 | DEBUG | Converted data to dict
+2024-11-17 17:13:48,134 | DEBUG | Value added to dictionary
+2024-11-17 17:13:48,134 | DEBUG | Written to file
+2024-11-17 17:13:48,134 | DEBUG | File Handle Closed
+2024-11-17 17:13:48,135 | DEBUG | Tests complete
+2024-11-17 18:11:32,169 | DEBUG | Written to file
+2024-11-17 18:11:32,169 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,170 | DEBUG | Value added to dictionary
+2024-11-17 18:11:32,170 | DEBUG | Written to file
+2024-11-17 18:11:32,170 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,170 | DEBUG | Read from file complete
+2024-11-17 18:11:32,170 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,170 | DEBUG | Converted data to dict
+2024-11-17 18:11:32,170 | DEBUG | Value added to dictionary
+2024-11-17 18:11:32,171 | DEBUG | Written to file
+2024-11-17 18:11:32,171 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,171 | DEBUG | Written to file
+2024-11-17 18:11:32,171 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,310 | DEBUG | Written to file
+2024-11-17 18:11:32,310 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,429 | DEBUG | acquired all reader slots
+2024-11-17 18:11:32,429 | DEBUG | Value added to dictionary
+2024-11-17 18:11:32,429 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:11:32,430 | DEBUG | Written to file
+2024-11-17 18:11:32,430 | DEBUG | File Handle Closed
+2024-11-17 18:11:32,430 | DEBUG | writing was True
+2024-11-17 18:12:06,482 | DEBUG | Value added to dictionary
+2024-11-17 18:12:06,482 | DEBUG | Written to file
+2024-11-17 18:12:06,482 | DEBUG | File Handle Closed
+2024-11-17 18:12:06,482 | DEBUG | Read from file complete
+2024-11-17 18:12:06,482 | DEBUG | File Handle Closed
+2024-11-17 18:12:06,482 | DEBUG | Converted data to dict
+2024-11-17 18:12:06,483 | DEBUG | Value added to dictionary
+2024-11-17 18:12:06,483 | DEBUG | Written to file
+2024-11-17 18:12:06,483 | DEBUG | File Handle Closed
+2024-11-17 18:12:06,753 | DEBUG | acquired all reader slots
+2024-11-17 18:12:06,753 | DEBUG | Value added to dictionary
+2024-11-17 18:12:06,753 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:12:06,753 | DEBUG | Written to file
+2024-11-17 18:12:06,754 | DEBUG | File Handle Closed
+2024-11-17 18:12:06,754 | DEBUG | writing was True
+2024-11-17 18:12:06,754 | DEBUG | released all reader slots
+2024-11-17 18:12:06,754 | DEBUG | No writer
+2024-11-17 18:12:06,754 | DEBUG | Acquired reader lock
+2024-11-17 18:12:06,754 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:19:56,131 | DEBUG | Value added to dictionary
+2024-11-17 18:19:56,131 | DEBUG | Written to file
+2024-11-17 18:19:56,131 | DEBUG | File Handle Closed
+2024-11-17 18:19:56,131 | DEBUG | Read from file complete
+2024-11-17 18:19:56,131 | DEBUG | File Handle Closed
+2024-11-17 18:19:56,131 | DEBUG | Converted data to dict
+2024-11-17 18:19:56,132 | DEBUG | Value added to dictionary
+2024-11-17 18:19:56,132 | DEBUG | Written to file
+2024-11-17 18:19:56,132 | DEBUG | File Handle Closed
+2024-11-17 18:19:56,133 | DEBUG | acquired all reader slots
+2024-11-17 18:19:56,133 | DEBUG | Value added to dictionary
+2024-11-17 18:19:56,133 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:19:56,133 | DEBUG | Written to file
+2024-11-17 18:19:56,133 | DEBUG | File Handle Closed
+2024-11-17 18:19:56,133 | DEBUG | writing was True
+2024-11-17 18:19:56,133 | DEBUG | released all reader slots
+2024-11-17 18:19:56,133 | DEBUG | No writer
+2024-11-17 18:19:56,133 | DEBUG | Acquired reader lock
+2024-11-17 18:19:56,133 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:19:56,450 | DEBUG | acquired all reader slots
+2024-11-17 18:19:56,450 | DEBUG | Value added to dictionary
+2024-11-17 18:19:56,450 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:19:56,450 | DEBUG | Written to file
+2024-11-17 18:19:56,450 | DEBUG | File Handle Closed
+2024-11-17 18:19:56,450 | DEBUG | writing was True
+2024-11-17 18:19:56,450 | DEBUG | released all reader slots
+2024-11-17 18:19:56,638 | DEBUG | Tests complete
+2024-11-17 18:20:30,860 | DEBUG | Written to file
+2024-11-17 18:20:30,860 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,860 | DEBUG | Value added to dictionary
+2024-11-17 18:20:30,861 | DEBUG | Written to file
+2024-11-17 18:20:30,861 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,861 | DEBUG | Read from file complete
+2024-11-17 18:20:30,861 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,861 | DEBUG | Converted data to dict
+2024-11-17 18:20:30,861 | DEBUG | Value added to dictionary
+2024-11-17 18:20:30,861 | DEBUG | Written to file
+2024-11-17 18:20:30,861 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,862 | DEBUG | Written to file
+2024-11-17 18:20:30,862 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,862 | DEBUG | acquired all reader slots
+2024-11-17 18:20:30,862 | DEBUG | Value added to dictionary
+2024-11-17 18:20:30,862 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:20:30,862 | DEBUG | Written to file
+2024-11-17 18:20:30,862 | DEBUG | File Handle Closed
+2024-11-17 18:20:30,862 | DEBUG | writing was True
+2024-11-17 18:20:30,862 | DEBUG | released all reader slots
+2024-11-17 18:20:30,862 | DEBUG | No writer
+2024-11-17 18:20:30,862 | DEBUG | Acquired reader lock
+2024-11-17 18:20:30,862 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:20:31,168 | DEBUG | acquired all reader slots
+2024-11-17 18:20:31,168 | DEBUG | Value added to dictionary
+2024-11-17 18:20:31,168 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:20:31,168 | DEBUG | Written to file
+2024-11-17 18:20:31,168 | DEBUG | File Handle Closed
+2024-11-17 18:20:31,168 | DEBUG | writing was True
+2024-11-17 18:20:31,168 | DEBUG | released all reader slots
+2024-11-17 18:20:31,370 | DEBUG | Tests complete
+2024-11-17 18:21:43,873 | DEBUG | Written to file
+2024-11-17 18:21:43,873 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,874 | DEBUG | Value added to dictionary
+2024-11-17 18:21:43,874 | DEBUG | Written to file
+2024-11-17 18:21:43,874 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,874 | DEBUG | Read from file complete
+2024-11-17 18:21:43,874 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,874 | DEBUG | Converted data to dict
+2024-11-17 18:21:43,874 | DEBUG | Value added to dictionary
+2024-11-17 18:21:43,874 | DEBUG | Written to file
+2024-11-17 18:21:43,874 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,875 | DEBUG | Written to file
+2024-11-17 18:21:43,875 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,875 | DEBUG | acquired all reader slots
+2024-11-17 18:21:43,875 | DEBUG | Value added to dictionary
+2024-11-17 18:21:43,875 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:21:43,875 | DEBUG | Written to file
+2024-11-17 18:21:43,875 | DEBUG | File Handle Closed
+2024-11-17 18:21:43,875 | DEBUG | writing was True
+2024-11-17 18:21:43,875 | DEBUG | released all reader slots
+2024-11-17 18:21:43,875 | DEBUG | No writer
+2024-11-17 18:21:43,875 | DEBUG | Acquired reader lock
+2024-11-17 18:21:43,875 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:21:43,875 | DEBUG | No writer
+2024-11-17 18:21:43,875 | DEBUG | Acquired reader lock
+2024-11-17 18:21:43,875 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:21:44,184 | DEBUG | acquired all reader slots
+2024-11-17 18:21:44,184 | DEBUG | Value added to dictionary
+2024-11-17 18:21:44,184 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:21:44,184 | DEBUG | Written to file
+2024-11-17 18:21:44,184 | DEBUG | File Handle Closed
+2024-11-17 18:21:44,184 | DEBUG | writing was True
+2024-11-17 18:21:44,184 | DEBUG | released all reader slots
+2024-11-17 18:21:44,389 | DEBUG | Tests complete
+2024-11-17 18:22:15,707 | DEBUG | Written to file
+2024-11-17 18:22:15,707 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,707 | DEBUG | Value added to dictionary
+2024-11-17 18:22:15,707 | DEBUG | Written to file
+2024-11-17 18:22:15,707 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,707 | DEBUG | Read from file complete
+2024-11-17 18:22:15,707 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,707 | DEBUG | Converted data to dict
+2024-11-17 18:22:15,707 | DEBUG | Value added to dictionary
+2024-11-17 18:22:15,709 | DEBUG | Written to file
+2024-11-17 18:22:15,709 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,709 | DEBUG | Written to file
+2024-11-17 18:22:15,709 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,709 | DEBUG | acquired all reader slots
+2024-11-17 18:22:15,709 | DEBUG | Value added to dictionary
+2024-11-17 18:22:15,709 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:22:15,709 | DEBUG | Written to file
+2024-11-17 18:22:15,709 | DEBUG | File Handle Closed
+2024-11-17 18:22:15,709 | DEBUG | writing was True
+2024-11-17 18:22:15,710 | DEBUG | released all reader slots
+2024-11-17 18:22:15,710 | DEBUG | No writer
+2024-11-17 18:22:15,710 | DEBUG | Acquired reader lock
+2024-11-17 18:22:15,710 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:22:16,019 | DEBUG | acquired all reader slots
+2024-11-17 18:22:16,019 | DEBUG | Value added to dictionary
+2024-11-17 18:22:16,019 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:22:16,019 | DEBUG | Written to file
+2024-11-17 18:22:16,019 | DEBUG | File Handle Closed
+2024-11-17 18:22:16,019 | DEBUG | writing was True
+2024-11-17 18:22:16,019 | DEBUG | released all reader slots
+2024-11-17 18:22:16,207 | DEBUG | Tests complete
+2024-11-17 18:28:10,457 | DEBUG | Written to file
+2024-11-17 18:28:10,457 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,459 | DEBUG | Value added to dictionary
+2024-11-17 18:28:10,459 | DEBUG | Written to file
+2024-11-17 18:28:10,459 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,459 | DEBUG | Read from file complete
+2024-11-17 18:28:10,459 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,459 | DEBUG | Converted data to dict
+2024-11-17 18:28:10,459 | DEBUG | Value added to dictionary
+2024-11-17 18:28:10,459 | DEBUG | Written to file
+2024-11-17 18:28:10,460 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,460 | DEBUG | acquired all reader slots
+2024-11-17 18:28:10,460 | DEBUG | Value added to dictionary
+2024-11-17 18:28:10,460 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:28:10,460 | DEBUG | Written to file
+2024-11-17 18:28:10,460 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,460 | DEBUG | writing was True
+2024-11-17 18:28:10,460 | DEBUG | released all reader slots
+2024-11-17 18:28:10,460 | DEBUG | No writer
+2024-11-17 18:28:10,460 | DEBUG | Acquired reader lock
+2024-11-17 18:28:10,460 | DEBUG | Got value from dict - Ophir
+2024-11-17 18:28:10,766 | DEBUG | acquired all reader slots
+2024-11-17 18:28:10,766 | DEBUG | Value added to dictionary
+2024-11-17 18:28:10,766 | DEBUG | adding name: Ophir to db was True
+2024-11-17 18:28:10,766 | DEBUG | Written to file
+2024-11-17 18:28:10,766 | DEBUG | File Handle Closed
+2024-11-17 18:28:10,766 | DEBUG | writing was True
+2024-11-17 18:28:10,766 | DEBUG | released all reader slots
+2024-11-17 18:28:10,971 | DEBUG | Tests complete
