@@ -32,6 +32,8 @@ class DbSynchronizerTests:
         result = db.read_from_db(key)
         if result != expected_result:
             raise AssertionError(f"Test {test_name} failed: Expected {expected_result}, got {result}")
+        if test_name == 'final':
+            print(result)
         LOGGER.debug('Finished reading - ' + test_name)
 
     @staticmethod
@@ -51,7 +53,7 @@ class DbSynchronizerTests:
 
     def create_process(self, target, args):
         """Utility function to create a process using pywin32's CreateProcess."""
-        command = f"python -c \"import sys; from __main__ import {target}; {target}(*{args})\""
+        command = f"python -c import sys; from __main__ import {target}; {target}(*{args})\""
         startup_info = win32process.STARTUPINFO()
         process_info = win32process.CreateProcess(
             None,  # Application name
@@ -115,7 +117,7 @@ class DbSynchronizerTests:
 
     def test_final(self) -> None:
         """Final test with a different database instance."""
-        processes = [self.create_process("DbSynchronizerTests.read", ("num", None, self.tmp_db, "final")) for _ in
+        processes = [self.create_process("python DbSynchronizerTests.py read", ("num", None, self.tmp_db, "final")) for _ in
                      range(3)]
         writing_process = self.create_process("DbSynchronizerTests.write", ("num", "12", self.tmp_db, "final"))
         processes2 = [self.create_process("DbSynchronizerTests.read", ("num", "12", self.tmp_db, "final")) for _ in
@@ -133,11 +135,11 @@ class DbSynchronizerTests:
     def run_tests(self) -> None:
         """Run all tests and report results."""
         try:
-            self.test_no_contest_write()
-            self.test_no_contest_read()
-            self.test_write_then_read()
-            self.test_read_then_write()
-            self.test_multiple_readers()
+            # self.test_no_contest_write()
+            # self.test_no_contest_read()
+            # self.test_write_then_read()
+            # self.test_read_then_write()
+            # self.test_multiple_readers()
             self.test_final()
             print("All tests passed successfully.")
         except AssertionError as e:

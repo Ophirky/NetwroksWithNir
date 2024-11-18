@@ -230,3 +230,295 @@
 2024-11-17 18:28:10,460 | DEBUG | No contest writing test finished
 2024-11-17 18:28:10,460 | DEBUG | No contest reading test complete, Ophir
 2024-11-17 18:28:10,460 | DEBUG | No contest reading test complete, Ophir
+2024-11-18 11:21:50,414 | DEBUG | Reading from file test complete
+2024-11-18 11:21:50,414 | DEBUG | Reading from file test complete
+2024-11-18 11:21:50,414 | DEBUG | Writing to file test finished
+2024-11-18 11:21:50,414 | DEBUG | Writing to file test finished
+2024-11-18 11:21:50,414 | DEBUG | File read was successful
+2024-11-18 11:21:50,414 | DEBUG | File read was successful
+2024-11-18 11:21:50,414 | DEBUG | File read was successful
+2024-11-18 11:21:50,414 | DEBUG | File read was successful
+2024-11-18 11:21:50,414 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:21:50,414 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:21:50,414 | DEBUG | No contest writing test finished
+2024-11-18 11:21:50,414 | DEBUG | No contest writing test finished
+2024-11-18 11:21:50,430 | DEBUG | No contest reading test complete, Ophir
+2024-11-18 11:21:50,430 | DEBUG | No contest reading test complete, Ophir
+2024-11-18 11:23:17,585 | DEBUG | Reading from file test complete
+2024-11-18 11:23:17,585 | DEBUG | Reading from file test complete
+2024-11-18 11:23:17,585 | DEBUG | Writing to file test finished
+2024-11-18 11:23:17,585 | DEBUG | Writing to file test finished
+2024-11-18 11:23:17,585 | DEBUG | File read was successful
+2024-11-18 11:23:17,585 | DEBUG | File read was successful
+2024-11-18 11:23:17,585 | DEBUG | File read was successful
+2024-11-18 11:23:17,585 | DEBUG | File read was successful
+2024-11-18 11:23:17,585 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:17,585 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:19,672 | DEBUG | Reading from file test complete
+2024-11-18 11:23:19,672 | DEBUG | Reading from file test complete
+2024-11-18 11:23:19,672 | DEBUG | Writing to file test finished
+2024-11-18 11:23:19,672 | DEBUG | Writing to file test finished
+2024-11-18 11:23:19,672 | DEBUG | File read was successful
+2024-11-18 11:23:19,672 | DEBUG | File read was successful
+2024-11-18 11:23:19,672 | DEBUG | File read was successful
+2024-11-18 11:23:19,672 | DEBUG | File read was successful
+2024-11-18 11:23:19,672 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:19,672 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:40,159 | DEBUG | Reading from file test complete
+2024-11-18 11:23:40,159 | DEBUG | Reading from file test complete
+2024-11-18 11:23:40,159 | DEBUG | Writing to file test finished
+2024-11-18 11:23:40,159 | DEBUG | Writing to file test finished
+2024-11-18 11:23:40,159 | DEBUG | File read was successful
+2024-11-18 11:23:40,159 | DEBUG | File read was successful
+2024-11-18 11:23:40,159 | DEBUG | File read was successful
+2024-11-18 11:23:40,159 | DEBUG | File read was successful
+2024-11-18 11:23:40,159 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:40,159 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:41,531 | DEBUG | Reading from file test complete
+2024-11-18 11:23:41,531 | DEBUG | Reading from file test complete
+2024-11-18 11:23:41,531 | DEBUG | Writing to file test finished
+2024-11-18 11:23:41,531 | DEBUG | Writing to file test finished
+2024-11-18 11:23:41,531 | DEBUG | File read was successful
+2024-11-18 11:23:41,531 | DEBUG | File read was successful
+2024-11-18 11:23:41,531 | DEBUG | File read was successful
+2024-11-18 11:23:41,531 | DEBUG | File read was successful
+2024-11-18 11:23:41,531 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:23:41,531 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:21,469 | DEBUG | Reading from file test complete
+2024-11-18 11:25:21,469 | DEBUG | Reading from file test complete
+2024-11-18 11:25:21,469 | DEBUG | Writing to file test finished
+2024-11-18 11:25:21,469 | DEBUG | Writing to file test finished
+2024-11-18 11:25:21,469 | DEBUG | File read was successful
+2024-11-18 11:25:21,469 | DEBUG | File read was successful
+2024-11-18 11:25:21,469 | DEBUG | File read was successful
+2024-11-18 11:25:21,469 | DEBUG | File read was successful
+2024-11-18 11:25:21,469 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:21,469 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:23,183 | DEBUG | Reading from file test complete
+2024-11-18 11:25:23,183 | DEBUG | Reading from file test complete
+2024-11-18 11:25:23,183 | DEBUG | Writing to file test finished
+2024-11-18 11:25:23,183 | DEBUG | Writing to file test finished
+2024-11-18 11:25:23,183 | DEBUG | File read was successful
+2024-11-18 11:25:23,183 | DEBUG | File read was successful
+2024-11-18 11:25:23,183 | DEBUG | File read was successful
+2024-11-18 11:25:23,183 | DEBUG | File read was successful
+2024-11-18 11:25:23,183 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:23,183 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:24,104 | DEBUG | Reading from file test complete
+2024-11-18 11:25:24,104 | DEBUG | Reading from file test complete
+2024-11-18 11:25:24,104 | DEBUG | Writing to file test finished
+2024-11-18 11:25:24,104 | DEBUG | Writing to file test finished
+2024-11-18 11:25:24,104 | DEBUG | File read was successful
+2024-11-18 11:25:24,104 | DEBUG | File read was successful
+2024-11-18 11:25:24,104 | DEBUG | File read was successful
+2024-11-18 11:25:24,104 | DEBUG | File read was successful
+2024-11-18 11:25:24,104 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:24,104 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:25,046 | DEBUG | Reading from file test complete
+2024-11-18 11:25:25,046 | DEBUG | Reading from file test complete
+2024-11-18 11:25:25,046 | DEBUG | Writing to file test finished
+2024-11-18 11:25:25,046 | DEBUG | Writing to file test finished
+2024-11-18 11:25:25,046 | DEBUG | File read was successful
+2024-11-18 11:25:25,046 | DEBUG | File read was successful
+2024-11-18 11:25:25,046 | DEBUG | File read was successful
+2024-11-18 11:25:25,046 | DEBUG | File read was successful
+2024-11-18 11:25:25,046 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:25:25,046 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:42:44,153 | DEBUG | Reading from file test complete
+2024-11-18 11:42:44,153 | DEBUG | Reading from file test complete
+2024-11-18 11:42:44,153 | DEBUG | Writing to file test finished
+2024-11-18 11:42:44,153 | DEBUG | Writing to file test finished
+2024-11-18 11:42:44,153 | DEBUG | File read was successful
+2024-11-18 11:42:44,153 | DEBUG | File read was successful
+2024-11-18 11:42:44,153 | DEBUG | File read was successful
+2024-11-18 11:42:44,153 | DEBUG | File read was successful
+2024-11-18 11:42:44,153 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:42:44,153 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:42:44,809 | DEBUG | No contest writing test finished
+2024-11-18 11:42:44,809 | DEBUG | No contest writing test finished
+2024-11-18 11:42:44,809 | DEBUG | No contest reading test complete
+2024-11-18 11:42:44,809 | DEBUG | No contest reading test complete
+2024-11-18 11:48:01,212 | DEBUG | Reading from file test complete
+2024-11-18 11:48:01,212 | DEBUG | Reading from file test complete
+2024-11-18 11:48:01,228 | DEBUG | Writing to file test finished
+2024-11-18 11:48:01,228 | DEBUG | Writing to file test finished
+2024-11-18 11:48:01,228 | DEBUG | File read was successful
+2024-11-18 11:48:01,228 | DEBUG | File read was successful
+2024-11-18 11:48:01,228 | DEBUG | File read was successful
+2024-11-18 11:48:01,228 | DEBUG | File read was successful
+2024-11-18 11:48:01,228 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:48:01,228 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:48:01,696 | DEBUG | No contest writing test finished
+2024-11-18 11:48:01,696 | DEBUG | No contest writing test finished
+2024-11-18 11:48:01,696 | DEBUG | No contest reading test complete
+2024-11-18 11:48:01,696 | DEBUG | No contest reading test complete
+2024-11-18 11:48:34,431 | DEBUG | Reading from file test complete
+2024-11-18 11:48:34,431 | DEBUG | Reading from file test complete
+2024-11-18 11:48:34,431 | DEBUG | Writing to file test finished
+2024-11-18 11:48:34,431 | DEBUG | Writing to file test finished
+2024-11-18 11:48:34,446 | DEBUG | File read was successful
+2024-11-18 11:48:34,446 | DEBUG | File read was successful
+2024-11-18 11:48:34,446 | DEBUG | File read was successful
+2024-11-18 11:48:34,446 | DEBUG | File read was successful
+2024-11-18 11:48:34,446 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:48:34,446 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:48:34,931 | DEBUG | No contest writing test finished
+2024-11-18 11:48:34,931 | DEBUG | No contest writing test finished
+2024-11-18 11:48:34,931 | DEBUG | No contest reading test complete
+2024-11-18 11:48:34,931 | DEBUG | No contest reading test complete
+2024-11-18 11:50:04,855 | DEBUG | Reading from file test complete
+2024-11-18 11:50:04,855 | DEBUG | Reading from file test complete
+2024-11-18 11:50:04,855 | DEBUG | Writing to file test finished
+2024-11-18 11:50:04,855 | DEBUG | Writing to file test finished
+2024-11-18 11:50:04,855 | DEBUG | File read was successful
+2024-11-18 11:50:04,855 | DEBUG | File read was successful
+2024-11-18 11:50:04,855 | DEBUG | File read was successful
+2024-11-18 11:50:04,855 | DEBUG | File read was successful
+2024-11-18 11:50:04,855 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:50:04,855 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:50:20,011 | DEBUG | Reading from file test complete
+2024-11-18 11:50:20,011 | DEBUG | Reading from file test complete
+2024-11-18 11:50:20,011 | DEBUG | Writing to file test finished
+2024-11-18 11:50:20,011 | DEBUG | Writing to file test finished
+2024-11-18 11:50:20,011 | DEBUG | File read was successful
+2024-11-18 11:50:20,011 | DEBUG | File read was successful
+2024-11-18 11:50:20,011 | DEBUG | File read was successful
+2024-11-18 11:50:20,011 | DEBUG | File read was successful
+2024-11-18 11:50:20,011 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:50:20,011 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:50:21,511 | DEBUG | Reading from file test complete
+2024-11-18 11:50:21,511 | DEBUG | Reading from file test complete
+2024-11-18 11:50:21,511 | DEBUG | Writing to file test finished
+2024-11-18 11:50:21,511 | DEBUG | Writing to file test finished
+2024-11-18 11:50:21,511 | DEBUG | File read was successful
+2024-11-18 11:50:21,511 | DEBUG | File read was successful
+2024-11-18 11:50:21,511 | DEBUG | File read was successful
+2024-11-18 11:50:21,511 | DEBUG | File read was successful
+2024-11-18 11:50:21,511 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:50:21,511 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:24,616 | DEBUG | Reading from file test complete
+2024-11-18 11:51:24,616 | DEBUG | Reading from file test complete
+2024-11-18 11:51:24,616 | DEBUG | Writing to file test finished
+2024-11-18 11:51:24,616 | DEBUG | Writing to file test finished
+2024-11-18 11:51:24,616 | DEBUG | File read was successful
+2024-11-18 11:51:24,616 | DEBUG | File read was successful
+2024-11-18 11:51:24,616 | DEBUG | File read was successful
+2024-11-18 11:51:24,616 | DEBUG | File read was successful
+2024-11-18 11:51:24,616 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:24,616 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:39,758 | DEBUG | Reading from file test complete
+2024-11-18 11:51:39,758 | DEBUG | Reading from file test complete
+2024-11-18 11:51:39,758 | DEBUG | Writing to file test finished
+2024-11-18 11:51:39,758 | DEBUG | Writing to file test finished
+2024-11-18 11:51:39,758 | DEBUG | File read was successful
+2024-11-18 11:51:39,758 | DEBUG | File read was successful
+2024-11-18 11:51:39,758 | DEBUG | File read was successful
+2024-11-18 11:51:39,758 | DEBUG | File read was successful
+2024-11-18 11:51:39,758 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:39,758 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:40,962 | DEBUG | Reading from file test complete
+2024-11-18 11:51:40,962 | DEBUG | Reading from file test complete
+2024-11-18 11:51:40,962 | DEBUG | Writing to file test finished
+2024-11-18 11:51:40,962 | DEBUG | Writing to file test finished
+2024-11-18 11:51:40,962 | DEBUG | File read was successful
+2024-11-18 11:51:40,962 | DEBUG | File read was successful
+2024-11-18 11:51:40,962 | DEBUG | File read was successful
+2024-11-18 11:51:40,962 | DEBUG | File read was successful
+2024-11-18 11:51:40,962 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:40,962 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:41,946 | DEBUG | Reading from file test complete
+2024-11-18 11:51:41,946 | DEBUG | Reading from file test complete
+2024-11-18 11:51:41,946 | DEBUG | Writing to file test finished
+2024-11-18 11:51:41,946 | DEBUG | Writing to file test finished
+2024-11-18 11:51:41,946 | DEBUG | File read was successful
+2024-11-18 11:51:41,946 | DEBUG | File read was successful
+2024-11-18 11:51:41,946 | DEBUG | File read was successful
+2024-11-18 11:51:41,946 | DEBUG | File read was successful
+2024-11-18 11:51:41,946 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:41,946 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:58,502 | DEBUG | Reading from file test complete
+2024-11-18 11:51:58,502 | DEBUG | Reading from file test complete
+2024-11-18 11:51:58,502 | DEBUG | Writing to file test finished
+2024-11-18 11:51:58,502 | DEBUG | Writing to file test finished
+2024-11-18 11:51:58,502 | DEBUG | File read was successful
+2024-11-18 11:51:58,502 | DEBUG | File read was successful
+2024-11-18 11:51:58,502 | DEBUG | File read was successful
+2024-11-18 11:51:58,502 | DEBUG | File read was successful
+2024-11-18 11:51:58,502 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:51:58,502 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:52:16,223 | DEBUG | Reading from file test complete
+2024-11-18 11:52:16,223 | DEBUG | Reading from file test complete
+2024-11-18 11:52:16,223 | DEBUG | Writing to file test finished
+2024-11-18 11:52:16,223 | DEBUG | Writing to file test finished
+2024-11-18 11:52:16,223 | DEBUG | File read was successful
+2024-11-18 11:52:16,223 | DEBUG | File read was successful
+2024-11-18 11:52:16,223 | DEBUG | File read was successful
+2024-11-18 11:52:16,223 | DEBUG | File read was successful
+2024-11-18 11:52:16,223 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:52:16,223 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:52:21,462 | DEBUG | Reading from file test complete
+2024-11-18 11:52:21,462 | DEBUG | Reading from file test complete
+2024-11-18 11:52:21,462 | DEBUG | Writing to file test finished
+2024-11-18 11:52:21,462 | DEBUG | Writing to file test finished
+2024-11-18 11:52:21,462 | DEBUG | File read was successful
+2024-11-18 11:52:21,462 | DEBUG | File read was successful
+2024-11-18 11:52:21,462 | DEBUG | File read was successful
+2024-11-18 11:52:21,462 | DEBUG | File read was successful
+2024-11-18 11:52:21,462 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:52:21,462 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:53:07,904 | DEBUG | Reading from file test complete
+2024-11-18 11:53:07,904 | DEBUG | Reading from file test complete
+2024-11-18 11:53:07,904 | DEBUG | Writing to file test finished
+2024-11-18 11:53:07,904 | DEBUG | Writing to file test finished
+2024-11-18 11:53:07,904 | DEBUG | File read was successful
+2024-11-18 11:53:07,904 | DEBUG | File read was successful
+2024-11-18 11:53:07,904 | DEBUG | File read was successful
+2024-11-18 11:53:07,904 | DEBUG | File read was successful
+2024-11-18 11:53:07,904 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:53:07,904 | DEBUG | Testing file contents after writing to file test finished
+2024-11-18 11:53:07,904 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,904 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,916 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,916 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,916 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,916 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,917 | DEBUG | finished writing - final test
+2024-11-18 11:53:07,917 | DEBUG | finished writing - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - final test
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | finished reading - multiple readers
+2024-11-18 11:53:07,918 | DEBUG | no contest reading test complete
+2024-11-18 11:53:07,918 | DEBUG | no contest reading test complete
+2024-11-18 11:53:07,918 | DEBUG | no contest writing test finished
+2024-11-18 11:53:07,918 | DEBUG | no contest writing test finished
+2024-11-18 11:53:07,918 | DEBUG | finished reading - read then write
+2024-11-18 11:53:07,918 | DEBUG | finished reading - read then write
+2024-11-18 11:53:08,029 | DEBUG | finished writing - read then write
+2024-11-18 11:53:08,029 | DEBUG | finished writing - read then write
+2024-11-18 11:53:08,029 | DEBUG | finished writing - write then read
+2024-11-18 11:53:08,029 | DEBUG | finished writing - write then read
+2024-11-18 11:53:08,029 | DEBUG | finished reading - write then read
+2024-11-18 11:53:08,029 | DEBUG | finished reading - write then read
